@@ -22,11 +22,31 @@ Les six compétences évaluées sont issues du référentiel Korn Ferry Leadersh
 | 3, compétences métier | Milène Baud, office manager | 60 min | Gérer la complexité, Être orienté client, Être résilient |
 | 4, compétences et association | Hervé Gerbi, avocat fondateur | 90 min | Expertise fonctionnelle, Faire preuve de courage, Créer des réseaux, Faire preuve d'esprit stratégique, protocole |
 
-## Deux règles de fiabilité à tenir
+## Deux règles de notation
 
-**Calibration préalable, une heure, tous les intervieweurs ensemble.** Avant le premier candidat, prenez les trois colonnes de comportements d'une compétence et notez ensemble un cas fictif. L'objectif n'est pas de tomber d'accord, il est de découvrir où vos échelles divergent. Sans cette heure, un 3 de l'un ne vaut pas un 3 de l'autre et la note globale n'a pas de sens.
+Le dispositif ne compte qu'un intervieweur par étape. Un entretien noté par une seule personne mesure autant l'intervieweur que le candidat, et rien ne permet de faire la part des deux. Ces deux règles font partie du dispositif au même titre que la grille.
 
-**Un second observateur silencieux sur les finalistes.** Le dispositif ne compte qu'un intervieweur par étape. Un entretien noté par une seule personne mesure autant l'intervieweur que le candidat, et vous n'avez aucun moyen de le savoir. Pour les deux ou trois derniers candidats seulement, faites asseoir un second observateur aux étapes 3 et 4. Milène Baud à l'étape 4, Gregory Levy à l'étape 3. L'observateur ne pose aucune question et note indépendamment. Les deux notes se comparent après, jamais pendant. Cela coûte deux heures par finaliste et c'est ce qui rend la grille utilisable.
+### Règle 1, calibration préalable
+
+Une heure, les trois intervieweurs ensemble, en présence, avant le premier entretien d'étape 2.
+
+Prenez une compétence et ses trois colonnes de comportements. Chacun note un même cas fictif, seul, sur la grille. Comparez. Recommencez sur une seconde compétence.
+
+L'objectif n'est pas de tomber d'accord sur la note. Il est de découvrir où vos échelles divergent et pourquoi. Sans cette heure, un 3 de l'un ne vaut pas un 3 de l'autre, la note globale additionne des unités différentes et la grille ne mesure rien.
+
+Produisez un relevé d'une page : sur quelles compétences vos lectures divergeaient, et quel repère commun vous retenez. Ce relevé se relit avant chaque entretien.
+
+### Règle 2, second observateur sur les finalistes
+
+À partir du moment où il ne reste que deux ou trois candidats. Pas avant.
+
+Gregory Levy observe l'étape 3 conduite par Milène Baud. Milène Baud observe l'étape 4 conduite par Hervé Gerbi. Les deux étapes se tenant le même jour, les deux personnes sont déjà au cabinet.
+
+L'observateur ne pose aucune question et n'intervient pas, y compris quand il aurait quelque chose à ajouter. Il note sur la même grille, seul. Les deux grilles se comparent après l'entretien, jamais pendant.
+
+Ce qu'on fait des écarts. Un écart d'un point se note et se range. Un écart de deux points ou plus ne se moyenne pas. Il remonte tel quel à la réunion de décision comme point de discussion. Deux personnes qui ont vu la même heure et en tirent 2 et 4 ont vu deux choses différentes, et c'est cette différence qui porte l'information.
+
+Prévenez le candidat. Annoncez la présence d'un second intervieweur dans le message de convocation, avec son nom et sa fonction. Un observateur qui apparaît sans avoir été annoncé met le candidat en défiance pour une heure, et l'article L1221-8 du code du travail impose de toute façon d'informer le candidat des méthodes utilisées à son égard.
 
 ## Avant
 
@@ -128,16 +148,18 @@ Les trois compétences de l'étape 3 restent évaluables par Milène Baud. Elles
 
 Candidat : ______________________________________
 
-| Étape | Évalué | Intervieweur | Date | Note |
-|---|---|---|---|---|
-| 2 | Adéquation aux valeurs | G. Levy | | ___ / 4 |
-| 3 | Gérer la complexité | M. Baud | | ___ / 4 |
-| 3 | Être orienté client | M. Baud | | ___ / 4 |
-| 3 | Être résilient | M. Baud | | ___ / 4 |
-| 4 | Expertise fonctionnelle | H. Gerbi | | ___ / 4 |
-| 4 | Faire preuve de courage | H. Gerbi | | ___ / 4 |
-| 4 | Créer des réseaux | H. Gerbi | | ___ / 4 |
-| 4 | Faire preuve d'esprit stratégique | H. Gerbi | | ___ / 4 |
+| Étape | Évalué | Intervieweur | Note | Observateur, finalistes | Note | Écart |
+|---|---|---|---|---|---|---|
+| 2 | Adéquation aux valeurs | G. Levy | ___ / 4 | | | |
+| 3 | Gérer la complexité | M. Baud | ___ / 4 | G. Levy | ___ / 4 | ___ |
+| 3 | Être orienté client | M. Baud | ___ / 4 | G. Levy | ___ / 4 | ___ |
+| 3 | Être résilient | M. Baud | ___ / 4 | G. Levy | ___ / 4 | ___ |
+| 4 | Expertise fonctionnelle | H. Gerbi | ___ / 4 | M. Baud | ___ / 4 | ___ |
+| 4 | Faire preuve de courage | H. Gerbi | ___ / 4 | M. Baud | ___ / 4 | ___ |
+| 4 | Créer des réseaux | H. Gerbi | ___ / 4 | M. Baud | ___ / 4 | ___ |
+| 4 | Faire preuve d'esprit stratégique | H. Gerbi | ___ / 4 | M. Baud | ___ / 4 | ___ |
+
+Un écart de deux points ou plus ne se moyenne pas. Il remonte tel quel à la réunion de décision.
 
 Note globale : ______ / 4
 
@@ -732,7 +754,8 @@ Règle de conduite : chacun donne sa note et sa recommandation avant toute discu
 
 | Point | Constat |
 |---|---|
-| Notes reportées et écarts entre intervieweurs | |
+| Notes reportées | |
+| Écarts de 2 points ou plus entre intervieweur et observateur, et ce que chacun a vu | |
 | Règles de décision déclenchées, notes de 1 ou de 2 | |
 | Références concordantes | |
 | Réserves exprimées par le candidat | |

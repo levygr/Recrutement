@@ -28,7 +28,7 @@ Huit décisions bloquent le lancement, dont une est tranchée. Le détail figure
 3. **Fourchette de rémunération.** À afficher.
 4. **Périmètre géographique.** Grenoble seul, ou Grenoble et Annecy.
 5. **Périmètre de pratique.** Le droit du travail entre-t-il dans le périmètre du futur associé.
-6. ~~**Intervieweurs.**~~ Tranché. G. Levy sur les étapes 1 et 2, M. Baud sur l'étape 3, H. Gerbi sur l'étape 4. Deux corrections en ont découlé, voir le point 2.6 du document 01.
+6. ~~**Intervieweurs.**~~ Tranché. G. Levy sur les étapes 1 et 2, M. Baud sur l'étape 3, H. Gerbi sur l'étape 4. Deux corrections du dispositif et deux règles de notation en ont découlé, voir le point 2.6 du document 01.
 7. **Ordre des entretiens.** Le guide suit votre ordre. Je recommande d'intervertir les étapes 2 et 3.
 8. **Vidéo.** Go ou no-go, et périmètre de diffusion.
 
@@ -56,6 +56,8 @@ Trois compétences restent en réserve, avec leur condition de bascule. Apprendr
 ## Le dispositif en une ligne
 
 Tri des CV sur 100 points, seuil à 70. Entretien téléphonique de 30 minutes avec Gregory Levy, qui consigne trois réponses techniques soumises à Hervé Gerbi. Entretien valeurs de 60 minutes avec Gregory Levy. Puis, le même jour, 60 minutes de compétences métier avec Milène Baud et 90 minutes de compétences et d'association avec Hervé Gerbi. Prise de deux références. Décision.
+
+Deux règles encadrent la notation. Une heure de calibration des trois intervieweurs avant le premier candidat. Un second observateur silencieux aux étapes 3 et 4 pour les finalistes, annoncé au candidat, qui note indépendamment et ne pose aucune question.
 
 Délai réaliste jusqu'à la signature : 10 à 14 semaines. Prise de poste : quatre à six mois après le lancement.
 

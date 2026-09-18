@@ -92,11 +92,33 @@ Les trois compétences restant à l'étape 3 sont évaluables par Milène Baud. 
 
 **Une qualification technique consignée a été ajoutée à l'étape 1.** Trois questions factuelles que Gregory Levy pose sans les noter, en consignant la réponse mot à mot. Hervé Gerbi les lit et rend un avis avant l'étape 2, en dix minutes. Sans ce filtre, une incompétence technique ne se découvre qu'au quatrième entretien, après avoir mobilisé trois personnes.
 
-**Deux points restent ouverts, et ils portent sur la fiabilité des notes.**
+**Deux correctifs de fiabilité, validés le 18 septembre 2026.**
 
-Le dispositif ne compte qu'un intervieweur par étape. Un entretien noté par une seule personne mesure autant l'intervieweur que le candidat, et rien ne permet de faire la part des deux. Correctif proposé, à valider : sur les deux ou trois finalistes seulement, un second observateur silencieux aux étapes 3 et 4, Milène Baud à l'étape 4 et Gregory Levy à l'étape 3. Il ne pose aucune question et note indépendamment. Coût : deux heures par finaliste.
+Le dispositif ne compte qu'un intervieweur par étape. Un entretien noté par une seule personne mesure autant l'intervieweur que le candidat, et rien ne permet de faire la part des deux. Les deux règles suivantes font partie du dispositif, au même titre que la grille elle-même.
 
-Une heure de calibration réunissant les trois intervieweurs avant le premier candidat. Notez ensemble un cas fictif sur une compétence. L'objectif n'est pas de tomber d'accord, il est de découvrir où vos échelles divergent. Sans cette heure, un 3 de Milène Baud ne vaut pas un 3 d'Hervé Gerbi et la note globale n'a pas de sens.
+**Correctif 1. Une heure de calibration, les trois intervieweurs ensemble, avant le premier candidat.**
+
+Quand : semaine 4, avant le premier entretien de l'étape 2. Qui : Gregory Levy, Milène Baud, Hervé Gerbi. Durée : une heure, en présence.
+
+Déroulé. Prenez une compétence et ses trois colonnes de comportements. Chacun note un même cas fictif, seul, sur la grille. Vous comparez. Vous recommencez sur une seconde compétence.
+
+L'objectif n'est pas de tomber d'accord sur la note. Il est de découvrir où vos échelles divergent et pourquoi. Sans cette heure, un 3 de Milène Baud ne vaut pas un 3 d'Hervé Gerbi, la note globale additionne des unités différentes et la grille ne mesure rien.
+
+Produisez un relevé d'une page à l'issue de la séance : sur quelles compétences vos lectures divergeaient, et ce que vous avez décidé de retenir comme repère commun. Ce relevé est lu avant chaque entretien.
+
+**Correctif 2. Un second observateur silencieux aux étapes 3 et 4, sur les finalistes.**
+
+Quand : à partir du moment où il ne reste que deux ou trois candidats. Pas avant, le coût ne le justifie pas.
+
+Qui : Gregory Levy observe l'étape 3 conduite par Milène Baud. Milène Baud observe l'étape 4 conduite par Hervé Gerbi. Les étapes 3 et 4 se tenant le même jour, les deux sont déjà au cabinet.
+
+Règles. L'observateur ne pose aucune question et n'intervient pas, y compris quand il aurait quelque chose à ajouter. Il note sur la même grille, seul. Les deux grilles se comparent après l'entretien, jamais pendant.
+
+Ce qu'on fait des écarts. Un écart d'un point se note et se range. Un écart de deux points ou plus ne se moyenne pas : il remonte tel quel à la réunion de décision, comme point de discussion. Deux personnes qui ont vu la même heure et en tirent 2 et 4 ont vu deux choses différentes, et c'est cette différence qui porte l'information.
+
+Prévenez le candidat. Annoncez la présence d'un second intervieweur dans le message de convocation, avec son nom et sa fonction. Un observateur qui apparaît sans avoir été annoncé met le candidat en défiance pour une heure, et l'article L1221-8 du code du travail impose de toute façon d'informer le candidat des méthodes utilisées à son égard.
+
+Coût total : deux heures par finaliste, réparties sur deux personnes déjà présentes.
 
 **Un dernier point à assumer.** Hervé Gerbi ne rencontre le candidat qu'une fois, 90 minutes, à la dernière étape, avant de décider de s'associer avec lui pour vingt ans. C'est défendable si les trois étapes précédentes lui remontent une matière écrite exploitable. Cela suppose que les notes et les verbatims lui soient transmis avant, et pas résumés oralement la veille.
 
@@ -165,8 +187,9 @@ Hypothèse de lancement : semaine 1.
 | S3 | Tournage vidéo si maintien | Prestataire |
 | S3-S6 | Tri des CV en continu, entretiens téléphoniques au fil de l'eau | Greg |
 | S4 | Deuxième cycle d'approche directe, relances | Greg |
-| S4 | Heure de calibration des trois intervieweurs sur la grille | Greg, M. Baud, H. Gerbi |
+| S4 | Heure de calibration sur la grille, avant tout entretien d'étape 2, relevé d'une page | Greg, M. Baud, H. Gerbi |
 | S5-S8 | Entretiens 2, 3 et 4 | Cabinet |
+| S7-S8 | Finalistes : second observateur silencieux aux étapes 3 et 4, notation indépendante | Greg, M. Baud |
 | S9 | Prise de références et décision | Hervé Gerbi, Greg |
 | S10 | Proposition et signature | Hervé Gerbi |
 
@@ -190,6 +213,7 @@ L'annonce dit « prise de poste dès que possible ». C'est une formule sans con
 | Candidats en étape 3 | 4 à 6 |
 | Candidats en étape 4 | 2 à 3 |
 | Propositions émises | 1 à 2 |
+| Écarts de notation de 2 points ou plus entre observateurs, sur les finalistes | À remonter tels quels en réunion de décision |
 
 Deux seuils d'alerte. Si à la semaine 4 vous avez moins de 5 CV au-dessus du seuil, le problème vient de l'offre, pas de la diffusion : revoyez le statut et la fourchette. Si le taux de réponse à l'approche directe est inférieur à 10 %, le problème vient du message d'approche.
 
