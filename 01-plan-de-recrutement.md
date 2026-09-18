@@ -75,15 +75,30 @@ Le cabinet intervient également en droit du travail, sur le harcèlement moral 
 
 ### 2.6 Qui conduit les entretiens
 
-Une grille de notation n'a de valeur que si deux personnes notent indépendamment. Si les quatre étapes sont menées par Hervé Gerbi seul, vous n'avez pas une évaluation, vous avez quatre fois le même avis, et la grille ne sert qu'à l'habiller.
+**Tranché.** Répartition arrêtée le 18 septembre 2026.
 
-Répartition minimale à constituer :
-- étape 1, entretien téléphonique : vous ou un tiers ;
-- étape 2, valeurs : Hervé Gerbi ;
-- étape 3, compétences métier : un avocat du cabinet, plus vous ;
-- étape 4, compétences association : Hervé Gerbi, plus vous.
+| Étape | Intervieweur | Durée |
+|---|---|---|
+| 1, téléphone | Gregory Levy, directeur du développement | 30 min |
+| 2, valeurs | Gregory Levy, directeur du développement | 60 min |
+| 3, compétences métier | Milène Baud, office manager | 60 min |
+| 4, compétences et association | Hervé Gerbi, avocat fondateur | 90 min |
 
-Deux notateurs par entretien de compétences, notation indépendante avant confrontation. C'est la règle qui produit la fiabilité, pas la grille elle-même.
+Cette répartition a entraîné deux corrections du dispositif.
+
+**Le bloc Expertise fonctionnelle a été déplacé de l'étape 3 à l'étape 4.** C'est le seul bloc du guide qui exige de l'intervieweur qu'il maîtrise la matière. Juger si un candidat lit correctement un rapport d'expertise médicale, s'il chiffre un poste de préjudice selon la bonne méthode, si son arbitrage entre transaction et contentieux tient, suppose de connaître la réponse. Aucune grille ne compense cette absence, et une note produite par quelqu'un qui ne peut pas juger du fond est plus dangereuse qu'une absence de note : elle donne à une décision non fondée l'apparence de la rigueur. Le bloc revient donc à Hervé Gerbi. L'étape 4 passe à 90 minutes, l'étape 3 descend à 60.
+
+Les trois compétences restant à l'étape 3 sont évaluables par Milène Baud. Elles sont comportementales : la méthode note l'approche décrite par le candidat, les étapes qu'il a suivies et ce qu'il en a tiré, pas l'exactitude juridique de sa conclusion. Sur Être orienté client, l'office manager est même le meilleur observateur du dispositif.
+
+**Une qualification technique consignée a été ajoutée à l'étape 1.** Trois questions factuelles que Gregory Levy pose sans les noter, en consignant la réponse mot à mot. Hervé Gerbi les lit et rend un avis avant l'étape 2, en dix minutes. Sans ce filtre, une incompétence technique ne se découvre qu'au quatrième entretien, après avoir mobilisé trois personnes.
+
+**Deux points restent ouverts, et ils portent sur la fiabilité des notes.**
+
+Le dispositif ne compte qu'un intervieweur par étape. Un entretien noté par une seule personne mesure autant l'intervieweur que le candidat, et rien ne permet de faire la part des deux. Correctif proposé, à valider : sur les deux ou trois finalistes seulement, un second observateur silencieux aux étapes 3 et 4, Milène Baud à l'étape 4 et Gregory Levy à l'étape 3. Il ne pose aucune question et note indépendamment. Coût : deux heures par finaliste.
+
+Une heure de calibration réunissant les trois intervieweurs avant le premier candidat. Notez ensemble un cas fictif sur une compétence. L'objectif n'est pas de tomber d'accord, il est de découvrir où vos échelles divergent. Sans cette heure, un 3 de Milène Baud ne vaut pas un 3 d'Hervé Gerbi et la note globale n'a pas de sens.
+
+**Un dernier point à assumer.** Hervé Gerbi ne rencontre le candidat qu'une fois, 90 minutes, à la dernière étape, avant de décider de s'associer avec lui pour vingt ans. C'est défendable si les trois étapes précédentes lui remontent une matière écrite exploitable. Cela suppose que les notes et les verbatims lui soient transmis avant, et pas résumés oralement la veille.
 
 ### 2.7 L'ordre des entretiens
 
@@ -102,20 +117,25 @@ Go ou no-go, et sur quel périmètre de diffusion. Voir le document 06.
 ```
 ÉTAPE 0   Tri des CV                     grille de scoring sur 100, seuil à 70
              |
-ÉTAPE 1   Entretien téléphonique         30 min       pré-qualification, non notée sur compétences
+ÉTAPE 1   Entretien téléphonique         30 min   G. Levy    pré-qualification + qualification
+             |                                                   technique consignée
+             |                                        avis technique d'H. Gerbi sous 10 min
              |
-ÉTAPE 2   Entretien valeurs              60 min       Expertise, Humanité, Justice, Réparation
+ÉTAPE 2   Entretien valeurs              60 min   G. Levy    Expertise, Humanité, Justice,
+             |                                                   Réparation
              |
-ÉTAPE 3   Entretien compétences métier   90 min       Expertise fonctionnelle + 3 compétences
+ÉTAPE 3   Entretien compétences métier   60 min   M. Baud    Complexité, Client, Résilience
              |
-ÉTAPE 4   Entretien compétences associé  60 min       3 compétences + projet d'association
+ÉTAPE 4   Entretien compétences associé  90 min   H. Gerbi   Expertise fonctionnelle,
+             |                                                   Courage, Réseaux, Stratégie,
+             |                                                   protocole d'association
              |
           Prise de références            2 références obligatoires
              |
           Décision et proposition
 ```
 
-Les étapes 3 et 4 se tiennent le même jour, avec des intervieweurs différents. Vous gagnez deux à trois semaines de cycle et vous réduisez la fenêtre pendant laquelle un candidat peut accepter ailleurs.
+Les étapes 3 et 4 se tiennent le même jour. Vous gagnez deux à trois semaines de cycle et vous réduisez la fenêtre pendant laquelle un candidat peut accepter ailleurs.
 
 Les six compétences évaluées sont issues du Korn Ferry Leadership Architect. Le détail figure dans le document 04.
 
@@ -136,7 +156,7 @@ Hypothèse de lancement : semaine 1.
 
 | Semaine | Action | Responsable |
 |---|---|---|
-| S0 | Arbitrage des huit décisions, rédaction du protocole d'association | Hervé Gerbi, Greg |
+| S0 | Arbitrage des décisions restantes, rédaction du protocole d'association | Hervé Gerbi, Greg |
 | S0 | Validation du concept vidéo par le bâtonnier de Grenoble si maintien | Hervé Gerbi |
 | S1 | Publication de l'annonce sur les canaux gratuits et institutionnels | Greg |
 | S1 | Constitution de la liste de chasse, 60 à 80 noms | Greg |
@@ -145,6 +165,7 @@ Hypothèse de lancement : semaine 1.
 | S3 | Tournage vidéo si maintien | Prestataire |
 | S3-S6 | Tri des CV en continu, entretiens téléphoniques au fil de l'eau | Greg |
 | S4 | Deuxième cycle d'approche directe, relances | Greg |
+| S4 | Heure de calibration des trois intervieweurs sur la grille | Greg, M. Baud, H. Gerbi |
 | S5-S8 | Entretiens 2, 3 et 4 | Cabinet |
 | S9 | Prise de références et décision | Hervé Gerbi, Greg |
 | S10 | Proposition et signature | Hervé Gerbi |

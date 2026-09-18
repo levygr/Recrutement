@@ -13,17 +13,34 @@ Les six compétences évaluées sont issues du référentiel Korn Ferry Leadersh
 
 # 1. Préparation aux entretiens
 
+## Qui conduit quoi
+
+| Étape | Intervieweur | Durée | Évalué |
+|---|---|---|---|
+| 1, téléphone | Gregory Levy, directeur du développement | 30 min | Pré-qualification et qualification technique consignée |
+| 2, valeurs | Gregory Levy, directeur du développement | 60 min | Expertise, humanité, justice, réparation |
+| 3, compétences métier | Milène Baud, office manager | 60 min | Gérer la complexité, Être orienté client, Être résilient |
+| 4, compétences et association | Hervé Gerbi, avocat fondateur | 90 min | Expertise fonctionnelle, Faire preuve de courage, Créer des réseaux, Faire preuve d'esprit stratégique, protocole |
+
+## Deux règles de fiabilité à tenir
+
+**Calibration préalable, une heure, tous les intervieweurs ensemble.** Avant le premier candidat, prenez les trois colonnes de comportements d'une compétence et notez ensemble un cas fictif. L'objectif n'est pas de tomber d'accord, il est de découvrir où vos échelles divergent. Sans cette heure, un 3 de l'un ne vaut pas un 3 de l'autre et la note globale n'a pas de sens.
+
+**Un second observateur silencieux sur les finalistes.** Le dispositif ne compte qu'un intervieweur par étape. Un entretien noté par une seule personne mesure autant l'intervieweur que le candidat, et vous n'avez aucun moyen de le savoir. Pour les deux ou trois derniers candidats seulement, faites asseoir un second observateur aux étapes 3 et 4. Milène Baud à l'étape 4, Gregory Levy à l'étape 3. L'observateur ne pose aucune question et note indépendamment. Les deux notes se comparent après, jamais pendant. Cela coûte deux heures par finaliste et c'est ce qui rend la grille utilisable.
+
+## Avant
+
 Communiquez à chaque intervieweur l'étape qui le concerne et la ou les compétences qu'il évalue.
 
 Lisez le bloc que vous allez conduire avant l'entretien. Familiarisez-vous avec les comportements observables, pas seulement avec les questions.
 
-Relisez le CV du candidat et la fiche de scoring établie au tri.
+Relisez le CV du candidat, la fiche de scoring établie au tri, et les notes de l'étape précédente.
 
-Vérifiez avec l'autre intervieweur que vous n'allez pas poser les mêmes questions. Une compétence, un intervieweur.
+Vérifiez que vous n'allez pas poser les mêmes questions que l'intervieweur précédent. Une compétence, un intervieweur.
 
 ## Règles pendant l'entretien
 
-Comptez 60 minutes pour les étapes 2 et 4, 90 minutes pour l'étape 3.
+Respectez les durées du tableau ci-dessus. Une étape 4 écourtée est une décision d'association prise à l'aveugle.
 
 Ne reportez pas un entretien. Soyez à l'heure. Le candidat que vous voulez recruter a d'autres options.
 
@@ -67,18 +84,31 @@ Pour situer un candidat sur une compétence, servez-vous des trois colonnes de c
 
 | Ce qui est évalué | Étape 1 téléphone | Étape 2 valeurs | Étape 3 métier | Étape 4 association |
 |---|:---:|:---:|:---:|:---:|
+| **Intervieweur** | **G. Levy** | **G. Levy** | **M. Baud** | **H. Gerbi** |
+| **Durée** | 30 min | 60 min | 60 min | 90 min |
 | Pré-qualification | X | | | |
+| Qualification technique, réponses consignées | X | | | |
 | Adéquation aux valeurs du cabinet | | X | | |
-| Expertise fonctionnelle | | | X | |
 | Gérer la complexité | | | X | |
 | Être orienté client | | | X | |
 | Être résilient | | | X | |
+| Expertise fonctionnelle | | | | X |
 | Faire preuve de courage | | | | X |
 | Créer des réseaux | | | | X |
 | Faire preuve d'esprit stratégique | | | | X |
 | Projet d'association | | | | X |
 
-Les étapes 3 et 4 se tiennent le même jour, avec des intervieweurs différents.
+Les étapes 3 et 4 se tiennent le même jour.
+
+### Pourquoi l'expertise fonctionnelle est évaluée à l'étape 4
+
+Ce bloc portait initialement sur l'étape 3. Il a été déplacé.
+
+L'expertise fonctionnelle est le seul bloc du guide qui exige de l'intervieweur qu'il maîtrise lui-même la matière. Savoir si un candidat lit correctement un rapport d'expertise médicale, s'il chiffre un poste de préjudice selon la bonne méthode, si son arbitrage entre transaction et contentieux tient, cela suppose de connaître la réponse. Aucune grille ne compense cette absence. Une note produite par quelqu'un qui ne peut pas juger du fond n'est pas une évaluation prudente, c'est une évaluation fausse habillée en méthode, et c'est plus dangereux qu'une absence de note.
+
+Ce bloc revient donc à Hervé Gerbi, seul avocat spécialiste du dispositif. L'étape 4 passe à 90 minutes, l'étape 3 descend à 60.
+
+Les trois compétences de l'étape 3 restent évaluables par Milène Baud. Elles sont comportementales : la méthode y note l'approche décrite par le candidat, les étapes qu'il a suivies et ce qu'il en a tiré, pas l'exactitude juridique de sa conclusion. Sur Être orienté client, l'office manager est même le meilleur observateur du dispositif, puisqu'elle voit chaque jour comment les clients du cabinet sont réellement traités.
 
 ---
 
@@ -100,14 +130,14 @@ Candidat : ______________________________________
 
 | Étape | Évalué | Intervieweur | Date | Note |
 |---|---|---|---|---|
-| 2 | Adéquation aux valeurs | | | ___ / 4 |
-| 3 | Expertise fonctionnelle | | | ___ / 4 |
-| 3 | Gérer la complexité | | | ___ / 4 |
-| 3 | Être orienté client | | | ___ / 4 |
-| 3 | Être résilient | | | ___ / 4 |
-| 4 | Faire preuve de courage | | | ___ / 4 |
-| 4 | Créer des réseaux | | | ___ / 4 |
-| 4 | Faire preuve d'esprit stratégique | | | ___ / 4 |
+| 2 | Adéquation aux valeurs | G. Levy | | ___ / 4 |
+| 3 | Gérer la complexité | M. Baud | | ___ / 4 |
+| 3 | Être orienté client | M. Baud | | ___ / 4 |
+| 3 | Être résilient | M. Baud | | ___ / 4 |
+| 4 | Expertise fonctionnelle | H. Gerbi | | ___ / 4 |
+| 4 | Faire preuve de courage | H. Gerbi | | ___ / 4 |
+| 4 | Créer des réseaux | H. Gerbi | | ___ / 4 |
+| 4 | Faire preuve d'esprit stratégique | H. Gerbi | | ___ / 4 |
 
 Note globale : ______ / 4
 
@@ -132,7 +162,9 @@ _________________________________________________________________
 
 # ÉTAPE 1, entretien téléphonique
 
-Durée 30 minutes. Objectif : vérifier les faits, poser les conditions, et donner envie.
+Durée 30 minutes. Conduit par Gregory Levy, directeur du développement.
+
+Objectif : vérifier les faits, poser les conditions, et donner envie.
 
 Cette étape n'est pas notée sur les compétences. Elle sert à écarter les incompatibilités factuelles et à qualifier la motivation. Un candidat qui passe cette étape doit repartir avec l'envie de venir au cabinet.
 
@@ -165,6 +197,34 @@ Notez ce qu'il demande. C'est le premier indicateur exploitable du processus. Un
 
 Annoncez la suite et le délai. Cinq jours ouvrés.
 
+## Qualification technique, réponses consignées
+
+L'expertise fonctionnelle n'est évaluée qu'à l'étape 4, par le seul intervieweur en mesure de la juger. Attendre la quatrième étape pour découvrir qu'un candidat ne sait pas chiffrer un préjudice coûte trois entretiens à trois personnes.
+
+Ces trois questions règlent ce problème. Vous ne les notez pas. Vous consignez la réponse mot à mot, sans juger, sans reformuler, sans compléter les silences. Hervé Gerbi lit les trois réponses et rend un avis avant l'étape 2. Cela lui prend dix minutes par candidat.
+
+**1. Sur quels référentiels vous appuyez-vous pour chiffrer un préjudice ?**
+
+_________________________________________________________________
+_________________________________________________________________
+
+**2. Racontez-moi votre dernière expertise médicale. Quel était le point en discussion, et qu'avez-vous fait ?**
+
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+
+**3. Sur votre dernier dossier transigé, qu'est-ce qui vous a fait conclure qu'il fallait transiger plutôt qu'aller au contentieux ?**
+
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+
+Avis d'Hervé Gerbi :   poursuivre   /   poursuivre avec réserve   /   arrêter
+
+Réserve ou motif :
+_________________________________________________________________
+
 ## Points d'attention
 
 Si le candidat n'a aucune pratique du dommage corporel ni de matière connexe, dites-le franchement et évaluez sa réaction. Vous cherchez quelqu'un qui mesure ce qu'il ignore.
@@ -188,7 +248,7 @@ _________________________________________________________________
 
 # ÉTAPE 2, entretien valeurs
 
-Durée 60 minutes. Conduit par Hervé Gerbi.
+Durée 60 minutes. Conduit par Gregory Levy, directeur du développement.
 
 Les quatre valeurs du cabinet sont l'expertise, l'humanité, la justice et la réparation.
 
@@ -295,56 +355,13 @@ Oui   /   Non   /   Pas encore
 
 # ÉTAPE 3, entretien compétences métier
 
-Durée 90 minutes. Deux intervieweurs, notation indépendante.
+Durée 60 minutes. Conduit par Milène Baud, office manager.
 
-Répartition suggérée : un avocat du cabinet conduit Expertise fonctionnelle et Gérer la complexité. Le second intervieweur conduit Être orienté client et Être résilient.
-
----
-
-## 3.1 Expertise fonctionnelle
-
-### Ce que le poste exige
-
-- Vous maîtrisez les mécanismes de la responsabilité civile et les fondements de l'indemnisation.
-- Vous savez lire un rapport d'expertise médicale et en identifier les faiblesses.
-- Vous évaluez et vous chiffrez les postes de préjudice, en vous appuyant sur la nomenclature en vigueur et sur les référentiels de capitalisation.
-- Vous rédigez seul assignations, conclusions et notes de synthèse.
-- Vous plaidez devant les juridictions civiles, administratives et pénales.
-- Vous arbitrez entre transaction et contentieux et vous savez expliquer cet arbitrage à un client.
-- Vous dialoguez avec les médecins de recours et les experts, y compris pour les contredire.
-- Vous utilisez des outils numériques dans votre pratique quotidienne.
-- Vous traitez les informations sensibles qui vous sont confiées avec la rigueur qu'impose le secret professionnel.
-
-### Questions
-
-Posez les quatre questions. Utilisez les questions d'approfondissement autant que nécessaire.
-
-1. Décrivez votre pratique actuelle. Quels types de dossiers, quel volume, quelles juridictions ?
-2. Prenez le dernier dossier d'indemnisation que vous avez mené à son terme. Racontez-le, du premier rendez-vous jusqu'à l'issue.
-3. Comment procédez-vous pour chiffrer un préjudice ? Sur quels référentiels vous appuyez-vous, et comment gérez-vous les postes qui se discutent ?
-4. Qu'est-ce que vous ne savez pas faire aujourd'hui et que ce poste exige ?
-
-### Questions d'approfondissement
-
-Qu'est-ce que vous faites le mieux dans votre métier ?
-
-Quel type de dossier vous met en difficulté ?
-
-Qu'est-ce qui vous distingue d'un autre avocat de votre génération ?
-
-### Notes prises au cours de l'entretien
-
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
-
-Candidat : ______________________  Note (1 à 4) : ______
-
-(1) ne répond pas   (2) répond partiellement   (3) répond   (4) dépasse
+Trois compétences comportementales. Le bloc Expertise fonctionnelle a été déplacé à l'étape 4, voir la note au point 1 de ce guide.
 
 ---
 
-## 3.2 Gérer la complexité
+## 3.1 Gérer la complexité
 
 **Définition.** Réussir à traiter de gros volumes d'informations complexes et parfois contradictoires afin de résoudre efficacement les problèmes.
 
@@ -385,7 +402,7 @@ Candidat : ______________________  Note (1 à 4) : ______
 
 ---
 
-## 3.3 Être orienté client
+## 3.2 Être orienté client
 
 **Définition.** Développer des liens solides avec les clients et fournir des solutions orientées client.
 
@@ -426,7 +443,7 @@ Rappel : une note de 1 sur cette compétence arrête le processus.
 
 ---
 
-## 3.4 Être résilient
+## 3.3 Être résilient
 
 **Définition.** Rebondir après un échec et faire face à l'adversité lorsque la situation est difficile.
 
@@ -469,13 +486,56 @@ Avertissement à l'intervieweur. Ces questions touchent à la vie personnelle du
 
 # ÉTAPE 4, entretien compétences et projet d'association
 
-Durée 60 minutes. Conduit par Hervé Gerbi et un second intervieweur.
+Durée 90 minutes. Conduit par Hervé Gerbi, avocat fondateur.
 
 Le protocole d'association écrit est remis au candidat au début de cet entretien.
 
 ---
 
-## 4.1 Faire preuve de courage
+## 4.1 Expertise fonctionnelle
+
+### Ce que le poste exige
+
+- Vous maîtrisez les mécanismes de la responsabilité civile et les fondements de l'indemnisation.
+- Vous savez lire un rapport d'expertise médicale et en identifier les faiblesses.
+- Vous évaluez et vous chiffrez les postes de préjudice, en vous appuyant sur la nomenclature en vigueur et sur les référentiels de capitalisation.
+- Vous rédigez seul assignations, conclusions et notes de synthèse.
+- Vous plaidez devant les juridictions civiles, administratives et pénales.
+- Vous arbitrez entre transaction et contentieux et vous savez expliquer cet arbitrage à un client.
+- Vous dialoguez avec les médecins de recours et les experts, y compris pour les contredire.
+- Vous utilisez des outils numériques dans votre pratique quotidienne.
+- Vous traitez les informations sensibles qui vous sont confiées avec la rigueur qu'impose le secret professionnel.
+
+### Questions
+
+Posez les quatre questions. Utilisez les questions d'approfondissement autant que nécessaire.
+
+1. Décrivez votre pratique actuelle. Quels types de dossiers, quel volume, quelles juridictions ?
+2. Prenez le dernier dossier d'indemnisation que vous avez mené à son terme. Racontez-le, du premier rendez-vous jusqu'à l'issue.
+3. Comment procédez-vous pour chiffrer un préjudice ? Sur quels référentiels vous appuyez-vous, et comment gérez-vous les postes qui se discutent ?
+4. Qu'est-ce que vous ne savez pas faire aujourd'hui et que ce poste exige ?
+
+### Questions d'approfondissement
+
+Qu'est-ce que vous faites le mieux dans votre métier ?
+
+Quel type de dossier vous met en difficulté ?
+
+Qu'est-ce qui vous distingue d'un autre avocat de votre génération ?
+
+### Notes prises au cours de l'entretien
+
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+
+Candidat : ______________________  Note (1 à 4) : ______
+
+(1) ne répond pas   (2) répond partiellement   (3) répond   (4) dépasse
+
+---
+
+## 4.2 Faire preuve de courage
 
 **Définition.** Affronter résolument les questions difficiles et dire ce qui doit être dit.
 
@@ -512,11 +572,13 @@ _________________________________________________________________
 
 Candidat : ______________________  Note (1 à 4) : ______
 
-Indication pour Hervé Gerbi. Observez aussi le comportement du candidat pendant cet entretien, et pas seulement ses récits. Vous a-t-il contredit une seule fois en quatre entretiens ? Une personne qui ne vous contredit jamais pendant qu'elle cherche à être recrutée ne vous contredira pas davantage une fois associée.
+Indication pour Hervé Gerbi. Observez aussi le comportement du candidat pendant cet entretien, et pas seulement ses récits. Vous ne le rencontrez qu'une fois, et c'est la seule fois où vous verrez sa façon de vous parler avant de vous associer avec lui. Contredisez-le délibérément une fois dans l'heure, sur un point de fond où il a raison, et regardez ce qu'il fait. Une personne qui cède pendant qu'elle cherche à être recrutée ne vous contredira pas davantage une fois associée.
+
+Demandez aussi à Gregory Levy et à Milène Baud si le candidat les a contredits. C'est une information qui ne figure sur aucune grille et qui se perd si personne ne pose la question.
 
 ---
 
-## 4.2 Créer des réseaux
+## 4.3 Créer des réseaux
 
 **Définition.** Créer efficacement des canaux officiels ainsi que des réseaux informels au sein de l'organisation comme en dehors de celle-ci.
 
@@ -557,7 +619,7 @@ Rappel : une note de 1 sur cette compétence arrête le processus. Un excellent 
 
 ---
 
-## 4.3 Faire preuve d'esprit stratégique
+## 4.4 Faire preuve d'esprit stratégique
 
 **Définition.** Prévoir à l'avance les possibilités futures et les traduire en stratégies inédites.
 
@@ -598,7 +660,7 @@ Calibrage. À six ou dix ans d'exercice, vous cherchez l'amorce, pas la maturit�
 
 ---
 
-## 4.4 Projet d'association
+## 4.5 Projet d'association
 
 Cette séquence n'est pas notée sur une compétence. Elle est le moment où le cabinet et le candidat se disent ce qu'ils attendent. Comptez 20 minutes.
 

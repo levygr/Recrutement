@@ -21,14 +21,14 @@ Dispositif complet de recrutement. Septembre 2026.
 
 ## Ce qu'il faut trancher avant de diffuser quoi que ce soit
 
-Huit décisions bloquent le lancement. Le détail figure au point 2 du document 01.
+Huit décisions bloquent le lancement, dont une est tranchée. Le détail figure au point 2 du document 01.
 
 1. **Statut proposé.** Recommandation : ouvrir collaboration libérale et salariat. Le salariat représente 2,5 % de la profession.
 2. **Protocole d'association.** À rédiger avant la publication. Cinq réponses obligatoires : échéance, critères, prix des parts, part de capital, clause de sortie.
 3. **Fourchette de rémunération.** À afficher.
 4. **Périmètre géographique.** Grenoble seul, ou Grenoble et Annecy.
 5. **Périmètre de pratique.** Le droit du travail entre-t-il dans le périmètre du futur associé.
-6. **Intervieweurs.** Deux notateurs par entretien de compétences, notation indépendante. À constituer.
+6. ~~**Intervieweurs.**~~ Tranché. G. Levy sur les étapes 1 et 2, M. Baud sur l'étape 3, H. Gerbi sur l'étape 4. Deux corrections en ont découlé, voir le point 2.6 du document 01.
 7. **Ordre des entretiens.** Le guide suit votre ordre. Je recommande d'intervertir les étapes 2 et 3.
 8. **Vidéo.** Go ou no-go, et périmètre de diffusion.
 
@@ -47,7 +47,7 @@ Référentiel Korn Ferry Leadership Architect, sélection de six sur trente-huit
 | Créer des réseaux | 4 | L'apport d'affaires. Note de 1 éliminatoire |
 | Faire preuve d'esprit stratégique | 4 | La projection dans le cabinet |
 
-Un bloc Expertise fonctionnelle complète l'étape 3. Note de 1 éliminatoire.
+Un bloc Expertise fonctionnelle ouvre l'étape 4, conduit par Hervé Gerbi, seul avocat spécialiste du dispositif. Note de 1 éliminatoire.
 
 Trois compétences restent en réserve, avec leur condition de bascule. Apprendre avec agilité remplace Gérer la complexité si vous ouvrez largement aux candidats sans expérience du dommage corporel. Inspirer confiance se vérifie par les références, pas par un entretien. Maîtriser les enjeux financiers relève du plan de développement du futur associé, pas du filtre de sélection.
 
@@ -55,7 +55,7 @@ Trois compétences restent en réserve, avec leur condition de bascule. Apprendr
 
 ## Le dispositif en une ligne
 
-Tri des CV sur 100 points, seuil à 70, puis entretien téléphonique de 30 minutes, puis entretien valeurs de 60 minutes avec Hervé Gerbi, puis deux entretiens de compétences le même jour, 90 et 60 minutes, puis prise de deux références, puis décision.
+Tri des CV sur 100 points, seuil à 70. Entretien téléphonique de 30 minutes avec Gregory Levy, qui consigne trois réponses techniques soumises à Hervé Gerbi. Entretien valeurs de 60 minutes avec Gregory Levy. Puis, le même jour, 60 minutes de compétences métier avec Milène Baud et 90 minutes de compétences et d'association avec Hervé Gerbi. Prise de deux références. Décision.
 
 Délai réaliste jusqu'à la signature : 10 à 14 semaines. Prise de poste : quatre à six mois après le lancement.
 
