@@ -6,6 +6,64 @@ Version 1, septembre 2026. Document de travail interne.
 
 ---
 
+## 0. Ce que nous recrutons réellement
+
+**Arbitrage du 18 septembre 2026.** Ce recrutement n'est pas une association. C'est une succession. La personne recrutée a vocation à remplacer Hervé Gerbi et à reprendre la direction du cabinet.
+
+Le statut d'entrée est le salariat. Le protocole d'association sera rédigé ultérieurement par Hervé Gerbi et Milène Baud.
+
+Cette précision change trois choses, et elle en améliore deux.
+
+### Elle rend l'offre beaucoup plus forte
+
+« Devenez associé » est une promesse banale. Des dizaines de cabinets la font, et le marché a appris à s'en méfier. « Reprenez un cabinet » est rare, et c'est exactement ce qu'un avocat de trente-cinq à quarante-cinq ans ne peut pas se construire seul.
+
+Ce que vous offrez alors n'est plus un titre. C'est une clientèle constituée, une marque identifiée sur son territoire, une spécialisation reconnue, une équipe en place et un flux de dossiers. Un avocat qui veut diriger sa propre structure met dix ans à construire cela, ou ne le construit jamais.
+
+C'est votre meilleur argument, et il n'apparaît nulle part dans l'annonce actuelle. La version corrigée le met en première ligne.
+
+### Elle déplace ce qu'il faut évaluer
+
+Un associé partage une pratique. Un successeur reprend une entreprise, une clientèle et une équipe. Le dispositif d'évaluation a été complété en conséquence. Voir le point 3.
+
+### Elle crée une contrainte de calendrier que personne n'avait chiffrée
+
+C'est le point le plus important de cette mise à jour et il se traite au point 0.1.
+
+---
+
+## 0.1 Le certificat de spécialisation fixe le calendrier de la reprise
+
+Le positionnement public du cabinet repose en partie sur les certificats de spécialisation d'Hervé Gerbi, en droit du dommage corporel et en droit du travail. C'est mentionné sur votre site comme une distinction reconnue par la loi. Le jour où il cesse d'exercer, le cabinet perd le droit d'utiliser ce titre si personne d'autre ne le détient.
+
+Les conditions d'obtention sont fixées par le décret du 27 novembre 1991 et par l'arrêté du 15 décembre 2023.
+
+| Condition | Contenu |
+|---|---|
+| Pratique professionnelle | Quatre années au moins dans le domaine de spécialisation recherché, sans interruption de plus de quatre mois |
+| Activités admises | L'exercice en qualité d'avocat, **et l'exercice comme salarié d'un cabinet d'avocats travaillant dans le domaine de spécialisation** |
+| Épreuve | Un entretien de validation des compétences professionnelles devant un jury, quarante minutes, en séance publique, avec mise en situation professionnelle et questions déontologiques |
+| Frais | 800 euros de droits d'inscription |
+
+Deux conséquences.
+
+La bonne nouvelle : les années passées comme avocat salarié chez vous comptent dans les quatre ans. Le compteur tourne dès la prise de poste.
+
+La contrainte : si le candidat n'a pas déjà quatre ans de pratique du dommage corporel à son arrivée, il ne peut pas présenter le certificat avant de les avoir. Le calendrier de la reprise en dépend directement.
+
+| Profil à l'entrée | Certificat présentable | Reprise envisageable |
+|---|---|---|
+| Déjà titulaire du certificat | Immédiat | Sans contrainte de ce fait |
+| 4 ans ou plus de pratique effective du dommage corporel | Dès la première année | 24 à 36 mois |
+| 2 ans de pratique du dommage corporel | Après 2 ans chez vous | 36 à 48 mois |
+| Aucune pratique du dommage corporel | Après 4 ans chez vous | 60 mois et plus |
+
+Ce tableau doit entrer dans votre arbitrage de sélection. Un candidat sans pratique de la matière n'est pas disqualifié, mais il décale la reprise de deux à trois ans. Si Hervé Gerbi a un horizon en tête, c'est ce tableau qui dit quel profil est compatible avec cet horizon.
+
+**Question à trancher avant la diffusion : à quelle échéance Hervé Gerbi souhaite-t-il se retirer ?** Pas une date publique, une date de travail. Sans elle, vous ne pouvez ni calibrer le profil, ni répondre au candidat qui la posera au premier entretien. Et il la posera.
+
+---
+
 ## 1. Ce que dit le marché
 
 Le vivier que vous visez est étroit. Les chiffres publics le montrent sans ambiguïté.
@@ -37,23 +95,32 @@ Aucune diffusion ne doit partir avant que ces points soient arbitrés. Une annon
 
 ### 2.1 Le statut proposé
 
-Recommandation : ouvrir les deux, collaboration libérale ou contrat de travail, au choix du candidat.
+**Tranché.** Avocat salarié à l'entrée, avec évolution vers l'association puis la reprise.
 
-L'avocat salarié ne peut pas se constituer de clientèle personnelle. C'est l'article 7 de la loi n° 71-1130 du 31 décembre 1971. Or votre annonce lui demande de développer les relations prescripteurs et la visibilité du cabinet. La contradiction est apparente plus que réelle, puisqu'il développe la clientèle du cabinet. Mais un candidat qui se projette associé la lira comme un signal : on me demande d'apporter sans me laisser capitaliser. Proposer les deux statuts supprime le débat et élargit le vivier.
+Une contrainte à intégrer au protocole, sans remettre la décision en cause. L'avocat salarié ne peut pas se constituer de clientèle personnelle, c'est l'article 7 de la loi n° 71-1130 du 31 décembre 1971. Or un successeur devra à terme détenir cette clientèle. La phase salariée est donc une phase de transition dont la durée doit être bornée, et le passage au statut d'associé daté. Une phase salariée qui s'éternise travaille contre l'objectif de reprise.
+
+Un point favorable à retenir : l'exercice comme salarié d'un cabinet spécialisé compte dans les quatre années exigées pour le certificat de spécialisation. Le salariat ne retarde pas ce compteur.
+
+Le vivier reste la difficulté. Le salariat représente 2,5 % de la profession. Vous demandez donc au candidat d'accepter un statut minoritaire, et vous devez compenser par la force de l'offre. La perspective de reprise est cette compensation, à condition d'être dite clairement.
 
 ### 2.2 Le protocole d'association
 
-Recommandation : le rédiger avant la publication de l'annonce, pas pendant le processus.
+**Tranché.** Le protocole sera rédigé ultérieurement par Hervé Gerbi et Milène Baud.
 
-C'est le cœur de votre offre et c'est aujourd'hui le point le plus flou. Un avocat de 6 à 10 ans d'expérience a déjà vu une promesse d'association s'évaporer, chez lui ou chez un confrère. Il jugera votre sérieux sur votre capacité à répondre précisément à cinq questions.
+Cet arbitrage laisse un trou à l'étape 4, qu'il faut combler. Le dispositif prévoyait de remettre le protocole écrit au candidat lors du dernier entretien. Sans protocole, cet entretien n'a rien à montrer, et vous vous retrouvez à parler de reprise sans aucun document. C'est précisément la situation qui fait fuir les bons candidats.
 
-1. À quelle échéance ? Une date, pas une intention. Un horizon de 24 à 36 mois est crédible et vérifiable.
-2. Sur quels critères ? Trois à cinq critères observables, connus dès l'entrée. Par exemple : autonomie complète sur un portefeuille d'un volume donné, taux de réussite, contribution au développement, tenue des engagements financiers du cabinet.
-3. À quel prix ? Méthode de valorisation des parts, montant indicatif, modalités de financement, échelonnement possible.
-4. Quelle part de capital, et avec quels droits de vote ?
-5. Que se passe-t-il si cela n'aboutit pas ? Clause de rendez-vous, préavis, conditions de sortie.
+Ce que je propose à la place, et qui tient en une page.
 
-Tant que ces cinq réponses n'existent pas par écrit, vous ne vendez pas une association. Vous vendez un poste salarié avec une carotte, et le marché le sentira.
+**Une note d'intention, signée d'Hervé Gerbi, remise au candidat à l'étape 4.** Elle n'engage aucun chiffre. Elle engage une démarche. Quatre paragraphes.
+
+1. L'objectif du recrutement est la reprise du cabinet, pas une collaboration.
+2. L'horizon envisagé pour le retrait progressif d'Hervé Gerbi.
+3. Les étapes de la transition : salariat, association, reprise, avec les conditions de passage de chacune.
+4. L'engagement de formaliser le protocole d'association détaillé avant une date précise, avec le candidat retenu.
+
+Le point 4 est le plus important. Un candidat sérieux n'exige pas un prix au premier jour. Il exige de savoir que la question sera traitée, par qui, et quand. Une note d'intention datée répond à cela. Une promesse orale n'y répond pas.
+
+Rédiger cette note prend une heure. Elle est nécessaire avant le premier entretien de l'étape 4, pas avant la diffusion.
 
 ### 2.3 La fourchette de rémunération
 
@@ -81,7 +148,7 @@ Le cabinet intervient également en droit du travail, sur le harcèlement moral 
 |---|---|---|
 | 1, téléphone | Gregory Levy, directeur du développement | 30 min |
 | 2, valeurs | Gregory Levy, directeur du développement | 60 min |
-| 3, compétences métier | Milène Baud, office manager | 60 min |
+| 3, compétences métier | Milène Baud, office manager | 80 min |
 | 4, compétences et association | Hervé Gerbi, avocat fondateur | 90 min |
 
 Cette répartition a entraîné deux corrections du dispositif.
@@ -146,7 +213,8 @@ Go ou no-go, et sur quel périmètre de diffusion. Voir le document 06.
 ÉTAPE 2   Entretien valeurs              60 min   G. Levy    Expertise, Humanité, Justice,
              |                                                   Réparation
              |
-ÉTAPE 3   Entretien compétences métier   60 min   M. Baud    Complexité, Client, Résilience
+ÉTAPE 3   Entretien compétences métier   80 min   M. Baud    Complexité, Client, Résilience,
+             |                                                   Développer les talents
              |
 ÉTAPE 4   Entretien compétences associé  90 min   H. Gerbi   Expertise fonctionnelle,
              |                                                   Courage, Réseaux, Stratégie,
@@ -166,9 +234,22 @@ Les six compétences évaluées sont issues du Korn Ferry Leadership Architect. 
 | Gérer la complexité | 3 | Le cœur technique du dossier corporel |
 | Être orienté client | 3 | La relation avec la victime et ses proches |
 | Être résilient | 3 | La durée des dossiers et la charge émotionnelle |
+| **Développer les talents** | **3** | **L'équipe, au moment où le fondateur se retire** |
 | Faire preuve de courage | 4 | La capacité à contredire, y compris son futur associé |
-| Créer des réseaux | 4 | L'apport d'affaires, condition économique de l'association |
-| Faire preuve d'esprit stratégique | 4 | La projection dans le cabinet, pas dans son seul portefeuille |
+| Créer des réseaux | 4 | L'apport d'affaires, condition économique de la reprise |
+| Faire preuve d'esprit stratégique | 4 | La direction du cabinet, pas son seul portefeuille |
+
+### La compétence ajoutée, et pourquoi
+
+Six compétences suffisaient pour choisir un associé. Elles ne suffisent pas pour choisir un successeur, parce qu'il manquait la dimension humaine du commandement.
+
+Un associé partage une pratique avec quelqu'un qui reste. Un successeur hérite d'une équipe dont le repère s'en va. Le risque propre à une succession n'est pas que le successeur soit mauvais juriste. C'est que l'équipe parte dans les dix-huit mois qui suivent le départ du fondateur, emportant la mémoire des dossiers et la relation avec les clients en cours.
+
+**Développer les talents** (compétence 13 du référentiel) est évaluée à l'étape 3, par Milène Baud. Ce choix n'est pas seulement méthodologique. La question qu'elle a réellement à trancher n'est pas « cette personne sait-elle développer ses collaborateurs ». C'est « est-ce que je resterais si cette personne dirigeait le cabinet ». Elle est la seule à pouvoir y répondre, et sa réponse vaut plus que toutes les autres notes du dispositif.
+
+L'étape 3 passe de 60 à 80 minutes.
+
+Si vous jugez cette compétence trop exigeante pour un profil de six à dix ans, la solution de repli est **Superviser le travail** (compétence 15), plus élémentaire et plus facilement documentée à ce niveau d'expérience. Je la trouve moins utile ici : un successeur qui sait seulement superviser fait faire le travail, il ne retient pas les gens.
 
 ---
 
@@ -178,7 +259,8 @@ Hypothèse de lancement : semaine 1.
 
 | Semaine | Action | Responsable |
 |---|---|---|
-| S0 | Arbitrage des décisions restantes, rédaction du protocole d'association | Hervé Gerbi, Greg |
+| S0 | Arbitrage des décisions restantes. Fixer l'horizon de retrait d'Hervé Gerbi | Hervé Gerbi, Greg |
+| S0 | Rédiger la note d'intention d'une page, signée | Hervé Gerbi |
 | S0 | Validation du concept vidéo par le bâtonnier de Grenoble si maintien | Hervé Gerbi |
 | S1 | Publication de l'annonce sur les canaux gratuits et institutionnels | Greg |
 | S1 | Constitution de la liste de chasse, 60 à 80 noms | Greg |
@@ -191,6 +273,7 @@ Hypothèse de lancement : semaine 1.
 | S5-S8 | Entretiens 2, 3 et 4 | Cabinet |
 | S7-S8 | Finalistes : second observateur silencieux aux étapes 3 et 4, notation indépendante | Greg, M. Baud |
 | S9 | Prise de références et décision | Hervé Gerbi, Greg |
+| Après | Rédaction du protocole d'association détaillé, avec le candidat retenu | Hervé Gerbi, Milène Baud |
 | S10 | Proposition et signature | Hervé Gerbi |
 
 Délai réaliste jusqu'à la signature : 10 à 14 semaines. Ajoutez le préavis du candidat, de trois mois en général pour un avocat salarié et selon contrat pour un collaborateur libéral. Prise de poste réaliste : quatre à six mois après le lancement.
@@ -224,8 +307,13 @@ Deux seuils d'alerte. Si à la semaine 4 vous avez moins de 5 CV au-dessus du se
 | Risque | Probabilité | Impact | Réponse |
 |---|---|---|---|
 | Vivier insuffisant sur le dommage corporel | Élevée | Élevé | Ouvrir aux profils responsabilité civile, assurance, santé, sécurité sociale, droit du travail lésionnel, et basculer la compétence Gérer la complexité vers Apprendre avec agilité |
-| Le candidat retenu n'accepte pas le statut salarié | Moyenne | Élevé | Ouvrir la collaboration libérale dès l'annonce |
-| Le protocole d'association n'est pas prêt à l'étape 4 | Élevée si rien n'est fait | Élevé | Le rédiger en S0, non négociable |
+| Le candidat retenu n'accepte pas le statut salarié | Moyenne | Élevé | Compenser par la clarté de la perspective de reprise, qui est votre argument le plus fort |
+| La note d'intention n'est pas prête à l'étape 4 | Élevée si rien n'est fait | Élevé | Une page, une heure de travail, à faire en S0 |
+| L'horizon de retrait d'Hervé Gerbi reste indéfini | Élevée | Très élevé | Le fixer en S0. C'est la première question que posera tout candidat sérieux |
+| Le candidat retenu ne peut pas obtenir le certificat de spécialisation avant plusieurs années | Moyenne | Élevé | Intégrer le tableau du point 0.1 au choix du profil. Un candidat déjà titulaire ou déjà à 4 ans de pratique lève la contrainte |
+| Le cabinet porte le nom du fondateur, ce qui complique la transmission de la marque | Certaine | Moyen | Décider tôt si l'enseigne Victimes & Préjudices survit seule au retrait d'Hervé Gerbi |
+| L'équipe part dans les 18 mois qui suivent le retrait | Moyenne | Élevé | Compétence Développer les talents évaluée par Milène Baud à l'étape 3 |
+| La phase salariée s'éternise et vide la promesse de reprise | Moyenne | Élevé | Borner sa durée dans la note d'intention |
 | Hervé Gerbi n'a pas le temps de former un non-spécialiste | Élevée | Élevé | Budgéter explicitement le temps de transmission et l'inscrire au protocole |
 | La vidéo produit une dissonance auprès des clients et prescripteurs | Moyenne | Moyen à élevé | Voir document 06 |
 | Le processus à quatre étapes fait fuir les candidats courtisés | Moyenne | Moyen | Étapes 3 et 4 le même jour, engagement de réponse sous 5 jours ouvrés à chaque étape |

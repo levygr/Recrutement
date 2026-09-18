@@ -13,6 +13,8 @@ Notez avant de lire le suivant. Un CV se note seul, pas par comparaison avec le 
 
 Sur les vingt premiers CV, deux personnes notent indépendamment, puis confrontent. Les écarts supérieurs à 10 points se discutent. Cette calibration prend une heure et rend la grille fiable pour tous les CV suivants.
 
+Notez aussi la date. Le critère 2 porte une colonne de décalage de reprise. Reportez-la sur la fiche. Au moment de l'arbitrage final, deux candidats à 78 points dont l'un permet une reprise à 30 mois et l'autre à 60 mois ne sont pas deux candidats équivalents.
+
 Un score n'est pas une décision. Il ordonne une pile. La décision d'appeler reste la vôtre, et un CV à 62 points avec un signal fort peut passer devant un CV à 74 points sans relief. Tracez simplement la raison.
 
 ---
@@ -32,64 +34,46 @@ Vérification binaire avant tout scoring. Une réponse négative arrête la lect
 
 ## Étape 2, scoring sur 100 points
 
-### 1. Expérience post-CAPA, 20 points
+La pondération a été révisée le 18 septembre 2026, après l'arbitrage sur la nature du poste. Ce recrutement est une succession. Deux critères montent, l'apport d'affaires et l'encadrement, parce qu'un successeur reprend une clientèle et une équipe. Un critère nouveau apparaît.
+
+### 1. Expérience post-CAPA, 15 points
 
 | Situation | Points |
 |---|---|
-| 6 à 12 ans | 20 |
-| 4 à 5 ans | 13 |
-| 13 à 18 ans | 15 |
-| Plus de 18 ans | 9 |
+| 6 à 15 ans | 15 |
+| 16 à 20 ans | 11 |
+| 4 à 5 ans | 9 |
+| Plus de 20 ans | 6 |
 
-Le maximum est placé sur 6 à 12 ans parce que c'est la fenêtre où un avocat a assez de pratique pour reprendre un portefeuille et assez d'horizon pour s'associer durablement. Au-delà de 18 ans, un candidat est souvent déjà associé ailleurs, et la question du prix et du rang se posera différemment. Ce n'est pas disqualifiant, c'est un signal à explorer au téléphone.
+La fenêtre haute a été élargie à 15 ans. Pour une association, un profil de 6 à 12 ans était l'optimum. Pour une reprise, un avocat de 14 ans qui veut enfin diriger sa structure est un candidat parfaitement cohérent, parfois meilleur. Au-delà de 20 ans, la question du prix et du rang se pose autrement, sans être disqualifiante.
 
-### 2. Exposition au dommage corporel et aux matières connexes, 25 points
+### 2. Exposition au dommage corporel, 25 points
+
+| Situation | Points | Effet sur le calendrier de reprise |
+|---|---|---|
+| Titulaire du certificat de spécialisation en droit du dommage corporel | 25 | Aucune contrainte de ce fait |
+| Quatre ans ou plus de pratique effective, sans certificat | 22 | Certificat présentable dès la première année |
+| Dommage corporel en pratique régulière, moins de quatre ans | 17 | Reprise décalée de 1 à 2 ans |
+| Responsabilité civile, assurance, droit de la santé, sécurité sociale, droit du travail lésionnel | 12 | Reprise décalée de 3 à 4 ans |
+| Contentieux civil général sans lien avec la réparation | 6 | Reprise décalée de 4 ans et plus |
+| Aucune matière connexe | 2 | Incompatible avec une reprise à horizon raisonnable |
+
+C'est le poste le plus lourd de la grille, et c'est désormais aussi celui qui pilote le calendrier. La troisième colonne reprend le tableau du point 0.1 du plan : les quatre années de pratique exigées pour le certificat de spécialisation courent à partir de l'entrée dans le cabinet, mais seule la pratique effective de la matière est comptée.
+
+Reportez cette colonne sur chaque fiche. Au moment de l'arbitrage final, vous ne comparerez pas seulement des candidats, vous comparerez des dates de reprise.
+
+### 3. Exposition au contentieux et à la plaidoirie, 13 points
 
 | Situation | Points |
 |---|---|
-| Dommage corporel en pratique dominante, ou certificat de spécialisation | 25 |
-| Dommage corporel en pratique régulière parmi d'autres matières | 19 |
-| Responsabilité civile, droit des assurances, droit de la santé, sécurité sociale, droit du travail lésionnel | 13 |
-| Contentieux civil général sans lien avec la réparation | 6 |
-| Aucune matière connexe, par exemple droit des affaires pur, droit fiscal, droit des sociétés | 2 |
-
-C'est le poste le plus lourd de la grille. Il reflète la réalité du vivier : les spécialistes sont trop rares pour constituer votre cible unique, mais la distance à la matière reste le premier prédicteur du temps de montée en compétence.
-
-### 3. Exposition au contentieux et à la plaidoirie, 15 points
-
-| Situation | Points |
-|---|---|
-| Plaidoirie régulière mentionnée, juridictions nommées, volume indiqué | 15 |
-| Contentieux clairement dominant, sans détail sur la plaidoirie | 11 |
-| Mixte conseil et contentieux | 7 |
+| Plaidoirie régulière mentionnée, juridictions nommées, volume indiqué | 13 |
+| Contentieux clairement dominant, sans détail sur la plaidoirie | 10 |
+| Mixte conseil et contentieux | 6 |
 | Conseil dominant, ou fonction de juriste sans plaidoirie | 3 |
 
-### 4. Adéquation de la structure d'origine, 10 points
+### 4. Signaux d'apport d'affaires, 12 points
 
-| Situation | Points |
-|---|---|
-| Cabinet de 2 à 20 avocats, en région | 10 |
-| Cabinet individuel | 8 |
-| Cabinet de 2 à 20 avocats, Paris | 7 |
-| Juriste chez un assureur, un fonds d'indemnisation, une mutuelle | 6 |
-| Grande structure nationale ou internationale | 4 |
-
-La question posée n'est pas le prestige. Elle est l'écart de culture et de rémunération entre la structure d'origine et la vôtre. Un candidat venant d'une grande structure parisienne peut être excellent, et le sujet se traitera au téléphone.
-
-### 5. Ancrage territorial, 10 points
-
-| Situation | Points |
-|---|---|
-| Exerce actuellement en Auvergne-Rhône-Alpes | 10 |
-| Attaches professionnelles ou de formation dans la région, université, barreau, stage, poste antérieur | 7 |
-| Projet de mobilité vers Grenoble mentionné explicitement | 7 |
-| Aucun élément | 3 |
-
-Ne notez que ce que le candidat a lui-même écrit. Ne déduisez rien d'un nom, d'une adresse ou d'un lieu de naissance.
-
-### 6. Signaux d'apport d'affaires, 10 points
-
-Deux points par signal présent, plafonné à 10.
+Deux points par signal présent, plafonné à 12.
 
 - Publications juridiques, articles, contributions à un ouvrage.
 - Enseignement, intervention en école d'avocats, en université, en formation continue.
@@ -98,14 +82,53 @@ Deux points par signal présent, plafonné à 10.
 - Appartenance à un réseau professionnel ou à une association de la matière, par exemple l'ANADAVI.
 - Responsabilité associative en lien avec les victimes.
 
-### 7. Continuité de parcours, 10 points
+Ce critère est passé de 10 à 12 points. Un associé peut vivre sur la clientèle d'un autre. Un successeur, non.
+
+### 5. Signaux d'encadrement et de direction, 10 points
+
+Nouveau critère. Un successeur reprend une équipe, pas seulement un portefeuille.
 
 | Situation | Points |
 |---|---|
-| Durée moyenne des expériences supérieure à 3 ans | 10 |
-| Entre 2 et 3 ans | 7 |
-| Entre 1 et 2 ans | 4 |
-| Inférieure à 1 an | 2 |
+| A dirigé une structure ou un département, ou a été associé gérant | 10 |
+| A encadré des collaborateurs de manière durable, mentionné explicitement | 8 |
+| A encadré des stagiaires, des élèves-avocats ou du personnel administratif | 5 |
+| A exercé une responsabilité collective hors cabinet, mandat ordinal, présidence associative, direction d'une commission | 5 |
+| Aucun élément | 2 |
+
+Ne cumulez pas les lignes, prenez la plus haute qui s'applique. Un CV d'avocat mentionne rarement l'encadrement : l'absence de signal n'est pas une absence de compétence, c'est un point à explorer au téléphone. D'où la note plancher de 2 plutôt que 0.
+
+### 6. Ancrage territorial, 9 points
+
+| Situation | Points |
+|---|---|
+| Exerce actuellement en Auvergne-Rhône-Alpes | 9 |
+| Attaches professionnelles ou de formation dans la région, université, barreau, stage, poste antérieur | 6 |
+| Projet de mobilité vers Grenoble mentionné explicitement | 6 |
+| Aucun élément | 2 |
+
+Ne notez que ce que le candidat a lui-même écrit. Ne déduisez rien d'un nom, d'une adresse ou d'un lieu de naissance.
+
+### 7. Adéquation de la structure d'origine, 8 points
+
+| Situation | Points |
+|---|---|
+| Cabinet de 2 à 20 avocats, en région | 8 |
+| Cabinet individuel | 7 |
+| Cabinet de 2 à 20 avocats, Paris | 5 |
+| Juriste chez un assureur, un fonds d'indemnisation, une mutuelle | 4 |
+| Grande structure nationale ou internationale | 3 |
+
+La question posée n'est pas le prestige. Elle est l'écart de culture et de rémunération entre la structure d'origine et la vôtre. Un candidat venant d'une grande structure parisienne peut être excellent, et le sujet se traitera au téléphone.
+
+### 8. Continuité de parcours, 8 points
+
+| Situation | Points |
+|---|---|
+| Durée moyenne des expériences supérieure à 3 ans | 8 |
+| Entre 2 et 3 ans | 6 |
+| Entre 1 et 2 ans | 3 |
+| Inférieure à 1 an | 1 |
 
 Une interruption de carrière n'entre pas dans ce calcul et ne se pénalise pas. Congé parental, maladie, année de césure, reconversion, création d'activité. Vous mesurez la durée des expériences, pas la continuité du calendrier. Une mobilité fréquente est une question à poser au téléphone, pas un motif de rejet.
 
@@ -129,13 +152,16 @@ Notateur : ______________________________
 
 Critères éliminatoires          tous validés   oui / non
 
-1. Expérience post-CAPA                      ____ / 20
+1. Expérience post-CAPA                      ____ / 15
 2. Exposition dommage corporel               ____ / 25
-3. Contentieux et plaidoirie                 ____ / 15
-4. Structure d'origine                       ____ / 10
-5. Ancrage territorial                       ____ / 10
-6. Signaux d'apport d'affaires               ____ / 10
-7. Continuité de parcours                    ____ / 10
+3. Contentieux et plaidoirie                 ____ / 13
+4. Signaux d'apport d'affaires               ____ / 12
+5. Encadrement et direction                  ____ / 10
+6. Ancrage territorial                       ____ /  9
+7. Structure d'origine                       ____ /  8
+8. Continuité de parcours                    ____ /  8
+
+Décalage estimé de la reprise (critère 2)    ____ ans
 
 TOTAL                                        ____ / 100
 

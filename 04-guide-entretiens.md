@@ -7,7 +7,7 @@ Nom du candidat : ______________________________________
 
 Document interne. Ne pas remettre au candidat.
 
-Les six compétences évaluées sont issues du référentiel Korn Ferry Leadership Architect. Les définitions reprennent celles du référentiel. Les comportements observables et les questions ont été rédigés pour le contexte du cabinet.
+Les sept compétences évaluées sont issues du référentiel Korn Ferry Leadership Architect. Les définitions reprennent celles du référentiel. Les comportements observables et les questions ont été rédigés pour le contexte du cabinet.
 
 ---
 
@@ -19,8 +19,8 @@ Les six compétences évaluées sont issues du référentiel Korn Ferry Leadersh
 |---|---|---|---|
 | 1, téléphone | Gregory Levy, directeur du développement | 30 min | Pré-qualification et qualification technique consignée |
 | 2, valeurs | Gregory Levy, directeur du développement | 60 min | Expertise, humanité, justice, réparation |
-| 3, compétences métier | Milène Baud, office manager | 60 min | Gérer la complexité, Être orienté client, Être résilient |
-| 4, compétences et association | Hervé Gerbi, avocat fondateur | 90 min | Expertise fonctionnelle, Faire preuve de courage, Créer des réseaux, Faire preuve d'esprit stratégique, protocole |
+| 3, compétences métier | Milène Baud, office manager | 80 min | Gérer la complexité, Être orienté client, Être résilient, Développer les talents |
+| 4, compétences et reprise | Hervé Gerbi, avocat fondateur | 90 min | Expertise fonctionnelle, Faire preuve de courage, Créer des réseaux, Faire preuve d'esprit stratégique, note d'intention |
 
 ## Deux règles de notation
 
@@ -105,18 +105,19 @@ Pour situer un candidat sur une compétence, servez-vous des trois colonnes de c
 | Ce qui est évalué | Étape 1 téléphone | Étape 2 valeurs | Étape 3 métier | Étape 4 association |
 |---|:---:|:---:|:---:|:---:|
 | **Intervieweur** | **G. Levy** | **G. Levy** | **M. Baud** | **H. Gerbi** |
-| **Durée** | 30 min | 60 min | 60 min | 90 min |
+| **Durée** | 30 min | 60 min | 80 min | 90 min |
 | Pré-qualification | X | | | |
 | Qualification technique, réponses consignées | X | | | |
 | Adéquation aux valeurs du cabinet | | X | | |
 | Gérer la complexité | | | X | |
 | Être orienté client | | | X | |
 | Être résilient | | | X | |
+| Développer les talents | | | X | |
 | Expertise fonctionnelle | | | | X |
 | Faire preuve de courage | | | | X |
 | Créer des réseaux | | | | X |
 | Faire preuve d'esprit stratégique | | | | X |
-| Projet d'association | | | | X |
+| Projet de reprise | | | | X |
 
 Les étapes 3 et 4 se tiennent le même jour.
 
@@ -154,6 +155,7 @@ Candidat : ______________________________________
 | 3 | Gérer la complexité | M. Baud | ___ / 4 | G. Levy | ___ / 4 | ___ |
 | 3 | Être orienté client | M. Baud | ___ / 4 | G. Levy | ___ / 4 | ___ |
 | 3 | Être résilient | M. Baud | ___ / 4 | G. Levy | ___ / 4 | ___ |
+| 3 | Développer les talents | M. Baud | ___ / 4 | G. Levy | ___ / 4 | ___ |
 | 4 | Expertise fonctionnelle | H. Gerbi | ___ / 4 | M. Baud | ___ / 4 | ___ |
 | 4 | Faire preuve de courage | H. Gerbi | ___ / 4 | M. Baud | ___ / 4 | ___ |
 | 4 | Créer des réseaux | H. Gerbi | ___ / 4 | M. Baud | ___ / 4 | ___ |
@@ -166,6 +168,8 @@ Note globale : ______ / 4
 ## Règles de décision
 
 Une note de 1 sur Expertise fonctionnelle, sur Être orienté client ou sur Créer des réseaux arrête le processus. Ces trois dimensions ne se rattrapent pas par la formation.
+
+Une note de 1 sur Développer les talents arrête également le processus, mais pour une autre raison. Ce recrutement est une succession : l'équipe restera après le départ du fondateur, ou elle partira avec lui.
 
 Une note de 2 sur Faire preuve de courage est un signal sérieux pour une association. Une personne qui ne vous contredit pas pendant le recrutement ne vous contredira pas une fois associée, et c'est exactement ce dont vous aurez besoin.
 
@@ -377,9 +381,9 @@ Oui   /   Non   /   Pas encore
 
 # ÉTAPE 3, entretien compétences métier
 
-Durée 60 minutes. Conduit par Milène Baud, office manager.
+Durée 80 minutes. Conduit par Milène Baud, office manager.
 
-Trois compétences comportementales. Le bloc Expertise fonctionnelle a été déplacé à l'étape 4, voir la note au point 1 de ce guide.
+Quatre compétences comportementales. La méthode y note l'approche décrite par le candidat, les étapes qu'il a suivies et ce qu'il en a tiré, pas l'exactitude juridique de sa conclusion. Le bloc Expertise fonctionnelle est évalué à l'étape 4.
 
 ---
 
@@ -506,7 +510,48 @@ Avertissement à l'intervieweur. Ces questions touchent à la vie personnelle du
 
 ---
 
-# ÉTAPE 4, entretien compétences et projet d'association
+## 3.4 Développer les talents
+
+**Définition.** Favoriser le développement des collaborateurs afin qu'ils atteignent leurs objectifs de carrière ainsi que les objectifs de l'organisation.
+
+### Comportements attendus
+
+| Doué pour la compétence | Compétence maîtrisée | Compétence moins bien maîtrisée, posez des questions lorsque la personne |
+|---|---|---|
+| Confie des dossiers qui font grandir, pas seulement ceux dont il veut se débarrasser | Explique ce qu'il attend et pourquoi | Garde les dossiers intéressants et délègue le reste |
+| Donne un retour précis et utilisable, y compris quand il est négatif | Relit le travail d'un collaborateur en expliquant ses corrections | Corrige sans expliquer, ou réécrit sans montrer |
+| Connaît le projet professionnel des personnes qu'il encadre, et agit dessus | Rend accessible ce qu'il sait au lieu de le garder | Ne sait pas ce que veut faire dans trois ans la personne qu'il encadre |
+| Laisse quelqu'un plaider ou recevoir un client avant de s'en sentir tout à fait sûr | Reconnaît publiquement le travail des autres | Décrit ses collaborateurs par ce qu'ils ne savent pas faire |
+| A formé quelqu'un qui a ensuite progressé, et sait dire exactement quoi | Prend le temps de la reprise après une audience ou une expertise | Considère la formation comme du temps perdu sur la production |
+
+### Questions
+
+1. Parlez-moi de quelqu'un que vous avez fait progresser. Qu'avez-vous fait précisément ?
+2. Décrivez une fois où vous avez confié un dossier à quelqu'un qui n'était pas encore tout à fait prêt. Comment cela s'est-il passé ?
+3. Racontez-moi un retour difficile que vous avez eu à faire à un collaborateur.
+4. Parlez-moi de quelqu'un que vous avez encadré et qui n'a pas progressé. Qu'avez-vous compris après coup ?
+
+### Questions d'approfondissement
+
+**Actions.** Quelle approche avez-vous adoptée ? Comment avez-vous fait ? Écoutez avec attention la description d'étapes spécifiques.
+
+**Résultat.** Quel a été le résultat ? Quel a été l'impact ?
+
+**Application.** Décrivez un moment où vous avez appliqué ce que vous avez appris à une autre situation.
+
+### Notes prises au cours de l'entretien
+
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+
+Candidat : ______________________  Note (1 à 4) : ______
+
+Indication pour Milène Baud. La question que vous avez réellement à trancher n'est pas « cette personne sait-elle développer ses collaborateurs ». C'est « est-ce que je resterais si cette personne dirigeait le cabinet ». Vous êtes la seule du dispositif à pouvoir y répondre, et votre réponse vaut plus que toutes les autres notes.
+
+---
+
+# ÉTAPE 4, entretien compétences et projet de reprise
 
 Durée 90 minutes. Conduit par Hervé Gerbi, avocat fondateur.
 
@@ -682,30 +727,36 @@ Calibrage. À six ou dix ans d'exercice, vous cherchez l'amorce, pas la maturit�
 
 ---
 
-## 4.5 Projet d'association
+## 4.5 Projet de reprise
 
 Cette séquence n'est pas notée sur une compétence. Elle est le moment où le cabinet et le candidat se disent ce qu'ils attendent. Comptez 20 minutes.
 
 ### Ce que vous remettez
 
-Le protocole d'association écrit. Échéance, critères d'accès, part de capital, méthode de valorisation, financement, points d'étape, clause de sortie.
+La note d'intention d'une page, signée. Objectif de reprise, horizon envisagé du retrait, étapes de la transition, engagement de formaliser le protocole d'association détaillé avant une date précise, avec le candidat retenu.
 
 Laissez-le lire. Le silence pendant qu'il lit est informatif.
 
 ### Questions
 
-1. Qu'est-ce qui vous manque dans ce document pour prendre une décision ?
-2. Qu'est-ce qui vous inquiète ?
-3. Sur quels critères d'accès seriez-vous en désaccord ?
-4. Si vous arriviez ici, à qui iriez-vous parler dans vos trois premiers mois, en dehors du cabinet ? Pourquoi eux ?
-5. Qu'attendez-vous de vos associés, concrètement, dans le fonctionnement quotidien ?
+1. Qu'est-ce qui vous attire dans une reprise plutôt que dans une association ?
+2. Avez-vous déjà dirigé quelque chose ? Quoi, sur quelle durée, avec combien de personnes ?
+3. Comment envisagez-vous de financer une reprise ?
+4. Le cabinet porte le nom de son fondateur. Qu'en feriez-vous ?
+5. Qu'attendez-vous de moi pendant la transition, concrètement ?
 6. Qu'est-ce qui vous ferait partir d'ici au bout de deux ans ?
 
 ### Ce que vous observez
 
-Un candidat qui lit le protocole sans poser une seule question sur la valorisation ou le financement ne s'est pas projeté. Un candidat qui négocie sur un point précis s'est projeté.
+La question 1 sépare deux populations. Ceux qui veulent une bonne pratique dans une bonne structure, et ceux qui veulent diriger. Les deux sont respectables, une seule vous intéresse.
 
-La question 6 est la plus utile de l'entretien. Une réponse vague signale que la personne n'a pas de critère, et donc rien qui la retienne. Une réponse précise vous dit ce que vous aurez à tenir.
+La question 3 n'attend pas un plan de financement. Un candidat qui n'a jamais pensé à l'argent ne s'est pas projeté. Un candidat qui pose des questions précises s'est projeté. À ce stade, c'est tout ce que vous cherchez à savoir.
+
+La question 4 est celle que personne ne prépare. La réponse vous dit s'il compte exister en son nom ou vivre dans une ombre. Les deux réponses sont recevables. L'absence de réponse ne l'est pas.
+
+La question 5 est la plus utile de l'entretien. Elle oblige le candidat à dire ce dont il a besoin de vous. Un candidat qui ne demande rien n'a pas réfléchi à la transition, ou n'ose pas vous le dire. Ni l'un ni l'autre n'est bon signe.
+
+La question 6 vous dit ce que vous aurez à tenir. Une réponse vague signale que la personne n'a pas de critère, et donc rien qui la retienne.
 
 ### Notes
 
@@ -713,7 +764,7 @@ _________________________________________________________________
 _________________________________________________________________
 _________________________________________________________________
 
-Le candidat se projette dans l'association :   oui   /   avec réserves   /   non
+Le candidat se projette dans la reprise :   oui   /   avec réserves   /   non
 
 Réserves exprimées par le candidat, à traiter avant toute proposition :
 _________________________________________________________________

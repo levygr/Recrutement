@@ -223,7 +223,7 @@ body.push(new Paragraph({ spacing: { after: 200 },
   border: { bottom: { style: BorderStyle.SINGLE, size: 18, color: INK } },
   children: [new TextRun({ text: "Guide pour les entretiens", font: SERIF, size: 56, bold: true, color: INK })] }));
 body.push(p("Avocat futur associé, droit du dommage corporel", { font: SERIF, size: 28, color: INK2, after: 300 }));
-body.push(lead("Quatre étapes. Six compétences du référentiel Korn Ferry Leadership Architect. Les définitions reprennent celles du référentiel. Les comportements observables et les questions ont été rédigés pour le contexte du cabinet."));
+body.push(lead("Quatre étapes. Sept compétences du référentiel Korn Ferry Leadership Architect. Les définitions reprennent celles du référentiel. Les comportements observables et les questions ont été rédigés pour le contexte du cabinet."));
 body.push(p("", { after: 600 }));
 body.push(...lines(1).map(() => new Paragraph({ spacing: { before: 300, after: 0 }, border: { bottom: thin(RULE) },
   children: [new TextRun({ text: "Nom du candidat", font: SANS, size: 18, color: INK3 })] })));
@@ -242,8 +242,8 @@ body.push(table([1900, 3100, 900, 3738],
   ["Étape", "Intervieweur", "Durée", "Évalué"],
   [["1 · téléphone", "Gregory Levy, directeur du développement", "30 min", "Pré-qualification et qualification technique consignée"],
    ["2 · valeurs", "Gregory Levy, directeur du développement", "60 min", "Expertise, humanité, justice, réparation"],
-   ["3 · compétences métier", "Milène Baud, office manager", "60 min", "Gérer la complexité, Être orienté client, Être résilient"],
-   ["4 · compétences et association", "Hervé Gerbi, avocat fondateur", "90 min", "Expertise fonctionnelle, Courage, Réseaux, Esprit stratégique, protocole"]],
+   ["3 · compétences métier", "Milène Baud, office manager", "80 min", "Gérer la complexité, Être orienté client, Être résilient, Développer les talents"],
+   ["4 · compétences et reprise", "Hervé Gerbi, avocat fondateur", "90 min", "Expertise fonctionnelle, Courage, Réseaux, Esprit stratégique, note d'intention"]],
   { center: [2], boldCol: [0], zebra: true }));
 body.push(p("", { after: 160 }));
 
@@ -298,18 +298,19 @@ body.push(pageBreak());
 // 2. Matrice
 body.push(h1("2. Compétences par étape"));
 body.push(table([3638, 1500, 1500, 1500, 1500],
-  ["Ce qui est évalué", "E1 téléphone\nG. Levy · 30 min", "E2 valeurs\nG. Levy · 60 min", "E3 métier\nM. Baud · 60 min", "E4 association\nH. Gerbi · 90 min"],
+  ["Ce qui est évalué", "E1 téléphone\nG. Levy · 30 min", "E2 valeurs\nG. Levy · 60 min", "E3 métier\nM. Baud · 80 min", "E4 association\nH. Gerbi · 90 min"],
   [["Pré-qualification", "×", "", "", ""],
    ["Qualification technique, réponses consignées", "×", "", "", ""],
    ["Adéquation aux valeurs du cabinet", "", "×", "", ""],
    ["Gérer la complexité", "", "", "×", ""],
    ["Être orienté client", "", "", "×", ""],
    ["Être résilient", "", "", "×", ""],
+   ["Développer les talents", "", "", "×", ""],
    ["Expertise fonctionnelle", "", "", "", "×"],
    ["Faire preuve de courage", "", "", "", "×"],
    ["Créer des réseaux", "", "", "", "×"],
    ["Faire preuve d'esprit stratégique", "", "", "", "×"],
-   ["Projet d'association", "", "", "", "×"]],
+   ["Projet de reprise", "", "", "", "×"]],
   { center: [1, 2, 3, 4], zebra: true }));
 body.push(p("", { after: 160 }));
 body.push(callout("Pourquoi l'expertise fonctionnelle est évaluée à l'étape 4.", "C'est le seul bloc du guide qui exige de l'intervieweur qu'il maîtrise lui-même la matière. Savoir si un candidat lit correctement un rapport d'expertise médicale, s'il chiffre un poste de préjudice selon la bonne méthode, si son arbitrage entre transaction et contentieux tient, suppose de connaître la réponse. Aucune grille ne compense cette absence. Une note produite par quelqu'un qui ne peut pas juger du fond n'est pas une évaluation prudente, c'est une évaluation fausse habillée en méthode."));
@@ -334,6 +335,7 @@ body.push(table([700, 2900, 1450, 900, 1750, 950, 988],
    ["3", "Gérer la complexité", "M. Baud", "___/4", "G. Levy", "___/4", "___"],
    ["3", "Être orienté client", "M. Baud", "___/4", "G. Levy", "___/4", "___"],
    ["3", "Être résilient", "M. Baud", "___/4", "G. Levy", "___/4", "___"],
+   ["3", "Développer les talents", "M. Baud", "___/4", "G. Levy", "___/4", "___"],
    ["4", "Expertise fonctionnelle", "H. Gerbi", "___/4", "M. Baud", "___/4", "___"],
    ["4", "Faire preuve de courage", "H. Gerbi", "___/4", "M. Baud", "___/4", "___"],
    ["4", "Créer des réseaux", "H. Gerbi", "___/4", "M. Baud", "___/4", "___"],
@@ -345,6 +347,7 @@ body.push(p("Un écart de deux points ou plus entre intervieweur et observateur 
 body.push(h2("Règles de décision"));
 body.push(...bullets([
   "Une note de 1 sur Expertise fonctionnelle, Être orienté client ou Créer des réseaux arrête le processus. Ces trois dimensions ne se rattrapent pas par la formation.",
+  "Une note de 1 sur Développer les talents arrête également le processus, pour une autre raison : ce recrutement est une succession, et l'équipe restera après le départ du fondateur ou partira avec lui.",
   "Une note de 2 sur Faire preuve de courage est un signal sérieux pour une association. Une personne qui ne vous contredit pas pendant le recrutement ne vous contredira pas une fois associée, et c'est exactement ce dont vous aurez besoin.",
   "Une note de 2 sur Gérer la complexité ou Être résilient se discute si le reste est solide, et se traite par un plan d'accompagnement écrit."]));
 body.push(h2("Recommandation de l'intervieweur"));
@@ -427,38 +430,43 @@ body.push(pageBreak());
 
 // ÉTAPE 3
 body.push(h1("Étape 3 · compétences métier"));
-body.push(p("60 minutes · Milène Baud, office manager", { color: ACCENT, bold: true, size: 19 }));
-body.push(lead("Trois compétences comportementales. La méthode y note l'approche décrite par le candidat, les étapes qu'il a suivies et ce qu'il en a tiré, pas l'exactitude juridique de sa conclusion."));
+body.push(p("80 minutes · Milène Baud, office manager", { color: ACCENT, bold: true, size: 19 }));
+body.push(lead("Quatre compétences comportementales. La méthode y note l'approche décrite par le candidat, les étapes qu'il a suivies et ce qu'il en a tiré, pas l'exactitude juridique de sa conclusion."));
 body.push(pageBreak());
 e3.forEach(f => body.push(...fiche(f)));
 
 // ÉTAPE 4
-body.push(h1("Étape 4 · compétences et projet d'association"));
+body.push(h1("Étape 4 · compétences et projet de reprise"));
 body.push(p("90 minutes · Hervé Gerbi, avocat fondateur", { color: ACCENT, bold: true, size: 19 }));
-body.push(lead("L'étape la plus lourde du dispositif. Elle ouvre sur l'expertise fonctionnelle, seul bloc du guide qui exige de l'intervieweur qu'il maîtrise la matière. Le protocole d'association écrit est remis au candidat en fin d'entretien."));
+body.push(lead("L'étape la plus lourde du dispositif. Elle ouvre sur l'expertise fonctionnelle, seul bloc du guide qui exige de l'intervieweur qu'il maîtrise la matière. La note d'intention signée est remise au candidat en fin d'entretien."));
 body.push(pageBreak());
 e4.forEach(f => body.push(...fiche(f)));
 
-// Projet d'association
-body.push(h2("Projet d'association"));
+// Projet de reprise
+body.push(h2("Projet de reprise"));
 body.push(p("Séquence non notée · 20 minutes · Hervé Gerbi", { color: ACCENT, bold: true, size: 19 }));
 body.push(kicker("Ce que vous remettez"));
-body.push(p("Le protocole d'association écrit. Échéance, critères d'accès, part de capital, méthode de valorisation, financement, points d'étape, clause de sortie. Laissez-le lire. Le silence pendant qu'il lit est informatif."));
+body.push(p("La note d'intention d'une page, signée. Objectif de reprise, horizon envisagé du retrait, étapes de la transition, engagement de formaliser le protocole d'association détaillé avant une date précise, avec le candidat retenu. Laissez-le lire. Le silence pendant qu'il lit est informatif."));
 body.push(kicker("Questions"));
 body.push(...numbered([
-  "Qu'est-ce qui vous manque dans ce document pour prendre une décision ?",
-  "Qu'est-ce qui vous inquiète ?",
-  "Sur quels critères d'accès seriez-vous en désaccord ?",
-  "Si vous arriviez ici, à qui iriez-vous parler dans vos trois premiers mois, en dehors du cabinet ? Pourquoi eux ?",
-  "Qu'attendez-vous de vos associés, concrètement, dans le fonctionnement quotidien ?",
+  "Qu'est-ce qui vous attire dans une reprise plutôt que dans une association ?",
+  "Avez-vous déjà dirigé quelque chose ? Quoi, sur quelle durée, avec combien de personnes ?",
+  "Comment envisagez-vous de financer une reprise ?",
+  "Le cabinet porte le nom de son fondateur. Qu'en feriez-vous ?",
+  "Qu'attendez-vous de moi pendant la transition, concrètement ?",
   "Qu'est-ce qui vous ferait partir d'ici au bout de deux ans ?"], "assoc"));
-body.push(p("", { after: 140 }));
-body.push(callout("", "Un candidat qui lit le protocole sans poser une seule question sur la valorisation ou le financement ne s'est pas projeté. Un candidat qui négocie sur un point précis s'est projeté. La question 6 est la plus utile de l'entretien : une réponse vague signale que la personne n'a pas de critère, et donc rien qui la retienne. Une réponse précise vous dit ce que vous aurez à tenir."));
+body.push(kicker("Ce que vous observez"));
+body.push(...bullets([
+  "Question 1. Elle sépare deux populations : ceux qui veulent une bonne pratique dans une bonne structure, et ceux qui veulent diriger. Les deux sont respectables, une seule vous intéresse.",
+  "Question 3. Elle n'attend pas un plan de financement. Un candidat qui n'a jamais pensé à l'argent ne s'est pas projeté. Un candidat qui pose des questions précises s'est projeté.",
+  "Question 4. Celle que personne ne prépare. La réponse dit s'il compte exister en son nom ou vivre dans une ombre. Les deux réponses sont recevables, l'absence de réponse ne l'est pas.",
+  "Question 5. La plus utile de l'entretien. Elle oblige le candidat à dire ce dont il a besoin de vous. Un candidat qui ne demande rien n'a pas réfléchi à la transition, ou n'ose pas vous le dire.",
+  "Question 6. Elle vous dit ce que vous aurez à tenir. Une réponse vague signale que la personne n'a pas de critère, et donc rien qui la retienne."]));
 body.push(p("", { after: 160 }));
 body.push(kicker("Réserves exprimées par le candidat, à traiter avant toute proposition"));
 body.push(...lines(4));
 body.push(p("", { after: 160 }));
-body.push(p("Le candidat se projette dans l'association :          oui          /          avec réserves          /          non", { bold: true }));
+body.push(p("Le candidat se projette dans la reprise :          oui          /          avec réserves          /          non", { bold: true }));
 body.push(pageBreak());
 
 // 5. Références

@@ -40,7 +40,7 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
     fontFace:SANS,fontSize:12,bold:true,color:CLAYL,charSpacing:3});
   s.addText("Recruter un futur associé",{x:M,y:2.0,w:11.2,h:1.5,isTextBox:true,margin:0,valign:"top",
     fontFace:SERIF,fontSize:52,bold:true,color:WHITE});
-  s.addText("Plan de recrutement · Avocat, droit du dommage corporel · Grenoble",
+  s.addText("Plan de recrutement · La succession d'Hervé Gerbi · Grenoble",
     {x:M,y:3.5,w:11.2,h:0.45,isTextBox:true,margin:0,fontFace:SANS,fontSize:17,color:ONDARK});
   s.addShape(P.ShapeType.line,{x:M,y:4.3,w:2.4,h:0,line:{color:CLAYL,width:2}});
   s.addText([{text:"Pour Hervé Gerbi et Milène Baud",options:{breakLine:true,bold:true,color:WHITE}},
@@ -50,19 +50,58 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
 }
 
 // =========================================================== 2. LE POSTE
-{ const s=lightSlide(); titled(s,"Ce que nous cherchons","Le poste");
-  const items=[["Un futur associé","Pas un collaborateur. L'association est l'objet du recrutement, avec une échéance écrite."],
-    ["6 à 12 ans d'exercice","Assez de pratique pour reprendre un portefeuille, assez d'horizon pour s'associer durablement."],
-    ["Dommage corporel, ou matière proche","Responsabilité civile, assurance, santé, sécurité sociale, droit du travail lésionnel. Nous formons."],
-    ["Capable d'apporter","La technique ne suffit pas. Un associé apporte des dossiers ou n'en est pas un."]];
-  let y=1.85;
-  items.forEach((it,i)=>{ card(s,{x:M,y,w:CW,h:1.08});
-    chip(s,M+0.28,y+0.3,0.48,String(i+1));
-    body(s,it[0],{x:M+0.95,y:y+0.17,w:3.5,h:0.35,fontSize:15,bold:true,color:BLUE});
-    body(s,it[1],{x:M+0.95,y:y+0.53,w:CW-1.3,h:0.45,fontSize:12.5,color:MUTED});
-    y+=1.22; });
+{ const s=lightSlide(); titled(s,"Nous ne recrutons pas un associé","Le poste");
+  card(s,{x:M,y:1.78,w:CW,h:1.15,fill:INK});
+  s.addText("Nous recrutons la personne qui remplacera Hervé Gerbi et reprendra le cabinet.",
+    {x:M+0.45,y:1.98,w:CW-0.9,h:0.86,isTextBox:true,margin:0,valign:"top",
+     fontFace:SERIF,fontSize:23,bold:true,color:WHITE,lineSpacing:29});
+  const items=[["Une succession, pas une association","Statut salarié à l'entrée, puis association, puis reprise. C'est l'objet du recrutement, pas une option."],
+    ["6 à 15 ans d'exercice","Un avocat de quarante ans qui veut enfin diriger sa structure est un candidat parfaitement cohérent."],
+    ["Dommage corporel, ou matière proche","La pratique de la matière ne change pas seulement le niveau. Elle change la date de reprise possible."],
+    ["Capable d'apporter et de diriger","Un successeur reprend une clientèle et une équipe, pas seulement un portefeuille de dossiers."]];
+  let y=3.1;
+  items.forEach((it,i)=>{ card(s,{x:M,y,w:CW,h:0.86});
+    chip(s,M+0.28,y+0.19,0.48,String(i+1));
+    body(s,it[0],{x:M+0.95,y:y+0.1,w:4.2,h:0.32,fontSize:14.5,bold:true,color:BLUE});
+    body(s,it[1],{x:M+5.3,y:y+0.1,w:CW-5.6,h:0.66,fontSize:12,color:MUTED,lineSpacing:16});
+    y+=0.98; });
   foot(s,"Détail : document 02, offre d'emploi.");
-  s.addNotes("Le point à retenir : nous ne recrutons pas un collaborateur de plus. Tout le dispositif découle de là.");
+  s.addNotes("Tout le dispositif découle de là. C'est aussi notre meilleur argument sur le marché : « devenez associé » est une promesse banale, « reprenez un cabinet » ne l'est pas.");
+}
+
+// =========================================================== 2bis. CERTIFICAT DE SPÉCIALISATION
+{ const s=lightSlide(); titled(s,"Le certificat fixe la date de reprise","Une contrainte de calendrier");
+  body(s,"Le positionnement du cabinet repose en partie sur les certificats de spécialisation d'Hervé Gerbi. Le jour où il cesse d'exercer, le cabinet perd le droit d'utiliser ce titre si personne d'autre ne le détient.",
+    {x:M,y:1.8,w:CW,h:0.62,fontSize:14.5,color:MUTED,lineSpacing:21});
+  const cw=(CW-0.4)/2;
+  card(s,{x:M,y:2.55,w:cw,h:1.7});
+  s.addText("Ce qu'il faut pour l'obtenir",{x:M+0.3,y:2.72,w:cw-0.6,h:0.3,isTextBox:true,margin:0,
+    fontFace:SANS,fontSize:13.5,bold:true,color:BLUE});
+  s.addText([{text:"Quatre années de pratique professionnelle dans le domaine de spécialisation.",options:{breakLine:true}},
+    {text:"Puis un entretien de validation devant un jury, quarante minutes, en séance publique, avec mise en situation.",options:{}}],
+    {x:M+0.3,y:3.08,w:cw-0.6,h:1.05,isTextBox:true,margin:0,valign:"top",fontFace:SANS,fontSize:12.5,color:MUTED,lineSpacing:18});
+  card(s,{x:M+cw+0.4,y:2.55,w:cw,h:1.7,fill:"EAF1E9"});
+  s.addText("La bonne nouvelle",{x:M+cw+0.7,y:2.72,w:cw-0.6,h:0.3,isTextBox:true,margin:0,
+    fontFace:SANS,fontSize:13.5,bold:true,color:"2C5F2D"});
+  s.addText("Les années passées chez nous comme avocat salarié comptent dans les quatre ans. Le compteur tourne dès la prise de poste. Le salariat ne retarde rien.",
+    {x:M+cw+0.7,y:3.08,w:cw-0.6,h:1.05,isTextBox:true,margin:0,valign:"top",fontFace:SANS,fontSize:12.5,color:INK,lineSpacing:18});
+  body(s,"Ce que cela donne selon le profil recruté",{x:M,y:4.42,w:CW,h:0.28,fontSize:13,bold:true,color:BLUE});
+  const rows=[["Déjà titulaire du certificat","Immédiat","Sans contrainte",S1],
+    ["4 ans ou plus de dommage corporel","Dès la 1re année","24 à 36 mois",S1],
+    ["2 ans de dommage corporel","Après 2 ans chez nous","36 à 48 mois",S2],
+    ["Aucune pratique de la matière","Après 4 ans chez nous","60 mois et plus",CLAY]];
+  let yy=4.74;
+  s.addText("PROFIL À L'ENTRÉE",{x:M+0.2,y:yy,w:4.2,h:0.24,isTextBox:true,margin:0,fontFace:SANS,fontSize:9.5,bold:true,color:MUTED,charSpacing:1.2});
+  s.addText("CERTIFICAT PRÉSENTABLE",{x:M+4.7,y:yy,w:3.2,h:0.24,isTextBox:true,margin:0,fontFace:SANS,fontSize:9.5,bold:true,color:MUTED,charSpacing:1.2});
+  s.addText("REPRISE ENVISAGEABLE",{x:M+8.2,y:yy,w:3.5,h:0.24,isTextBox:true,margin:0,fontFace:SANS,fontSize:9.5,bold:true,color:MUTED,charSpacing:1.2});
+  yy+=0.28;
+  rows.forEach(r=>{ card(s,{x:M,y:yy,w:CW,h:0.40,fill:r[3]===CLAY?"FBF1EC":TINT});
+    s.addText(r[0],{x:M+0.2,y:yy,w:4.4,h:0.40,isTextBox:true,margin:0,valign:"middle",fontFace:SANS,fontSize:12,color:INK});
+    s.addText(r[1],{x:M+4.7,y:yy,w:3.4,h:0.40,isTextBox:true,margin:0,valign:"middle",fontFace:SANS,fontSize:12,color:MUTED});
+    s.addText(r[2],{x:M+8.2,y:yy,w:3.6,h:0.40,isTextBox:true,margin:0,valign:"middle",fontFace:SANS,fontSize:12,bold:true,color:r[3]===CLAY?CLAY:BLUE});
+    yy+=0.46; });
+  foot(s,"Décret du 27 novembre 1991 et arrêté du 15 décembre 2023. Détail : document 01, point 0.1.");
+  s.addNotes("Hervé, c'est ce tableau qui doit guider votre arbitrage. Si vous avez un horizon de retrait en tête, il dit quel profil est compatible avec cet horizon. Un candidat sans pratique de la matière décale la reprise de deux à trois ans.");
 }
 
 // =========================================================== 3. POURQUOI C'EST DIFFICILE
@@ -109,9 +148,9 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
       fontFace:SANS,fontSize:11.5,color:MUTED,lineSpacing:16});
     x+=w; });
   card(s,{x:M,y:5.42,w:CW,h:1.2,fill:"FBF1EC"});
-  s.addText("Conséquence sur le statut",{x:M+0.35,y:5.58,w:5,h:0.3,isTextBox:true,margin:0,
+  s.addText("Ce qui compense le statut salarié",{x:M+0.35,y:5.58,w:6,h:0.3,isTextBox:true,margin:0,
     fontFace:SANS,fontSize:13,bold:true,color:CLAY});
-  s.addText("Le salariat représente 2,5 % de la profession. En le posant comme seul statut possible, nous écartons les habitudes de 97,5 % du marché. Ouvrir la collaboration libérale ne coûte rien et élargit le vivier.",
+  s.addText("Le salariat représente 2,5 % de la profession : nous demandons au candidat d'accepter un statut minoritaire. La perspective de reprise est ce qui le compense, à condition d'être dite clairement dès l'annonce.",
     {x:M+0.35,y:5.9,w:CW-0.7,h:0.6,isTextBox:true,margin:0,valign:"top",fontFace:SANS,fontSize:13,color:INK,lineSpacing:18});
   foot(s,"Détail : document 05, plan de diffusion.");
   s.addNotes("Répartition de l'effort, pas du budget. L'approche directe coûte du temps, pas d'argent.");
@@ -152,8 +191,8 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
 
 // =========================================================== 7. DECISIONS
 { const s=lightSlide(); titled(s,"Trois décisions bloquent le lancement","Arbitrages");
-  const dec=[["Le protocole d'association","Écrit, avant la publication de l'annonce. C'est le cœur de l'offre et c'est aujourd'hui le point le plus flou.","Hervé Gerbi"],
-    ["Le statut proposé","Salariat seul, ou salariat et collaboration libérale au choix du candidat.","Hervé Gerbi"],
+  const dec=[["L'horizon de retrait","À quelle échéance Hervé Gerbi souhaite-t-il se retirer ? Pas une date publique, une date de travail. Sans elle, impossible de calibrer le profil.","Hervé Gerbi"],
+    ["La note d'intention","Une page signée, remise au candidat à l'étape 4. Le protocole détaillé viendra après, avec la personne retenue.","Hervé Gerbi"],
     ["La fourchette de rémunération","À afficher dans l'annonce. Sur un marché de candidats passifs, son absence est une friction gratuite.","Hervé Gerbi"]];
   let y=1.9;
   dec.forEach((d,i)=>{ card(s,{x:M,y,w:CW,h:1.25,fill:"FBF1EC"});
@@ -163,33 +202,34 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
     s.addText(d[2],{x:M+CW-2.0,y:y+0.22,w:1.75,h:0.3,isTextBox:true,margin:0,align:"right",
       fontFace:SANS,fontSize:11,bold:true,color:CLAY});
     y+=1.4; });
-  body(s,"Cinq autres décisions suivent : périmètre Grenoble ou Grenoble et Annecy, place du droit du travail, ordre des entretiens, prise de poste, vidéo de marque employeur.",
+  body(s,"Quatre autres décisions suivent : périmètre Grenoble ou Grenoble et Annecy, place du droit du travail, avenir de l'enseigne après le retrait du fondateur, prise de poste. Le statut salarié et le report du protocole sont tranchés.",
     {x:M,y:6.25,w:CW,h:0.55,fontSize:12,color:MUTED,lineSpacing:17});
   foot(s,"Détail : document 01, point 2.");
-  s.addNotes("Les trois sont pour Hervé. Le protocole est le plus long à écrire, c'est celui à commencer aujourd'hui.");
+  s.addNotes("Les trois sont pour Hervé. L'horizon de retrait est le plus structurant : tout le reste en découle, y compris le profil que nous cherchons.");
 }
 
 // =========================================================== 8. PROTOCOLE
-{ const s=lightSlide(); titled(s,"Le protocole d'association : cinq réponses","Décision 1");
-  body(s,"Un avocat de six à dix ans a déjà vu une promesse d'association s'évaporer, chez lui ou chez un confrère. Il jugera notre sérieux sur notre capacité à répondre précisément à ces cinq questions.",
-    {x:M,y:1.8,w:CW,h:0.65,fontSize:14.5,color:MUTED,lineSpacing:21});
-  const q=[["À quelle échéance ?","Une date, pas une intention. 24 à 36 mois est crédible et vérifiable."],
-    ["Sur quels critères ?","Trois à cinq critères observables, connus dès l'entrée."],
-    ["À quel prix ?","Valorisation des parts, montant indicatif, financement, échelonnement."],
-    ["Quelle part de capital ?","Et avec quels droits de vote."],
-    ["Et si cela n'aboutit pas ?","Clause de rendez-vous, préavis, conditions de sortie."]];
+{ const s=lightSlide(); titled(s,"La note d'intention, une page","Décision 2");
+  body(s,"Le protocole d'association sera rédigé plus tard, avec la personne retenue. Cet arbitrage laisse un trou à l'étape 4 : sans document, nous parlons de reprise sans rien montrer. C'est exactement la situation qui fait fuir les bons candidats.",
+    {x:M,y:1.8,w:CW,h:0.68,fontSize:14.5,color:MUTED,lineSpacing:21});
+  const q=[["L'objectif","Le recrutement vise la reprise du cabinet, pas une collaboration."],
+    ["L'horizon","L'échéance envisagée pour le retrait progressif d'Hervé Gerbi."],
+    ["Les étapes","Salariat, association, reprise, avec les conditions de passage de chacune."],
+    ["L'engagement","Formaliser le protocole détaillé avant une date précise, avec la personne retenue."]];
   const cw=(CW-0.3)/2;
-  q.forEach((it,i)=>{ const x=M+(i%2)*(cw+0.3), y=2.6+Math.floor(i/2)*1.18;
-    card(s,{x,y,w:cw,h:1.02});
-    chip(s,x+0.22,y+0.28,0.46,String(i+1));
-    s.addText(it[0],{x:x+0.85,y:y+0.14,w:cw-1.1,h:0.32,isTextBox:true,margin:0,fontFace:SANS,fontSize:14,bold:true,color:BLUE});
-    s.addText(it[1],{x:x+0.85,y:y+0.48,w:cw-1.1,h:0.45,isTextBox:true,margin:0,fontFace:SANS,fontSize:11.5,color:MUTED,lineSpacing:16});
+  q.forEach((it,i)=>{ const x=M+(i%2)*(cw+0.3), y=2.62+Math.floor(i/2)*1.2;
+    card(s,{x,y,w:cw,h:1.05});
+    chip(s,x+0.22,y+0.29,0.46,String(i+1));
+    s.addText(it[0],{x:x+0.85,y:y+0.16,w:cw-1.1,h:0.32,isTextBox:true,margin:0,fontFace:SANS,fontSize:14,bold:true,color:BLUE});
+    s.addText(it[1],{x:x+0.85,y:y+0.5,w:cw-1.1,h:0.48,isTextBox:true,margin:0,valign:"top",fontFace:SANS,fontSize:11.5,color:MUTED,lineSpacing:16});
   });
-  card(s,{x:M+cw+0.3,y:2.6+2*1.18,w:cw,h:1.02,fill:INK});
-  s.addText("Tant que ces réponses n'existent pas par écrit, nous ne vendons pas une association. Nous vendons un poste avec une carotte, et le marché le sentira.",
-    {x:M+cw+0.55,y:2.78+2*1.18,w:cw-0.5,h:0.7,isTextBox:true,margin:0,fontFace:SANS,fontSize:12,color:ONDARK,lineSpacing:16});
-  foot(s,"Le protocole est remis au candidat à l'étape 4, protocole en main.");
-  s.addNotes("Le document est court, deux pages suffisent. Ce qui compte est qu'il existe avant la première annonce.");
+  card(s,{x:M,y:5.15,w:CW,h:1.35,fill:INK});
+  s.addText("Le quatrième point est le plus important.",{x:M+0.45,y:5.35,w:CW-0.9,h:0.32,isTextBox:true,margin:0,
+    fontFace:SANS,fontSize:14,bold:true,color:CLAYL});
+  s.addText("Un candidat sérieux n'exige pas un prix au premier jour. Il exige de savoir que la question sera traitée, par qui, et quand. Une note datée répond à cela. Une promesse orale n'y répond pas.",
+    {x:M+0.45,y:5.72,w:CW-0.9,h:0.62,isTextBox:true,margin:0,valign:"top",fontFace:SANS,fontSize:13.5,color:ONDARK,lineSpacing:19});
+  foot(s,"Une heure de rédaction. Nécessaire avant le premier entretien d'étape 4, pas avant la diffusion.");
+  s.addNotes("Hervé, une page suffit. Elle n'engage aucun chiffre, elle engage une démarche et une date.");
 }
 
 // =========================================================== 9. SECTION
@@ -207,8 +247,8 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
   body(s,"Tri des CV sur 100 points, seuil à 70. Puis :",{x:M,y:1.78,w:CW,h:0.3,fontSize:13,color:MUTED});
   const st=[["1","Téléphone","Gregory Levy","30 min","Pré-qualification. Trois questions techniques consignées mot à mot, relues par Hervé Gerbi."],
     ["2","Valeurs","Gregory Levy","60 min","Expertise, humanité, justice, réparation. Cinq mises en situation où deux valeurs s'opposent."],
-    ["3","Compétences métier","Milène Baud","60 min","Gérer la complexité. Être orienté client. Être résilient."],
-    ["4","Compétences et association","Hervé Gerbi","90 min","Expertise fonctionnelle. Courage. Réseaux. Esprit stratégique. Remise du protocole."]];
+    ["3","Compétences métier","Milène Baud","80 min","Gérer la complexité. Être orienté client. Être résilient. Développer les talents."],
+    ["4","Compétences et reprise","Hervé Gerbi","90 min","Expertise fonctionnelle. Courage. Réseaux. Esprit stratégique. Remise de la note d'intention."]];
   const cw=(CW-3*0.25)/4;
   st.forEach((e,i)=>{ const x=M+i*(cw+0.25);
     card(s,{x,y:2.2,w:cw,h:3.5,fill:i===3?INK:TINT});
@@ -230,29 +270,41 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
 }
 
 // =========================================================== 11. LES 6 COMPETENCES
-{ const s=lightSlide(); titled(s,"Six compétences, et ce que chacune protège","Référentiel Korn Ferry Leadership Architect");
-  const c=[["Gérer la complexité","3","Le cœur technique du dossier corporel : pièces médicales, expertises contradictoires, chiffrage",false],
-    ["Être orienté client","3","La relation avec la victime et ses proches, qui est notre positionnement même",true],
-    ["Être résilient","3","La durée des dossiers et la charge émotionnelle, première cause de décrochage dans la matière",false],
-    ["Faire preuve de courage","4","La capacité à contredire un client, un expert, et son futur associé",false],
-    ["Créer des réseaux","4","L'apport d'affaires, condition économique réelle de l'association",true],
-    ["Faire preuve d'esprit stratégique","4","La projection dans le cabinet, pas seulement dans son propre portefeuille",false]];
-  const cw=(CW-2*0.28)/3;
-  c.forEach((it,i)=>{ const x=M+(i%3)*(cw+0.28), y=1.95+Math.floor(i/3)*2.1;
-    card(s,{x,y,w:cw,h:1.9});
-    s.addText("ÉTAPE "+it[1],{x:x+0.25,y:y+0.2,w:cw-0.5,h:0.24,isTextBox:true,margin:0,
-      fontFace:SANS,fontSize:9.5,bold:true,color:BLUE,charSpacing:1.5});
-    s.addText(it[0],{x:x+0.25,y:y+0.46,w:cw-0.5,h:0.62,isTextBox:true,margin:0,valign:"top",
-      fontFace:SERIF,fontSize:17,bold:true,color:INK});
-    s.addText(it[2],{x:x+0.25,y:y+1.1,w:cw-0.5,h:0.68,isTextBox:true,margin:0,valign:"top",
-      fontFace:SANS,fontSize:11.5,color:MUTED,lineSpacing:15});
-    if(it[3]) s.addShape(P.ShapeType.ellipse,{x:x+cw-0.45,y:y+0.2,w:0.2,h:0.2,fill:{color:CLAY},line:{type:"none"}});
+{ const s=lightSlide(); titled(s,"Sept compétences, et ce que chacune protège","Référentiel Korn Ferry Leadership Architect");
+  const e3=[["Gérer la complexité","Le cœur technique du dossier corporel : pièces médicales, expertises contradictoires, chiffrage",false],
+    ["Être orienté client","La relation avec la victime et ses proches, qui est notre positionnement même",true],
+    ["Être résilient","La durée des dossiers et la charge émotionnelle, première cause de décrochage",false],
+    ["Développer les talents","L'équipe, au moment où le fondateur se retire",true]];
+  const e4=[["Faire preuve de courage","La capacité à contredire un client, un expert, et son futur associé",false],
+    ["Créer des réseaux","L'apport d'affaires, condition économique réelle de la reprise",true],
+    ["Faire preuve d'esprit stratégique","La direction du cabinet, pas seulement son propre portefeuille",false]];
+  s.addText("ÉTAPE 3 · MILÈNE BAUD",{x:M,y:1.82,w:5,h:0.24,isTextBox:true,margin:0,
+    fontFace:SANS,fontSize:9.5,bold:true,color:BLUE,charSpacing:1.5});
+  const w4=(CW-3*0.24)/4;
+  e3.forEach((it,i)=>{ const x=M+i*(w4+0.24), y=2.12;
+    card(s,{x,y,w:w4,h:1.85});
+    s.addText(it[0],{x:x+0.22,y:y+0.18,w:w4-0.44,h:0.72,isTextBox:true,margin:0,valign:"top",
+      fontFace:SERIF,fontSize:16,bold:true,color:INK});
+    s.addText(it[1],{x:x+0.22,y:y+0.95,w:w4-0.44,h:0.78,isTextBox:true,margin:0,valign:"top",
+      fontFace:SANS,fontSize:11,color:MUTED,lineSpacing:14});
+    if(it[2]) s.addShape(P.ShapeType.ellipse,{x:x+w4-0.4,y:y+0.2,w:0.18,h:0.18,fill:{color:CLAY},line:{type:"none"}});
   });
-  s.addShape(P.ShapeType.ellipse,{x:M,y:6.24,w:0.16,h:0.16,fill:{color:CLAY},line:{type:"none"}});
-  s.addText("Une note de 1 sur ces compétences, ou sur le bloc Expertise fonctionnelle, arrête le processus. Elles ne se rattrapent pas par la formation.",
-    {x:M+0.3,y:6.15,w:CW-0.3,h:0.4,isTextBox:true,margin:0,fontFace:SANS,fontSize:12.5,bold:true,color:INK});
-  foot(s,"Six compétences retenues sur les trente-huit du référentiel.");
-  s.addNotes("Chaque compétence a quatre questions et trois colonnes de comportements observables. Vous ne notez pas à l'intuition, vous cochez ce que vous avez entendu.");
+  s.addText("ÉTAPE 4 · HERVÉ GERBI",{x:M,y:4.18,w:5,h:0.24,isTextBox:true,margin:0,
+    fontFace:SANS,fontSize:9.5,bold:true,color:BLUE,charSpacing:1.5});
+  const w3=(CW-2*0.28)/3;
+  e4.forEach((it,i)=>{ const x=M+i*(w3+0.28), y=4.48;
+    card(s,{x,y,w:w3,h:1.55});
+    s.addText(it[0],{x:x+0.25,y:y+0.18,w:w3-0.5,h:0.62,isTextBox:true,margin:0,valign:"top",
+      fontFace:SERIF,fontSize:16.5,bold:true,color:INK});
+    s.addText(it[1],{x:x+0.25,y:y+0.82,w:w3-0.5,h:0.62,isTextBox:true,margin:0,valign:"top",
+      fontFace:SANS,fontSize:11,color:MUTED,lineSpacing:14});
+    if(it[2]) s.addShape(P.ShapeType.ellipse,{x:x+w3-0.45,y:y+0.2,w:0.18,h:0.18,fill:{color:CLAY},line:{type:"none"}});
+  });
+  s.addShape(P.ShapeType.ellipse,{x:M,y:6.26,w:0.16,h:0.16,fill:{color:CLAY},line:{type:"none"}});
+  s.addText("Une note de 1 sur ces compétences, ou sur le bloc Expertise fonctionnelle, arrête le processus.",
+    {x:M+0.3,y:6.18,w:CW-0.3,h:0.3,isTextBox:true,margin:0,fontFace:SANS,fontSize:12.5,bold:true,color:INK});
+  foot(s,"Sept compétences retenues sur les trente-huit du référentiel. Développer les talents a été ajoutée après l'arbitrage sur la succession.");
+  s.addNotes("La septième a été ajoutée parce qu'une succession n'est pas une association. Le risque propre à une succession n'est pas que le successeur soit mauvais juriste. C'est que l'équipe parte dans les dix-huit mois qui suivent le départ du fondateur.");
 }
 
 // =========================================================== 12. EXPERTISE A L'ETAPE 4
@@ -281,42 +333,44 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
 
 // =========================================================== 13. HERVE
 { const s=lightSlide(); titled(s,"Hervé, ce que le plan attend de vous","Rôles");
-  const t=[["Avant le lancement","Écrire le protocole d'association, cinq réponses. Trancher le statut et la fourchette de rémunération.","2 à 3 heures"],
+  const t=[["Avant le lancement","Fixer votre horizon de retrait, au moins comme date de travail. Trancher la fourchette de rémunération.","1 heure"],
+    ["Avant l'étape 4","Écrire la note d'intention, une page signée : objectif, horizon, étapes, engagement de formaliser le protocole.","1 heure"],
     ["Semaine 1","Dresser la liste des avocats que vous avez affrontés et que vous jugez bons. Signer les courriers aux bâtonniers.","1 heure + signatures"],
     ["À chaque candidat","Relire les trois réponses techniques consignées à l'étape 1 et rendre un avis.","10 minutes"],
     ["Semaine 4","Une heure de calibration avec Gregory et Milène sur la grille de notation.","1 heure"],
     ["Étape 4","Conduire l'entretien de 90 minutes. Contredire délibérément le candidat une fois, sur un point où il a raison, et regarder ce qu'il fait.","90 min par finaliste"]];
-  let y=1.9;
-  t.forEach(it=>{ card(s,{x:M,y,w:CW,h:0.86});
-    s.addText(it[0],{x:M+0.3,y:y+0.14,w:2.6,h:0.3,isTextBox:true,margin:0,fontFace:SANS,fontSize:13,bold:true,color:BLUE});
-    s.addText(it[1],{x:M+3.1,y:y+0.14,w:CW-5.1,h:0.6,isTextBox:true,margin:0,valign:"top",
-      fontFace:SANS,fontSize:12,color:INK,lineSpacing:16});
-    s.addText(it[2],{x:M+CW-1.95,y:y+0.14,w:1.7,h:0.3,isTextBox:true,margin:0,align:"right",
-      fontFace:SANS,fontSize:11,bold:true,color:CLAY});
-    y+=0.98; });
-  foot(s,"Vous ne rencontrez le candidat qu'une fois, avant de décider de vous associer pour vingt ans. Les notes des trois étapes précédentes vous parviennent avant, par écrit.");
-  s.addNotes("Total de votre temps hors entretiens : environ cinq heures sur dix semaines.");
+  let y=1.88;
+  t.forEach(it=>{ card(s,{x:M,y,w:CW,h:0.74});
+    s.addText(it[0],{x:M+0.3,y:y+0.1,w:2.6,h:0.3,isTextBox:true,margin:0,fontFace:SANS,fontSize:12.5,bold:true,color:BLUE});
+    s.addText(it[1],{x:M+3.1,y:y+0.1,w:CW-5.1,h:0.56,isTextBox:true,margin:0,valign:"top",
+      fontFace:SANS,fontSize:11.5,color:INK,lineSpacing:15});
+    s.addText(it[2],{x:M+CW-1.95,y:y+0.1,w:1.7,h:0.3,isTextBox:true,margin:0,align:"right",
+      fontFace:SANS,fontSize:10.5,bold:true,color:CLAY});
+    y+=0.85; });
+  foot(s,"Vous ne rencontrez le candidat qu'une fois, avant de décider de lui confier le cabinet. Les notes des trois étapes précédentes vous parviennent avant, par écrit.");
+  s.addNotes("Total de votre temps hors entretiens : environ six heures sur dix semaines. L'horizon de retrait est la décision la plus structurante : tout le reste en découle, y compris le profil compatible.");
 }
 
 // =========================================================== 14. MILENE
 { const s=lightSlide(); titled(s,"Milène, ce que le plan attend de vous","Rôles");
   const t=[["Semaine 4","Une heure de calibration avec Gregory et Hervé sur la grille de notation.","1 heure"],
-    ["Étape 3","Conduire l'entretien de 60 minutes sur trois compétences : gérer la complexité, être orienté client, être résilient.","60 min par candidat"],
+    ["Étape 3","Conduire l'entretien de 80 minutes sur quatre compétences : gérer la complexité, être orienté client, être résilient, développer les talents.","80 min par candidat"],
     ["Étape 4, finalistes","Assister en observatrice silencieuse à l'entretien d'Hervé. Ne poser aucune question. Noter seule.","90 min par finaliste"],
-    ["Réunion de décision","Donner votre note et votre recommandation avant toute discussion.","1 heure"]];
-  let y=1.95;
-  t.forEach(it=>{ card(s,{x:M,y,w:CW,h:0.95});
-    s.addText(it[0],{x:M+0.3,y:y+0.18,w:2.6,h:0.3,isTextBox:true,margin:0,fontFace:SANS,fontSize:13,bold:true,color:BLUE});
-    s.addText(it[1],{x:M+3.1,y:y+0.18,w:CW-5.1,h:0.62,isTextBox:true,margin:0,valign:"top",
-      fontFace:SANS,fontSize:12,color:INK,lineSpacing:16});
-    s.addText(it[2],{x:M+CW-1.95,y:y+0.18,w:1.7,h:0.3,isTextBox:true,margin:0,align:"right",
-      fontFace:SANS,fontSize:11,bold:true,color:CLAY});
-    y+=1.07; });
-  card(s,{x:M,y:6.05,w:CW,h:0.75,fill:INK});
-  s.addText("Vous n'avez pas à juger le droit. Vous notez ce que le candidat a fait, comment il s'y est pris, et ce qu'il en a tiré. Le guide vous donne les questions et les comportements à observer.",
-    {x:M+0.4,y:6.22,w:CW-0.8,h:0.45,isTextBox:true,margin:0,valign:"middle",fontFace:SANS,fontSize:13,color:ONDARK});
+    ["Réunion de décision","Donner votre note et votre recommandation avant toute discussion.","1 heure"],
+    ["Plus tard","Rédiger le protocole d'association détaillé avec Hervé Gerbi.","À planifier"]];
+  let y=1.85;
+  t.forEach(it=>{ card(s,{x:M,y,w:CW,h:0.74});
+    s.addText(it[0],{x:M+0.3,y:y+0.1,w:2.6,h:0.3,isTextBox:true,margin:0,fontFace:SANS,fontSize:12.5,bold:true,color:BLUE});
+    s.addText(it[1],{x:M+3.1,y:y+0.1,w:CW-5.1,h:0.56,isTextBox:true,margin:0,valign:"top",
+      fontFace:SANS,fontSize:11.5,color:INK,lineSpacing:15});
+    s.addText(it[2],{x:M+CW-1.95,y:y+0.1,w:1.7,h:0.3,isTextBox:true,margin:0,align:"right",
+      fontFace:SANS,fontSize:10.5,bold:true,color:CLAY});
+    y+=0.82; });
+  card(s,{x:M,y:6.0,w:CW,h:0.9,fill:INK});
+  s.addText("Sur Développer les talents, la question que vous avez réellement à trancher n'est pas « cette personne sait-elle faire grandir ses collaborateurs ». C'est « est-ce que je resterais si cette personne dirigeait le cabinet ». Vous êtes la seule à pouvoir y répondre, et votre réponse vaut plus que toutes les autres notes.",
+    {x:M+0.4,y:6.14,w:CW-0.8,h:0.66,isTextBox:true,margin:0,valign:"top",fontFace:SANS,fontSize:12.5,color:ONDARK,lineSpacing:17});
   foot(s,"Le guide d'entretien vous est remis imprimé avant le premier candidat.");
-  s.addNotes("Milène, sur Être orienté client, vous êtes la mieux placée du cabinet. Vous voyez tous les jours comment les clients sont traités.");
+  s.addNotes("Milène, vous n'avez pas à juger le droit. Vous notez ce que le candidat a fait, comment il s'y est pris, et ce qu'il en a tiré. Sur Être orienté client et sur Développer les talents, vous êtes la mieux placée du cabinet.");
 }
 
 // =========================================================== 15. REGLES DE NOTATION
@@ -402,9 +456,9 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
 { const s=darkSlide();
   s.addText("CE QUE NOUS DÉCIDONS AUJOURD'HUI",{x:M,y:1.3,w:CW,h:0.32,isTextBox:true,margin:0,
     fontFace:SANS,fontSize:12,bold:true,color:CLAYL,charSpacing:3});
-  const d=[["Le statut proposé","Salariat seul, ou salariat et collaboration libérale au choix du candidat"],
+  const d=[["L'horizon de retrait d'Hervé Gerbi","Une date de travail, pas une date publique. Elle détermine le profil que nous cherchons"],
     ["La fourchette de rémunération","Le montant que nous affichons dans l'annonce"],
-    ["Qui écrit le protocole d'association, et pour quelle date","Cinq réponses, deux pages, avant toute diffusion"]];
+    ["La date de la note d'intention","Une page signée, nécessaire avant le premier entretien d'étape 4"]];
   let y=1.9;
   d.forEach((it,i)=>{
     s.addShape(P.ShapeType.roundRect,{x:M,y,w:CW,h:1.15,rectRadius:0.06,
@@ -413,9 +467,9 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
     s.addText(it[0],{x:M+1.1,y:y+0.22,w:CW-1.5,h:0.36,isTextBox:true,margin:0,fontFace:SERIF,fontSize:20,bold:true,color:WHITE});
     s.addText(it[1],{x:M+1.1,y:y+0.63,w:CW-1.5,h:0.35,isTextBox:true,margin:0,fontFace:SANS,fontSize:13,color:ONDARK});
     y+=1.3; });
-  s.addText("Tout le reste est écrit et prêt. Le dossier complet compte huit documents : plan, annonce, grille de tri des CV, guide d'entretien, plan de diffusion, concept vidéo, sources.",
+  s.addText("Tout le reste est écrit et prêt. Le dossier complet compte huit documents : plan, annonce, grille de tri des CV, guide d'entretien, plan de diffusion, concept vidéo, sources. Le protocole d'association détaillé sera rédigé plus tard par Hervé et Milène, avec la personne retenue.",
     {x:M,y:6.0,w:CW,h:0.7,isTextBox:true,margin:0,fontFace:SANS,fontSize:13,color:"9AA7B4",lineSpacing:19});
-  s.addNotes("Sans ces trois décisions, rien ne part. Avec elles, la diffusion commence la semaine prochaine.");
+  s.addNotes("Sans l'horizon de retrait et la fourchette, rien ne part. La note d'intention peut suivre de quelques semaines, mais pas plus.");
 }
 
 P.writeFile({ fileName: process.argv[2] }).then(f=>console.log("Écrit :", f));

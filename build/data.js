@@ -79,6 +79,18 @@ const FICHES = [
     "Parlez-moi d'une fois où vous avez reconnu que vous étiez allé trop loin dans votre investissement sur un dossier."],
   tip:"Ces questions touchent à la vie personnelle du candidat. Vous cherchez le comportement professionnel, pas la confidence. Si le candidat aborde des éléments de santé ou de vie privée, ne les notez pas et ne les consignez pas. Ramenez l'échange sur ce qu'il a fait."},
 
+{step:3, order:4, tag:"Compétence · Milène Baud", name:"Développer les talents",
+  def:"Favoriser le développement des collaborateurs afin qu'ils atteignent leurs objectifs de carrière ainsi que les objectifs de l'organisation.",
+  high:["Confie des dossiers qui font grandir, pas seulement ceux dont il veut se débarrasser","Donne un retour précis et utilisable, y compris quand il est négatif","Connaît le projet professionnel des personnes qu'il encadre, et agit dessus","Laisse quelqu'un plaider ou recevoir un client avant de s'en sentir tout à fait sûr","A formé quelqu'un qui a ensuite progressé, et sait dire exactement quoi"],
+  mid:["Explique ce qu'il attend et pourquoi","Relit le travail d'un collaborateur en expliquant ses corrections","Rend accessible ce qu'il sait au lieu de le garder","Reconnaît publiquement le travail des autres","Prend le temps de la reprise après une audience ou une expertise"],
+  low:["Garde les dossiers intéressants et délègue le reste","Corrige sans expliquer, ou réécrit sans montrer","Ne sait pas ce que veut faire dans trois ans la personne qu'il encadre","Décrit ses collaborateurs par ce qu'ils ne savent pas faire","Considère la formation comme du temps perdu sur la production"],
+  q:["Parlez-moi de quelqu'un que vous avez fait progresser. Qu'avez-vous fait précisément ?",
+    "Décrivez une fois où vous avez confié un dossier à quelqu'un qui n'était pas encore tout à fait prêt. Comment cela s'est-il passé ?",
+    "Racontez-moi un retour difficile que vous avez eu à faire à un collaborateur.",
+    "Parlez-moi de quelqu'un que vous avez encadré et qui n'a pas progressé. Qu'avez-vous compris après coup ?"],
+  tip:"La question que vous avez réellement à trancher n'est pas « cette personne sait-elle développer ses collaborateurs ». C'est « est-ce que je resterais si cette personne dirigeait le cabinet ». Vous êtes la seule du dispositif à pouvoir y répondre, et votre réponse vaut plus que toutes les autres notes.",
+  kill:"Une note de 1 sur cette compétence arrête le processus. Ce recrutement est une succession : l'équipe restera après le départ du fondateur, ou elle partira avec lui."},
+
  {step:4, order:2, tag:"Compétence · Hervé Gerbi", name:"Faire preuve de courage",
   def:"Affronter résolument les questions difficiles et dire ce qui doit être dit.",
   high:["Contredit son associé ou sa hiérarchie quand l'analyse le justifie, et le documente","Dit à un client que sa demande est irréaliste, au risque de le perdre","Refuse un dossier qu'il ne peut pas défendre correctement","Aborde un conflit interne rapidement plutôt que de le laisser s'installer","Prend position face à un expert reconnu, sur le fond, sans agressivité"],
