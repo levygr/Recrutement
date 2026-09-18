@@ -17,6 +17,14 @@ Dispositif complet de recrutement. Septembre 2026.
 | [`05-plan-de-diffusion.md`](05-plan-de-diffusion.md) | Canaux, coûts vérifiés, approche directe, scénarios de budget | Plan d'action semaine par semaine |
 | [`06-concept-video.md`](06-concept-video.md) | Concept vidéo, script, conformité déontologique, diffusion | À valider avant tournage |
 
+## Fichiers Office
+
+| Fichier | Contenu | Usage |
+|---|---|---|
+| [`Guide-entretiens.docx`](Guide-entretiens.docx) | Le guide d'entretien complet, mis en page pour l'impression | À imprimer et remettre à chaque intervieweur |
+| [`Plan-de-recrutement-presentation.pptx`](Plan-de-recrutement-presentation.pptx) | Présentation du plan en 18 diapositives, notes de l'orateur incluses | Séance de travail avec Hervé Gerbi et Milène Baud |
+| [`build/`](build/) | Scripts de génération des deux fichiers ci-dessus | Toute correction se fait ici, pas dans les fichiers Office |
+
 ---
 
 ## Ce qu'il faut trancher avant de diffuser quoi que ce soit
