@@ -12,7 +12,8 @@ Dispositif complet de recrutement. Septembre 2026.
 | [`01-plan-de-recrutement.md`](01-plan-de-recrutement.md) | Analyse du marché, huit décisions à trancher, dispositif, calendrier, indicateurs, risques | Document de pilotage |
 | [`02-offre-emploi.md`](02-offre-emploi.md) | Annonce corrigée et diffusable, avec le détail de ce qui a changé | À compléter puis diffuser |
 | [`03-grille-scoring-cv.md`](03-grille-scoring-cv.md) | Grille de tri sur 100 points, seuils, fiche de notation, garde-fous juridiques | À utiliser dès le premier CV |
-| [`04-guide-entretiens.md`](04-guide-entretiens.md) | Guide d'entretien complet, quatre étapes, six compétences Korn Ferry | À remettre à chaque intervieweur |
+| [`04-guide-entretiens.md`](04-guide-entretiens.md) | Guide d'entretien complet, quatre étapes, six compétences Korn Ferry | Source éditable |
+| [`04-guide-entretiens.html`](04-guide-entretiens.html) | Même guide, mise en page imprimable. Le nom du candidat saisi en tête se reporte sur chaque fiche de notation | À imprimer et remettre à chaque intervieweur |
 | [`05-plan-de-diffusion.md`](05-plan-de-diffusion.md) | Canaux, coûts vérifiés, approche directe, scénarios de budget | Plan d'action semaine par semaine |
 | [`06-concept-video.md`](06-concept-video.md) | Concept vidéo, script, conformité déontologique, diffusion | À valider avant tournage |
 

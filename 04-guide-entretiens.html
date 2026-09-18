@@ -1,0 +1,613 @@
+<title>Entretiens futur associé</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:wght@400;500;600&display=swap">
+<style>
+:root{
+  --paper:#FCFCFD; --card:#FFFFFF; --ink:#15181D; --ink-2:#4B535E; --ink-3:#727C89;
+  --rule:#DCE0E7; --rule-soft:#EBEEF2;
+  --accent:#1F4B7A; --accent-2:#2E6CA8; --accent-soft:#EDF2F8;
+  --clay:#8F5238; --clay-soft:#F7F0EC; --slate:#5C6773;
+  --serif:"Spectral",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#111418; --card:#171B21; --ink:#E9ECF0; --ink-2:#AEB7C2; --ink-3:#7E8896;
+    --rule:#2A3038; --rule-soft:#21262D;
+    --accent:#7FB0DF; --accent-2:#A8CBEB; --accent-soft:#1A242F;
+    --clay:#D79878; --clay-soft:#2A2119; --slate:#8B96A3;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#111418; --card:#171B21; --ink:#E9ECF0; --ink-2:#AEB7C2; --ink-3:#7E8896;
+  --rule:#2A3038; --rule-soft:#21262D;
+  --accent:#7FB0DF; --accent-2:#A8CBEB; --accent-soft:#1A242F;
+  --clay:#D79878; --clay-soft:#2A2119; --slate:#8B96A3;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.6;margin:0}
+.wrap{max-width:900px;margin:0 auto;padding-inline:20px;padding-block:0 72px}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:600;text-wrap:balance;margin:0}
+p{margin:0 0 .85em}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:2px}
+
+/* --- bandeau --- */
+.masthead{border-bottom:2px solid var(--ink);padding-block:28px 18px;margin-bottom:26px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 10px}
+.masthead h1{font-size:clamp(26px,5vw,38px);line-height:1.12;letter-spacing:-.01em}
+.masthead .sub{font-size:15px;color:var(--ink-2);margin:.5em 0 0;max-width:62ch}
+.idbar{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px;align-items:flex-end}
+.field{display:flex;flex-direction:column;gap:5px}
+.field label{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+.field input{font-family:var(--sans);font-size:14px;color:var(--ink);background:var(--card);
+  border:1px solid var(--rule);border-radius:3px;padding:7px 10px;min-width:210px}
+.field input:focus-visible{outline:2px solid var(--accent-2);outline-offset:1px}
+.hint{font-size:12.5px;color:var(--ink-3);margin-left:auto;max-width:30ch;line-height:1.45}
+
+/* --- sommaire --- */
+.toc{border:1px solid var(--rule);border-radius:4px;background:var(--card);padding:16px 18px;margin-bottom:38px}
+.toc h2{font-size:12px;font-family:var(--mono);font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:12px}
+.toc ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:7px 24px}
+.toc li{display:flex;gap:9px;align-items:baseline;font-size:14px}
+.toc .n{font-family:var(--mono);font-size:11px;color:var(--accent);min-width:2.1em}
+.toc a{text-decoration:none;color:var(--ink-2)}
+.toc a:hover{color:var(--accent);text-decoration:underline}
+
+/* --- sections --- */
+section{margin-bottom:46px}
+.sec-head{display:flex;align-items:baseline;gap:14px;border-bottom:1px solid var(--ink);padding-bottom:9px;margin-bottom:22px}
+.sec-head .num{font-family:var(--mono);font-size:12px;color:var(--accent);letter-spacing:.08em;white-space:nowrap}
+.sec-head h2{font-size:23px;letter-spacing:-.005em}
+.sec-head .meta{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--ink-3);white-space:nowrap}
+h3{font-size:17px;margin:26px 0 10px}
+h4{font-size:14.5px;font-family:var(--sans);font-weight:600;margin:20px 0 8px;color:var(--ink)}
+.lede{font-size:15.5px;color:var(--ink-2);max-width:66ch}
+ul.plain,ol.plain{max-width:66ch;padding-left:1.15em;margin:0 0 1em}
+ul.plain li,ol.plain li{margin-bottom:.4em}
+
+/* --- fiche competence --- */
+.fiche{border:1px solid var(--rule);border-radius:4px;background:var(--card);overflow:hidden;margin-bottom:30px}
+.fiche-head{background:var(--accent-soft);border-bottom:1px solid var(--rule);padding:14px 18px}
+.fiche-head .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);display:block;margin-bottom:5px}
+.fiche-head h3{font-size:19px;margin:0}
+.fiche-head .def{font-size:13.5px;color:var(--ink-2);margin:7px 0 0;max-width:72ch;font-style:italic}
+.fiche-body{padding:18px}
+.kicker{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin:0 0 9px}
+.kicker + *{margin-top:0}
+
+/* --- 3 colonnes de comportements --- */
+.levels{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--rule-soft);border-radius:3px;overflow:hidden}
+.lev{padding:12px 13px;border-right:1px solid var(--rule-soft);border-top:3px solid var(--rule)}
+.lev:last-child{border-right:0}
+.lev.high{border-top-color:var(--accent)}
+.lev.mid{border-top-color:var(--slate)}
+.lev.low{border-top-color:var(--clay);background:var(--clay-soft)}
+.lev h5{font-family:var(--sans);font-size:12px;font-weight:600;margin:0 0 9px;letter-spacing:.01em}
+.lev.high h5{color:var(--accent)}
+.lev.mid h5{color:var(--slate)}
+.lev.low h5{color:var(--clay)}
+.lev ul{margin:0;padding-left:1.05em;font-size:13px;line-height:1.5;color:var(--ink-2)}
+.lev li{margin-bottom:7px}
+@media (max-width:660px){.levels{grid-template-columns:1fr}.lev{border-right:0;border-bottom:1px solid var(--rule-soft)}.lev:last-child{border-bottom:0}}
+
+/* --- questions --- */
+.qbox{margin-top:20px}
+.qbox ol{margin:0;padding-left:1.4em;font-size:14.5px}
+.qbox ol li{margin-bottom:8px;padding-left:3px}
+.qbox ol li::marker{font-family:var(--mono);font-size:12px;color:var(--accent)}
+.probes{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+.probe{border-left:2px solid var(--rule);padding:2px 0 2px 11px}
+.probe strong{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:4px;font-weight:500}
+.probe span{font-size:12.5px;color:var(--ink-2);line-height:1.45}
+@media (max-width:660px){.probes{grid-template-columns:1fr}}
+
+/* --- zone de notes manuscrites --- */
+.notes{margin-top:20px}
+.lines{margin-top:8px}
+.lines div{border-bottom:1px solid var(--rule);height:26px}
+.scorebar{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:18px;padding-top:13px;border-top:1px solid var(--rule)}
+.namefill{font-size:13px;color:var(--ink-2)}
+.namefill b{font-weight:500;color:var(--ink);border-bottom:1px solid var(--rule);padding:0 26px 1px 4px;font-family:var(--mono);font-size:12.5px}
+.scale{display:flex;gap:6px;margin-left:auto;align-items:center}
+.scale .lab{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-right:2px}
+.box{width:30px;height:30px;border:1px solid var(--rule);border-radius:3px;display:grid;place-items:center;
+  font-family:var(--mono);font-size:13px;color:var(--ink-3);background:var(--paper)}
+.box.on{border-color:var(--accent);color:var(--accent)}
+.kill{margin-top:12px;font-size:12.5px;color:var(--clay);border-left:2px solid var(--clay);padding-left:10px;line-height:1.45}
+.tip{margin-top:12px;font-size:12.5px;color:var(--ink-2);border-left:2px solid var(--accent);padding-left:10px;line-height:1.45;background:var(--accent-soft);padding-block:8px;border-radius:0 3px 3px 0;padding-right:10px}
+
+/* --- tableaux --- */
+.tablewrap{overflow-x:auto;margin:14px 0 6px;border:1px solid var(--rule);border-radius:4px}
+table{border-collapse:collapse;width:100%;font-size:13.5px;background:var(--card)}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+thead th{font-family:var(--mono);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);
+  font-weight:500;background:var(--paper);border-bottom:1px solid var(--rule);white-space:nowrap}
+tbody tr:last-child td{border-bottom:0}
+td.c,th.c{text-align:center;font-family:var(--mono);color:var(--accent)}
+.fill{font-family:var(--mono);color:var(--ink-3);letter-spacing:.05em}
+
+/* --- barème --- */
+.scaledefs{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin:14px 0}
+.sd{border:1px solid var(--rule);border-radius:4px;padding:11px 13px;background:var(--card)}
+.sd .n{font-family:var(--mono);font-size:19px;color:var(--accent);line-height:1}
+.sd h5{font-family:var(--sans);font-size:13px;font-weight:600;margin:6px 0 4px}
+.sd p{font-size:12.5px;color:var(--ink-2);margin:0;line-height:1.45}
+
+/* --- situations valeurs --- */
+.situ{border:1px solid var(--rule);border-radius:4px;background:var(--card);padding:16px 18px;margin-bottom:16px}
+.situ .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--clay);margin:0 0 6px}
+.situ h4{font-family:var(--serif);font-size:16.5px;font-weight:600;margin:0 0 9px}
+.situ .case{font-size:14.5px;color:var(--ink);max-width:70ch}
+.situ .ask{font-family:var(--serif);font-size:15px;font-weight:500;color:var(--accent);margin:10px 0 0}
+.obs{margin-top:14px;border-top:1px solid var(--rule-soft);padding-top:11px}
+.obs ul{margin:0;padding-left:1.05em;font-size:13px;color:var(--ink-2)}
+.obs li{margin-bottom:5px}
+
+/* --- divers --- */
+.callout{border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:0 4px 4px 0;
+  background:var(--card);padding:14px 16px;margin:18px 0;font-size:14px;color:var(--ink-2);max-width:72ch}
+.callout strong{color:var(--ink)}
+.foot{border-top:1px solid var(--rule);padding-top:18px;margin-top:10px;font-size:12.5px;color:var(--ink-3);line-height:1.55}
+.printbtn{font-family:var(--sans);font-size:13px;color:var(--accent);background:var(--card);border:1px solid var(--rule);
+  border-radius:3px;padding:8px 14px;cursor:pointer}
+.printbtn:hover{border-color:var(--accent)}
+.printbtn:focus-visible{outline:2px solid var(--accent-2);outline-offset:1px}
+
+@media print{
+  :root{--paper:#fff;--card:#fff;--ink:#000;--ink-2:#333;--ink-3:#555;--rule:#bbb;--rule-soft:#ddd;
+    --accent:#1F4B7A;--accent-soft:#fff;--clay:#8F5238;--clay-soft:#fff}
+  @page{margin:14mm}
+  body{font-size:10.5pt}
+  .toc,.hint,.printbtn,.idbar{display:none}
+  .wrap{max-width:none;padding:0}
+  section{break-before:page;margin-bottom:0}
+  section:first-of-type{break-before:auto}
+  .fiche,.situ,.sd,.callout{break-inside:avoid}
+  .lines div{height:22px}
+  a{color:var(--ink);text-decoration:none}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="masthead">
+  <p class="eyebrow">Victimes &amp; Préjudices Avocats · Grenoble</p>
+  <h1>Guide pour les entretiens</h1>
+  <p class="sub">Avocat futur associé, droit du dommage corporel. Quatre étapes, six compétences du référentiel Korn Ferry Leadership Architect. Document interne, à ne pas remettre au candidat.</p>
+  <div class="idbar">
+    <div class="field">
+      <label for="cand">Nom du candidat</label>
+      <input id="cand" type="text" autocomplete="off" placeholder="À renseigner avant impression">
+    </div>
+    <div class="field">
+      <label for="dat">Date</label>
+      <input id="dat" type="text" autocomplete="off" placeholder="jj / mm / aaaa">
+    </div>
+    <button class="printbtn" id="print" type="button">Imprimer</button>
+    <p class="hint">Le nom saisi ici se reporte automatiquement sur chaque fiche de notation.</p>
+  </div>
+</header>
+
+<nav class="toc">
+  <h2>Sommaire</h2>
+  <ol>
+    <li><span class="n">1</span><a href="#prep">Préparation et règles</a></li>
+    <li><span class="n">2</span><a href="#matrice">Compétences par étape</a></li>
+    <li><span class="n">3</span><a href="#synthese">Grille de synthèse</a></li>
+    <li><span class="n">E1</span><a href="#e1">Entretien téléphonique</a></li>
+    <li><span class="n">E2</span><a href="#e2">Entretien valeurs</a></li>
+    <li><span class="n">E3</span><a href="#e3">Compétences métier</a></li>
+    <li><span class="n">E4</span><a href="#e4">Compétences et association</a></li>
+    <li><span class="n">5</span><a href="#refs">Prise de références</a></li>
+    <li><span class="n">6</span><a href="#decision">Décision finale</a></li>
+  </ol>
+</nav>
+
+<section id="prep">
+  <div class="sec-head"><span class="num">01</span><h2>Préparation et règles</h2></div>
+  <h3>Avant</h3>
+  <ul class="plain">
+    <li>Communiquez à chaque intervieweur l'étape qui le concerne et la ou les compétences qu'il évalue.</li>
+    <li>Lisez le bloc que vous allez conduire. Familiarisez-vous avec les comportements observables, pas seulement avec les questions.</li>
+    <li>Relisez le CV et la fiche de scoring établie au tri.</li>
+    <li>Vérifiez avec l'autre intervieweur que vous n'allez pas poser les mêmes questions. Une compétence, un intervieweur.</li>
+  </ul>
+  <h3>Pendant</h3>
+  <ul class="plain">
+    <li>Comptez 60 minutes pour les étapes 2 et 4, 90 minutes pour l'étape 3.</li>
+    <li>Ne reportez pas un entretien. Soyez à l'heure. Le candidat que vous voulez recruter a d'autres options.</li>
+    <li>Consacrez les 5 à 10 premières minutes aux présentations. Votre rôle, votre parcours, le déroulé du processus, ce qui se passe après cet entretien. Demandez au candidat s'il a des questions avant de commencer.</li>
+    <li>Si vous avez connaissance d'une situation de handicap nécessitant un aménagement, du processus ou du poste, abordez-la directement et proposez l'aménagement.</li>
+    <li>Prenez des notes pendant, pas après. Notez ce que le candidat dit, pas votre interprétation. La note vient ensuite.</li>
+  </ul>
+  <h4>Questions d'ouverture, au choix</h4>
+  <ol class="plain">
+    <li>Selon vous, en quoi consiste ce poste ?</li>
+    <li>Qu'est-ce qui vous a fait répondre ?</li>
+    <li>Au vu de ce que vous savez du poste, de quoi auriez-vous besoin pour y réussir ?</li>
+  </ol>
+  <h3>Après</h3>
+  <ul class="plain">
+    <li>Demandez au candidat s'il souhaite revenir sur un point et s'il a des questions.</li>
+    <li>Rappelez-lui quand il aura un retour. L'engagement du cabinet est de cinq jours ouvrés.</li>
+    <li>Notez seul, avant d'en parler à l'autre intervieweur. Une note influencée ne vaut rien.</li>
+  </ul>
+  <div class="callout">
+    <strong>Cherchez le comportement, pas l'opinion.</strong> Si le candidat répond « en général, je fais... », ramenez-le à un fait : donnez-moi une situation précise. Une question comportementale sans approfondissement produit un récit préparé. C'est l'approfondissement qui produit le signal.
+  </div>
+  <div class="callout">
+    <strong>Restez attentif aux biais.</strong> Vous avez tendance à mieux noter les personnes qui démontrent une compétence de la même façon que vous. Vous excluez alors des personnes qui communiquent, travaillent ou décident autrement, sans être moins compétentes.
+  </div>
+</section>
+
+<section id="matrice">
+  <div class="sec-head"><span class="num">02</span><h2>Compétences par étape</h2></div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Ce qui est évalué</th><th class="c">E1 téléphone</th><th class="c">E2 valeurs</th><th class="c">E3 métier</th><th class="c">E4 association</th></tr></thead>
+    <tbody>
+      <tr><td>Pré-qualification</td><td class="c">×</td><td class="c"></td><td class="c"></td><td class="c"></td></tr>
+      <tr><td>Adéquation aux valeurs du cabinet</td><td class="c"></td><td class="c">×</td><td class="c"></td><td class="c"></td></tr>
+      <tr><td>Expertise fonctionnelle</td><td class="c"></td><td class="c"></td><td class="c">×</td><td class="c"></td></tr>
+      <tr><td>Gérer la complexité</td><td class="c"></td><td class="c"></td><td class="c">×</td><td class="c"></td></tr>
+      <tr><td>Être orienté client</td><td class="c"></td><td class="c"></td><td class="c">×</td><td class="c"></td></tr>
+      <tr><td>Être résilient</td><td class="c"></td><td class="c"></td><td class="c">×</td><td class="c"></td></tr>
+      <tr><td>Faire preuve de courage</td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c">×</td></tr>
+      <tr><td>Créer des réseaux</td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c">×</td></tr>
+      <tr><td>Faire preuve d'esprit stratégique</td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c">×</td></tr>
+      <tr><td>Projet d'association</td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c">×</td></tr>
+    </tbody>
+  </table></div>
+  <p class="lede">Les étapes 3 et 4 se tiennent le même jour, avec des intervieweurs différents. Deux notateurs par entretien de compétences, notation indépendante avant confrontation.</p>
+</section>
+
+<section id="synthese">
+  <div class="sec-head"><span class="num">03</span><h2>Grille de synthèse</h2></div>
+  <p class="kicker">Système de notation</p>
+  <div class="scaledefs">
+    <div class="sd"><div class="n">4</div><h5>Dépasse les critères</h5><p>A montré des connaissances, compétences ou capacités qui dépassent les critères définis pour le poste.</p></div>
+    <div class="sd"><div class="n">3</div><h5>Répond aux critères</h5><p>A montré des connaissances, compétences ou capacités qui répondent entièrement aux critères définis.</p></div>
+    <div class="sd"><div class="n">2</div><h5>Répond partiellement</h5><p>A montré des connaissances, compétences ou capacités qui répondent en partie mais non en totalité.</p></div>
+    <div class="sd"><div class="n">1</div><h5>Ne répond pas</h5><p>A montré des connaissances, compétences ou capacités clairement en dessous des critères définis.</p></div>
+  </div>
+  <h3>Report des notes</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th class="c">Étape</th><th>Évalué</th><th>Intervieweur</th><th>Date</th><th class="c">Note</th></tr></thead>
+    <tbody>
+      <tr><td class="c">2</td><td>Adéquation aux valeurs</td><td class="fill">_______________</td><td class="fill">__________</td><td class="c">___ / 4</td></tr>
+      <tr><td class="c">3</td><td>Expertise fonctionnelle</td><td class="fill">_______________</td><td class="fill">__________</td><td class="c">___ / 4</td></tr>
+      <tr><td class="c">3</td><td>Gérer la complexité</td><td class="fill">_______________</td><td class="fill">__________</td><td class="c">___ / 4</td></tr>
+      <tr><td class="c">3</td><td>Être orienté client</td><td class="fill">_______________</td><td class="fill">__________</td><td class="c">___ / 4</td></tr>
+      <tr><td class="c">3</td><td>Être résilient</td><td class="fill">_______________</td><td class="fill">__________</td><td class="c">___ / 4</td></tr>
+      <tr><td class="c">4</td><td>Faire preuve de courage</td><td class="fill">_______________</td><td class="fill">__________</td><td class="c">___ / 4</td></tr>
+      <tr><td class="c">4</td><td>Créer des réseaux</td><td class="fill">_______________</td><td class="fill">__________</td><td class="c">___ / 4</td></tr>
+      <tr><td class="c">4</td><td>Esprit stratégique</td><td class="fill">_______________</td><td class="fill">__________</td><td class="c">___ / 4</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Règles de décision</h3>
+  <ul class="plain">
+    <li>Une note de <strong>1</strong> sur Expertise fonctionnelle, Être orienté client ou Créer des réseaux <strong>arrête le processus</strong>. Ces trois dimensions ne se rattrapent pas par la formation.</li>
+    <li>Une note de <strong>2</strong> sur Faire preuve de courage est un signal sérieux pour une association. Une personne qui ne vous contredit pas pendant le recrutement ne vous contredira pas une fois associée, et c'est exactement ce dont vous aurez besoin.</li>
+    <li>Une note de <strong>2</strong> sur Gérer la complexité ou Être résilient se discute si le reste est solide, et se traite par un plan d'accompagnement écrit.</li>
+  </ul>
+  <h3>Recommandation de l'intervieweur</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Entourez</th><th>Je ne soutiens pas</th><th>Je soutiens partiellement</th><th>Je soutiens</th><th>Je soutiens sans réserve</th></tr></thead>
+    <tbody><tr><td class="fill">Motif en une phrase</td><td colspan="4" class="fill">_________________________________________________________________</td></tr></tbody>
+  </table></div>
+</section>
+
+<section id="e1">
+  <div class="sec-head"><span class="num">E1</span><h2>Entretien téléphonique</h2><span class="meta">30 min · non noté</span></div>
+  <p class="lede">Vérifier les faits, poser les conditions, donner envie. Un candidat qui passe cette étape doit repartir avec l'envie de venir au cabinet.</p>
+  <h3>Qualification</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Point à vérifier</th><th>Question</th><th>Réponse</th></tr></thead>
+    <tbody>
+      <tr><td>Situation actuelle</td><td>Où exercez-vous, sous quel statut, depuis quand ?</td><td class="fill">__________</td></tr>
+      <tr><td>Pratique réelle</td><td>Quelle part du dommage corporel dans votre activité ? En volume, pas en intérêt</td><td class="fill">__________</td></tr>
+      <tr><td>Contentieux</td><td>Combien de fois avez-vous plaidé sur les douze derniers mois ?</td><td class="fill">__________</td></tr>
+      <tr><td>Motif du mouvement</td><td>Qu'est-ce qui vous fait regarder ailleurs aujourd'hui ?</td><td class="fill">__________</td></tr>
+      <tr><td>Projet d'association</td><td>Vous êtes-vous déjà projeté dans une association ? Qu'est-ce qui vous a arrêté ou fait avancer ?</td><td class="fill">__________</td></tr>
+      <tr><td>Statut souhaité</td><td>Collaboration libérale ou salariat, une préférence, et pourquoi ?</td><td class="fill">__________</td></tr>
+      <tr><td>Mobilité</td><td>Où vivez-vous, qu'implique concrètement une installation à Grenoble ?</td><td class="fill">__________</td></tr>
+      <tr><td>Disponibilité</td><td>Quel préavis ? À partir de quand ?</td><td class="fill">__________</td></tr>
+      <tr><td>Rémunération</td><td>Où vous situez-vous aujourd'hui, qu'attendez-vous ?</td><td class="fill">__________</td></tr>
+      <tr><td>Autres processus</td><td>Engagé dans d'autres discussions ? À quel stade ?</td><td class="fill">__________</td></tr>
+    </tbody>
+  </table></div>
+  <div class="callout">
+    <strong>Notez ce que le candidat demande.</strong> C'est le premier indicateur exploitable du processus. Un candidat qui interroge sur les termes de l'association, sur l'origine des dossiers ou sur l'organisation du cabinet se projette. Un candidat qui interroge d'abord sur les congés et le télétravail se projette aussi, sur autre chose.
+  </div>
+  <h4>Points d'attention</h4>
+  <ul class="plain">
+    <li>Si le candidat n'a aucune pratique du dommage corporel ni de matière connexe, dites-le franchement et évaluez sa réaction. Vous cherchez quelqu'un qui mesure ce qu'il ignore.</li>
+    <li>Vouloir s'associer sans avoir réfléchi aux conditions financières n'est pas disqualifiant. C'est un sujet de l'étape 4.</li>
+    <li>Si la fourchette de rémunération est incompatible, dites-le maintenant. Pas au quatrième entretien.</li>
+  </ul>
+  <div class="notes">
+    <p class="kicker">Décision · poursuivre ou non, et motif</p>
+    <div class="lines"><div></div><div></div><div></div></div>
+  </div>
+</section>
+
+<section id="e2">
+  <div class="sec-head"><span class="num">E2</span><h2>Entretien valeurs</h2><span class="meta">60 min · Hervé Gerbi</span></div>
+  <p class="lede">Expertise, humanité, justice, réparation. Choisissez quatre des cinq situations ci-dessous.</p>
+  <div class="callout">
+    <strong>Pourquoi cet entretien n'interroge pas les valeurs directement.</strong> Demander à un candidat ce que l'humanité signifie pour lui ne trie personne. Il a lu votre site. Il dira ce qu'il faut dire, et il le pensera sans doute. Ce qui produit du signal, c'est le conflit : une valeur ne se révèle que lorsqu'elle entre en concurrence avec une autre et qu'il faut trancher. Il n'y a pas de bonne réponse. Vous observez comment il pense, ce qu'il met en premier, et s'il tranche ou s'il esquive.
+  </div>
+  <p class="kicker">Consigne au candidat</p>
+  <p class="lede">« Je vais vous soumettre quatre situations. Elles n'ont pas de bonne réponse. Ce sont des arbitrages que nous avons à faire ici, et je veux comprendre comment vous les faites. Prenez le temps. Vous pouvez me poser des questions sur la situation. »</p>
+  <div id="situations"></div>
+  <h3>Notation</h3>
+  <div class="lines"><div></div><div></div><div></div><div></div></div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Valeur</th><th>Ce qui a été observé</th><th class="c">1 à 4</th></tr></thead>
+    <tbody>
+      <tr><td>Expertise</td><td class="fill">_______________________________________</td><td class="c">___</td></tr>
+      <tr><td>Humanité</td><td class="fill">_______________________________________</td><td class="c">___</td></tr>
+      <tr><td>Justice</td><td class="fill">_______________________________________</td><td class="c">___</td></tr>
+      <tr><td>Réparation</td><td class="fill">_______________________________________</td><td class="c">___</td></tr>
+    </tbody>
+  </table></div>
+  <div class="tip">Une question à se poser avant de noter : est-ce que je confierais à cette personne la cliente de la situation 1 ? &nbsp; Oui &nbsp;·&nbsp; Non &nbsp;·&nbsp; Pas encore</div>
+</section>
+
+<section id="e3">
+  <div class="sec-head"><span class="num">E3</span><h2>Compétences métier</h2><span class="meta">90 min · 2 intervieweurs</span></div>
+  <p class="lede">Répartition suggérée : un avocat du cabinet conduit Expertise fonctionnelle et Gérer la complexité. Le second intervieweur conduit Être orienté client et Être résilient.</p>
+  <div id="fiches-e3"></div>
+</section>
+
+<section id="e4">
+  <div class="sec-head"><span class="num">E4</span><h2>Compétences et association</h2><span class="meta">60 min · Hervé Gerbi</span></div>
+  <p class="lede">Le protocole d'association écrit est remis au candidat au début de cet entretien.</p>
+  <div id="fiches-e4"></div>
+
+  <div class="fiche">
+    <div class="fiche-head">
+      <span class="tag">Étape 4 · séquence non notée · 20 min</span>
+      <h3>Projet d'association</h3>
+      <p class="def">Le moment où le cabinet et le candidat se disent ce qu'ils attendent.</p>
+    </div>
+    <div class="fiche-body">
+      <p class="kicker">Ce que vous remettez</p>
+      <p>Le protocole d'association écrit. Échéance, critères d'accès, part de capital, méthode de valorisation, financement, points d'étape, clause de sortie. Laissez-le lire. Le silence pendant qu'il lit est informatif.</p>
+      <div class="qbox">
+        <p class="kicker">Questions</p>
+        <ol>
+          <li>Qu'est-ce qui vous manque dans ce document pour prendre une décision ?</li>
+          <li>Qu'est-ce qui vous inquiète ?</li>
+          <li>Sur quels critères d'accès seriez-vous en désaccord ?</li>
+          <li>Si vous arriviez ici, à qui iriez-vous parler dans vos trois premiers mois, en dehors du cabinet ? Pourquoi eux ?</li>
+          <li>Qu'attendez-vous de vos associés, concrètement, dans le fonctionnement quotidien ?</li>
+          <li>Qu'est-ce qui vous ferait partir d'ici au bout de deux ans ?</li>
+        </ol>
+      </div>
+      <div class="tip">Un candidat qui lit le protocole sans poser une seule question sur la valorisation ou le financement ne s'est pas projeté. Un candidat qui négocie sur un point précis s'est projeté. La question 6 est la plus utile de l'entretien : une réponse vague signale que la personne n'a pas de critère, et donc rien qui la retienne. Une réponse précise vous dit ce que vous aurez à tenir.</div>
+      <div class="notes">
+        <p class="kicker">Réserves exprimées par le candidat, à traiter avant toute proposition</p>
+        <div class="lines"><div></div><div></div><div></div></div>
+      </div>
+      <div class="scorebar">
+        <span class="namefill">Le candidat se projette dans l'association : &nbsp; oui &nbsp;·&nbsp; avec réserves &nbsp;·&nbsp; non</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="refs">
+  <div class="sec-head"><span class="num">05</span><h2>Prise de références</h2></div>
+  <p class="lede">Deux références minimum, avec l'accord écrit du candidat. Privilégiez un associé ou employeur précédent et un contact professionnel extérieur, confrère, expert ou magistrat. N'interrogez jamais l'employeur actuel sans accord explicite et écrit.</p>
+  <div class="qbox">
+    <ol>
+      <li>Dans quel cadre avez-vous travaillé ensemble, et sur quelle période ?</li>
+      <li>Quels types de dossiers lui confiiez-vous, et lesquels ne lui confiiez-vous pas ?</li>
+      <li>Comment se comportait-il avec les clients difficiles ?</li>
+      <li>Racontez-moi une fois où il vous a contredit.</li>
+      <li>Comment a-t-il réagi à un échec professionnel ?</li>
+      <li>Sur quoi avait-il besoin de progresser quand vous avez cessé de travailler ensemble ?</li>
+      <li>Le reprendriez-vous ? Sur quel poste ?</li>
+    </ol>
+  </div>
+  <div class="tip">La question 4 est la plus discriminante. Si la personne interrogée ne trouve aucun exemple, c'est une information sur le candidat.</div>
+  <div class="notes"><p class="kicker">Notes</p><div class="lines"><div></div><div></div><div></div><div></div></div></div>
+</section>
+
+<section id="decision">
+  <div class="sec-head"><span class="num">06</span><h2>Décision finale</h2></div>
+  <p class="lede">Réunion de décision avec tous les intervieweurs. Chacun arrive avec ses notes écrites.</p>
+  <div class="callout">
+    <strong>Règle de conduite.</strong> Chacun donne sa note et sa recommandation avant toute discussion. On discute ensuite. Une réunion qui commence par l'avis du plus ancien ne produit que son avis.
+  </div>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Point</th><th>Constat</th></tr></thead>
+    <tbody>
+      <tr><td>Notes reportées et écarts entre intervieweurs</td><td class="fill">_________________________________</td></tr>
+      <tr><td>Règles de décision déclenchées, notes de 1 ou de 2</td><td class="fill">_________________________________</td></tr>
+      <tr><td>Références concordantes</td><td class="fill">_________________________________</td></tr>
+      <tr><td>Réserves exprimées par le candidat</td><td class="fill">_________________________________</td></tr>
+      <tr><td>Plan d'accompagnement nécessaire et temps à y consacrer</td><td class="fill">_________________________________</td></tr>
+    </tbody>
+  </table></div>
+  <div class="scorebar"><span class="namefill">Décision : &nbsp; proposition &nbsp;·&nbsp; deuxième candidat prioritaire &nbsp;·&nbsp; pas de suite</span></div>
+  <div class="notes"><p class="kicker">Si proposition, engagements pris auprès du candidat à formaliser par écrit</p><div class="lines"><div></div><div></div><div></div></div></div>
+</section>
+
+<p class="foot">Les six compétences évaluées sont issues du référentiel Korn Ferry Leadership Architect. Les définitions reprennent celles du référentiel. Les comportements observables et les questions ont été rédigés pour le contexte du cabinet. Document interne, ne pas remettre au candidat.</p>
+
+</div>
+
+<script>
+const SITUATIONS = [
+ {n:1, t:"Expertise contre humanité",
+  c:"Une cliente est tétraplégique depuis quatre ans à la suite d'un accident de la route. La compagnie d'assurance formule une offre. Votre analyse est que cette offre est supérieure à ce que le tribunal accorderait, et qu'un contentieux ajouterait deux années de procédure. Votre cliente veut aller au procès. Elle vous dit : « je veux que quelqu'un dise que c'est sa faute ».",
+  a:"Que faites-vous ?",
+  o:["Entend-il que la demande n'est pas juridique, et la traite-t-il quand même ?","Donne-t-il les chiffres et les délais clairement, ou noie-t-il le désaccord ?","Tranche-t-il, ou renvoie-t-il la décision au client en se protégeant ?","Cherche-t-il une voie qui satisfait le besoin de reconnaissance autrement que par le procès ?"]},
+ {n:2, t:"Justice contre intérêt immédiat du client",
+  c:"Un dossier de responsabilité médicale. La preuve de la faute est fragile. Le médecin de recours estime les chances de succès à une sur trois. Le client est en difficulté financière et l'assureur propose une transaction modeste, disponible immédiatement.",
+  a:"Que lui dites-vous, et dans quel ordre ?",
+  o:["Distingue-t-il ce qui relève de son analyse et ce qui relève de la décision du client ?","Aborde-t-il la situation financière du client de front, ou l'évite-t-il par pudeur ?","Mesure-t-il ce que le renoncement coûte au client au-delà de l'argent ?","Sait-il qu'un dossier perdu peut être plus juste qu'un dossier transigé, et l'assume-t-il sans en faire une posture ?"]},
+ {n:3, t:"Réparation contre économie du cabinet",
+  c:"Un dossier à faible enjeu financier, une victime d'agression, préjudices modestes. La détresse est forte et le dossier va consommer beaucoup de temps. Le cabinet est chargé.",
+  a:"Que faites-vous ? Et si vous étiez associé de ce cabinet, quelle règle poseriez-vous ?",
+  o:["Accepte-t-il de formuler le problème en termes économiques, ou le refuse-t-il moralement ?","Propose-t-il une règle, ou traite-t-il le cas isolément ?","Tient-il compte du fait que l'économie du cabinet finance sa capacité à défendre les autres victimes ?","La question de l'aide juridictionnelle et des dispositifs existants lui vient-elle ?"]},
+ {n:4, t:"Humanité contre limites",
+  c:"Une famille vous appelle le week-end, régulièrement, depuis trois mois. Le dossier est lourd. Ils sont seuls.",
+  a:"Comment gérez-vous cela ? Qu'est-ce que vous vous autorisez ?",
+  o:["A-t-il une pratique construite, ou improvise-t-il au cas par cas ?","Pose-t-il un cadre, et le pose-t-il tôt ou seulement quand il craque ?","Confond-il la disponibilité et la qualité de l'accompagnement ?","A-t-il réfléchi à sa propre tenue dans la durée ?"]},
+ {n:5, t:"Expertise contre honnêteté",
+  c:"En cours de procédure, vous découvrez que vous avez laissé passer un délai. La conséquence est une réduction de l'indemnisation possible pour votre client.",
+  a:"Que faites-vous, et dans quel ordre ?",
+  o:["L'information du client vient-elle en premier, ou après la recherche d'une parade ?","Parle-t-il de son assurance de responsabilité civile professionnelle, et à quel moment ?","En informe-t-il sa hiérarchie ou son associé, spontanément ?","Se défend-il, ou traite-t-il le problème ?"]}
+];
+
+const PROBES = [
+ ["Actions","Quelle approche avez-vous adoptée ? Comment avez-vous fait ? Écoutez avec attention la description d'étapes spécifiques."],
+ ["Résultat","Quel a été le résultat ? Quel a été l'impact ?"],
+ ["Application","Décrivez un moment où vous avez appliqué ce que vous avez appris à une autre situation."]
+];
+
+const FICHES = [
+ {step:3, tag:"Étape 3 · bloc d'ouverture", name:"Expertise fonctionnelle", def:"Ce que le poste exige sur le plan technique et juridique.",
+  quals:["Vous maîtrisez les mécanismes de la responsabilité civile et les fondements de l'indemnisation.",
+    "Vous savez lire un rapport d'expertise médicale et en identifier les faiblesses.",
+    "Vous évaluez et chiffrez les postes de préjudice, en vous appuyant sur la nomenclature en vigueur et les référentiels de capitalisation.",
+    "Vous rédigez seul assignations, conclusions et notes de synthèse.",
+    "Vous plaidez devant les juridictions civiles, administratives et pénales.",
+    "Vous arbitrez entre transaction et contentieux et savez expliquer cet arbitrage à un client.",
+    "Vous dialoguez avec les médecins de recours et les experts, y compris pour les contredire.",
+    "Vous utilisez des outils numériques dans votre pratique quotidienne.",
+    "Vous traitez les informations sensibles avec la rigueur qu'impose le secret professionnel."],
+  qintro:"Posez les quatre questions. Utilisez les questions d'approfondissement autant que nécessaire.",
+  q:["Décrivez votre pratique actuelle. Quels types de dossiers, quel volume, quelles juridictions ?",
+    "Prenez le dernier dossier d'indemnisation que vous avez mené à son terme. Racontez-le, du premier rendez-vous jusqu'à l'issue.",
+    "Comment procédez-vous pour chiffrer un préjudice ? Sur quels référentiels vous appuyez-vous, et comment gérez-vous les postes qui se discutent ?",
+    "Qu'est-ce que vous ne savez pas faire aujourd'hui et que ce poste exige ?"],
+  probes:[["Approfondir","Qu'est-ce que vous faites le mieux dans votre métier ?"],["Approfondir","Quel type de dossier vous met en difficulté ?"],["Approfondir","Qu'est-ce qui vous distingue d'un autre avocat de votre génération ?"]],
+  kill:"Une note de 1 sur ce bloc arrête le processus."},
+
+ {step:3, tag:"Étape 3 · compétence", name:"Gérer la complexité",
+  def:"Réussir à traiter de gros volumes d'informations complexes et parfois contradictoires afin de résoudre efficacement les problèmes.",
+  high:["Reconstruit une chronologie exploitable à partir d'un dossier médical volumineux et lacunaire","Repère la contradiction décisive entre deux avis techniques et en tire une stratégie","Sait ce qu'il ne sait pas et va chercher l'avis technique au bon moment","Distingue poste par poste ce qui se négocie de ce qui se plaide","Explique un dossier complexe en trois minutes à quelqu'un qui n'y connaît rien"],
+  mid:["Traite un dossier volumineux sans perdre d'élément important","Croise méthodiquement pièces médicales et pièces juridiques","Identifie et réclame les pièces manquantes sans attendre","Formule des hypothèses et les vérifie avant de conclure","Sait résumer un dossier par écrit de manière exploitable"],
+  low:["Traite les pièces dans l'ordre où elles arrivent, sans hiérarchie","Ne repère pas les contradictions entre pièces","Se perd dans le détail et perd de vue l'enjeu du dossier","Reporte les dossiers difficiles et traite d'abord les simples","Produit une analyse qui décrit le dossier sans le trancher"],
+  q:["Parlez-moi du dossier le plus volumineux ou le plus technique que vous ayez eu à traiter. Comment vous y êtes-vous pris pour en prendre la mesure ?",
+    "Décrivez une situation où deux pièces ou deux avis techniques se contredisaient. Qu'avez-vous fait ?",
+    "Racontez-moi un dossier où votre analyse de départ s'est révélée fausse. Comment vous en êtes-vous aperçu, et ensuite ?",
+    "Parlez-moi d'un dossier que vous avez dû expliquer simplement à quelqu'un qui n'y comprenait rien. Comment avez-vous procédé ?"]},
+
+ {step:3, tag:"Étape 3 · compétence", name:"Être orienté client",
+  def:"Développer des liens solides avec les clients et fournir des solutions orientées client.",
+  high:["Adapte son rythme et son vocabulaire à l'état de la personne qu'il a en face","Annonce lui-même les mauvaises nouvelles, et vite","Tient le client informé sans attendre qu'il relance","Distingue ce que le client demande de ce dont il a besoin, et le lui dit","Sait refuser une demande irréaliste sans abîmer la relation"],
+  mid:["Répond aux sollicitations dans des délais courts","Explique la procédure et ses étapes avant qu'on ne les lui demande","Prépare le client avant une expertise ou une audience","Recueille les attentes et les intègre à la stratégie","Reste joignable et prévisible dans la durée"],
+  low:["Parle en termes juridiques à un client qui ne les comprend pas","Laisse le client sans nouvelles entre deux échéances","Confond l'empathie et la promesse, laisse espérer ce qui n'arrivera pas","Délègue systématiquement la relation difficile","Parle de ses clients comme de dossiers"],
+  q:["Parlez-moi d'un client avec lequel la relation a été difficile. Qu'avez-vous fait ?",
+    "Décrivez une fois où vous avez dû annoncer une mauvaise nouvelle à un client. Comment vous y êtes-vous pris ?",
+    "Racontez-moi une situation où ce que le client demandait n'était pas ce qui servait ses intérêts.",
+    "Parlez-moi d'un client que vous avez suivi plusieurs années. Comment avez-vous entretenu la relation dans la durée ?"],
+  kill:"Une note de 1 sur cette compétence arrête le processus."},
+
+ {step:3, tag:"Étape 3 · compétence", name:"Être résilient",
+  def:"Rebondir après un échec et faire face à l'adversité lorsque la situation est difficile.",
+  high:["Reprend un dossier après une décision défavorable et redéfinit une stratégie","Tient l'attention sur des procédures qui durent des années","Sépare l'échec de la procédure de la mise en cause personnelle","Sait où il dépose la charge émotionnelle, et le fait","Reste opérationnel quand plusieurs dossiers vont mal en même temps"],
+  mid:["Encaisse une décision défavorable et informe le client correctement","Maintient la qualité de son travail sous pression","Reconnaît sa part dans un échec sans s'y enfermer","Demande de l'aide quand la charge devient excessive","Distingue ce sur quoi il peut agir de ce qu'il subit"],
+  low:["Se démobilise après un revers et laisse le dossier refroidir","Diffère l'annonce d'une mauvaise nouvelle","Attribue systématiquement les échecs à l'extérieur, juridiction, expert, adversaire","Évite les dossiers lourds émotionnellement","Confond l'engagement et l'absence de limites, et ne tient pas dans la durée"],
+  q:["Parlez-moi de la décision judiciaire qui vous a le plus affecté. Que s'est-il passé ensuite ?",
+    "Décrivez une période où plusieurs dossiers ont mal tourné en même temps. Comment avez-vous tenu ?",
+    "Racontez-moi un dossier qui vous a coûté personnellement. Qu'est-ce qui vous a permis de continuer ?",
+    "Parlez-moi d'une fois où vous avez reconnu que vous étiez allé trop loin dans votre investissement sur un dossier."],
+  tip:"Ces questions touchent à la vie personnelle du candidat. Vous cherchez le comportement professionnel, pas la confidence. Si le candidat aborde des éléments de santé ou de vie privée, ne les notez pas et ne les consignez pas. Ramenez l'échange sur ce qu'il a fait."},
+
+ {step:4, tag:"Étape 4 · compétence", name:"Faire preuve de courage",
+  def:"Affronter résolument les questions difficiles et dire ce qui doit être dit.",
+  high:["Contredit son associé ou sa hiérarchie quand l'analyse le justifie, et le documente","Dit à un client que sa demande est irréaliste, au risque de le perdre","Refuse un dossier qu'il ne peut pas défendre correctement","Aborde un conflit interne rapidement plutôt que de le laisser s'installer","Prend position face à un expert reconnu, sur le fond, sans agressivité"],
+  mid:["Exprime un désaccord quand on le lui demande","Annonce les mauvaises nouvelles sans les différer","Assume ses erreurs devant le client et devant l'équipe","Pose les questions qui gênent en réunion","Défend une position minoritaire avec des arguments"],
+  low:["Laisse passer ce qu'il désapprouve pour éviter la tension","Attend d'avoir raison à coup sûr avant de parler","Formule ses désaccords ailleurs que là où ils devraient être dits","Cède devant un interlocuteur plus établi ou plus âgé","Présente ses réserves une fois la décision prise"],
+  q:["Parlez-moi d'une fois où vous n'étiez pas d'accord avec votre associé ou votre employeur sur un dossier. Qu'avez-vous fait ?",
+    "Décrivez une situation où vous avez dû dire à un client quelque chose qu'il ne voulait pas entendre.",
+    "Racontez-moi une fois où vous avez refusé un dossier ou une mission. Pourquoi, et comment l'avez-vous dit ?",
+    "Parlez-moi d'une erreur que vous avez commise et de la façon dont vous l'avez annoncée."],
+  tip:"Observez aussi le comportement du candidat pendant cet entretien, et pas seulement ses récits. Vous a-t-il contredit une seule fois en quatre entretiens ? Une personne qui ne vous contredit jamais pendant qu'elle cherche à être recrutée ne vous contredira pas davantage une fois associée."},
+
+ {step:4, tag:"Étape 4 · compétence", name:"Créer des réseaux",
+  def:"Créer efficacement des canaux officiels ainsi que des réseaux informels au sein de l'organisation comme en dehors de celle-ci.",
+  high:["A construit des relations de prescription qui produisent des dossiers, et sait les nommer","Entretient son réseau sans attendre d'en avoir besoin","Est identifié dans sa matière par des confrères, des médecins, des associations","Donne avant de demander","Sait par quel chemin chaque dossier lui est arrivé"],
+  mid:["A déjà apporté des dossiers, même en nombre limité","Entretient des relations avec des confrères, des médecins, des experts","Participe aux événements de la profession","Sait recommander un confrère quand un dossier n'est pas pour lui","Connaît les acteurs de sa matière dans sa région"],
+  low:["N'a jamais réfléchi à l'origine de ses dossiers","Considère le développement comme le travail de l'associé","Confond le réseau et la présence sur les réseaux sociaux","N'a aucune relation professionnelle en dehors de son cabinet actuel","Ne cite aucun nom quand on lui demande qui compte dans sa matière"],
+  q:["D'où viennent les dossiers sur lesquels vous travaillez ? Comment le savez-vous ?",
+    "Parlez-moi d'une relation professionnelle que vous avez construite et qui a produit quelque chose.",
+    "Décrivez ce que vous avez fait au cours des douze derniers mois pour être identifié dans votre matière.",
+    "Parlez-moi d'une fois où vous avez aidé un confrère ou un contact sans contrepartie immédiate. Qu'est-ce que cela a produit ensuite ?"],
+  kill:"Une note de 1 sur cette compétence arrête le processus. Un excellent technicien sans capacité de réseau ne devient pas associé, il reste collaborateur."},
+
+ {step:4, tag:"Étape 4 · compétence", name:"Faire preuve d'esprit stratégique",
+  def:"Prévoir à l'avance les possibilités futures et les traduire en stratégies inédites.",
+  high:["Formule une lecture de l'évolution de sa matière et en tire des conséquences concrètes","A proposé à son cabinet une orientation qui a été suivie d'effet","Raisonne sur l'économie d'un cabinet, pas seulement sur ses propres dossiers","Anticipe l'effet d'une évolution législative ou jurisprudentielle sur l'activité","Distingue ce qui est urgent de ce qui est structurant, et protège le second"],
+  mid:["A des idées documentées sur ce que devrait faire son cabinet","Comprend le modèle économique de son activité","Se projette au-delà de l'année en cours","Identifie les menaces qui pèsent sur sa pratique","Sait renoncer à une opportunité qui disperse"],
+  low:["Raisonne uniquement au dossier","Ne connaît pas les chiffres de la structure où il exerce","Confond la stratégie et l'intention, énonce des objectifs sans moyens","N'a jamais proposé d'orientation à personne","Répond à la question de l'avenir en ne parlant que de sa propre carrière"],
+  q:["Comment voyez-vous évoluer le droit du dommage corporel dans les cinq prochaines années ? Sur quoi fondez-vous cela ?",
+    "Parlez-moi d'une orientation que vous avez proposée à votre cabinet. Qu'en est-il advenu ?",
+    "Décrivez une décision où vous avez arbitré entre un gain immédiat et un intérêt de plus long terme.",
+    "Que savez-vous de l'économie du cabinet dans lequel vous exercez aujourd'hui, et comment l'avez-vous appris ?"],
+  tip:"À six ou dix ans d'exercice, vous cherchez l'amorce, pas la maturité. Un candidat qui connaît le chiffre d'affaires de son cabinet et sait comment il se forme est déjà au-dessus de la moyenne de sa génération."}
+];
+
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const li = arr => arr.map(x => "<li>" + esc(x) + "</li>").join("");
+
+function probeHtml(pairs){
+  return '<div class="probes">' + pairs.map(([k,v]) =>
+    '<div class="probe"><strong>' + esc(k) + '</strong><span>' + esc(v) + '</span></div>').join('') + '</div>';
+}
+
+function ficheHtml(f){
+  let body = "";
+  if (f.quals){
+    body += '<p class="kicker">Ce que le poste exige</p><ul class="plain">' + li(f.quals) + '</ul>';
+  }
+  if (f.high){
+    body += '<p class="kicker">Comportements attendus</p><div class="levels">'
+      + '<div class="lev high"><h5>Doué pour la compétence</h5><ul>' + li(f.high) + '</ul></div>'
+      + '<div class="lev mid"><h5>Compétence maîtrisée</h5><ul>' + li(f.mid) + '</ul></div>'
+      + '<div class="lev low"><h5>Moins bien maîtrisée · posez des questions lorsque la personne</h5><ul>' + li(f.low) + '</ul></div>'
+      + '</div>';
+  }
+  body += '<div class="qbox"><p class="kicker">'
+    + esc(f.qintro || "Posez l'une des quatre questions ci-dessous, puis approfondissez")
+    + '</p><ol>' + li(f.q) + '</ol>'
+    + probeHtml(f.probes || PROBES) + '</div>';
+  if (f.tip) body += '<div class="tip">' + esc(f.tip) + '</div>';
+  if (f.kill) body += '<div class="kill">' + esc(f.kill) + '</div>';
+  body += '<div class="notes"><p class="kicker">Notes prises au cours de l\'entretien</p>'
+    + '<div class="lines"><div></div><div></div><div></div><div></div></div></div>'
+    + '<div class="scorebar"><span class="namefill">Candidat <b class="cand-slot">&nbsp;</b></span>'
+    + '<span class="scale"><span class="lab">Note</span>'
+    + [1,2,3,4].map(n => '<span class="box">' + n + '</span>').join('')
+    + '</span></div>';
+
+  return '<div class="fiche"><div class="fiche-head"><span class="tag">' + esc(f.tag) + '</span>'
+    + '<h3>' + esc(f.name) + '</h3>'
+    + '<p class="def">' + esc(f.def) + '</p></div>'
+    + '<div class="fiche-body">' + body + '</div></div>';
+}
+
+function situHtml(s){
+  return '<div class="situ"><p class="tag">Situation ' + s.n + '</p><h4>' + esc(s.t) + '</h4>'
+    + '<p class="case">' + esc(s.c) + '</p><p class="ask">' + esc(s.a) + '</p>'
+    + '<div class="obs"><p class="kicker">Ce que vous observez</p><ul>' + li(s.o) + '</ul></div></div>';
+}
+
+document.getElementById("situations").innerHTML = SITUATIONS.map(situHtml).join("");
+document.getElementById("fiches-e3").innerHTML = FICHES.filter(f => f.step === 3).map(ficheHtml).join("");
+document.getElementById("fiches-e4").innerHTML = FICHES.filter(f => f.step === 4).map(ficheHtml).join("");
+
+const candInput = document.getElementById("cand");
+candInput.addEventListener("input", () => {
+  const v = candInput.value.trim();
+  document.querySelectorAll(".cand-slot").forEach(el => { el.textContent = v || " "; });
+});
+document.getElementById("print").addEventListener("click", () => window.print());
+</script>
