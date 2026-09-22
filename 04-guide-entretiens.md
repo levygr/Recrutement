@@ -20,7 +20,7 @@ Les sept compétences évaluées sont issues du référentiel Korn Ferry Leaders
 | 1, téléphone | Gregory Levy, directeur du développement | 30 min | Pré-qualification et qualification technique consignée |
 | 2, valeurs | Gregory Levy, directeur du développement | 60 min | Expertise, humanité, justice, réparation |
 | 3, compétences métier | Milène Baud, office manager | 80 min | Gérer la complexité, Être orienté client, Être résilient, Développer les talents |
-| 4, compétences et reprise | Hervé Gerbi, avocat fondateur | 90 min | Expertise fonctionnelle, Faire preuve de courage, Créer des réseaux, Faire preuve d'esprit stratégique, note d'intention |
+| 4, compétences et reprise | Hervé Gerbi, avocat fondateur | 90 min | Expertise fonctionnelle, Faire preuve de courage, Créer des réseaux, Faire preuve d'esprit stratégique, projet de reprise |
 
 ## Deux règles de notation
 
@@ -555,7 +555,7 @@ Indication pour Milène Baud. La question que vous avez réellement à trancher 
 
 Durée 90 minutes. Conduit par Hervé Gerbi, avocat fondateur.
 
-Le protocole d'association écrit est remis au candidat au début de cet entretien.
+Aucun document n'est remis au candidat au cours de cet entretien.
 
 ---
 
@@ -731,11 +731,11 @@ Calibrage. À six ou dix ans d'exercice, vous cherchez l'amorce, pas la maturit�
 
 Cette séquence n'est pas notée sur une compétence. Elle est le moment où le cabinet et le candidat se disent ce qu'ils attendent. Comptez 20 minutes.
 
-### Ce que vous remettez
+### Cadre de la séquence
 
-La note d'intention d'une page, signée. Objectif de reprise, horizon envisagé du retrait, étapes de la transition, engagement de formaliser le protocole d'association détaillé avant une date précise, avec le candidat retenu.
+Aucun document n'est remis au candidat à ce stade. Le protocole d'association sera rédigé plus tard. Cette séquence est donc une conversation, et c'est vous qui portez la crédibilité du projet.
 
-Laissez-le lire. Le silence pendant qu'il lit est informatif.
+Dites-le au candidat en ouverture, plutôt que de le laisser le déduire. Une chose annoncée n'est pas la même qu'une chose découverte.
 
 ### Questions
 

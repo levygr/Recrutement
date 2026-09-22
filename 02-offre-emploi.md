@@ -38,11 +38,11 @@ Nous n'avons pas encore rédigé le protocole d'association détaillé. Nous le 
 
 Ce que nous pouvons dire dès maintenant.
 
-**Phase 1, avocat salarié.** Vous prenez un portefeuille de dossiers, vous gagnez votre autonomie, vous entrez dans le réseau du cabinet. Durée envisagée : [À COMPLÉTER].
+**Phase 1, avocat salarié.** Vous prenez un portefeuille de dossiers, vous gagnez votre autonomie, vous entrez dans le réseau du cabinet.
 
-**Phase 2, association.** Entrée au capital, avec des conditions que nous formaliserons ensemble. Horizon envisagé : [À COMPLÉTER].
+**Phase 2, association.** Entrée au capital, avec des conditions que nous formaliserons ensemble.
 
-**Phase 3, reprise.** Retrait progressif d'Hervé Gerbi. Horizon envisagé : [À COMPLÉTER].
+**Phase 3, reprise.** Vous prenez la direction du cabinet.
 
 Un point de calendrier que nous préférons poser tout de suite. Le certificat de spécialisation en droit du dommage corporel suppose quatre années de pratique professionnelle dans la matière, puis un entretien de validation devant un jury. Les années passées chez nous comme avocat salarié comptent dans ces quatre ans. Si vous ne pratiquez pas encore le dommage corporel, la reprise se décale en conséquence, et nous en tiendrons compte ensemble.
 
@@ -119,7 +119,7 @@ Nous étudions toutes les candidatures et nous répondons à chacune.
 |---|---|---|---|
 | Nature du poste | « Poste évolutif vers l'association » | Reprise du cabinet, dite dès le titre et développée en tête d'annonce | C'est votre meilleur argument et il n'apparaissait nulle part |
 | Statut | Avocat salarié | Inchangé | Arbitrage du 18 septembre |
-| Ce qui est promis | Une association « jalonnée dans le temps » | Trois phases nommées, avec des horizons à compléter, et l'engagement écrit de formaliser le protocole | Une promesse sans étapes ne se vérifie pas |
+| Ce qui est promis | Une association « jalonnée dans le temps » | Trois phases nommées : salariat, association, reprise | Une promesse sans étapes ne se vérifie pas |
 | Certificat de spécialisation | Absent | Expliqué, avec son effet sur le calendrier | C'est ce qui détermine réellement la date de reprise possible |
 | Expérience | « 4 à 5 ans minimum » | 6 ans minimum, à arbitrer | Formulation contradictoire, et le rôle décrit est celui d'un profil plus expérimenté |
 | Encadrement | Absent | Exigé | Un successeur reprend une équipe, pas seulement des dossiers |
@@ -139,4 +139,4 @@ La formule « nous vous formons » accolée à une exigence d'autonomie immédia
 
 ### Un point que vous devez trancher avant de diffuser
 
-Le cabinet porte le nom de son fondateur. Un successeur qui reprend une structure à l'enseigne de son prédécesseur hérite d'une marque qu'il ne peut ni pleinement porter, ni facilement changer. Décidez maintenant si l'enseigne Victimes & Préjudices est destinée à vivre seule après le retrait d'Hervé Gerbi. Un candidat qui se projette à la tête du cabinet posera la question, et une hésitation sur ce point sera lue comme une hésitation sur le reste.
+Le cabinet porte le nom de son fondateur. Un successeur qui reprend une structure à l'enseigne de son prédécesseur hérite d'une marque qu'il ne peut ni pleinement porter, ni facilement changer. Décidez maintenant si l'enseigne Victimes & Préjudices est destinée à vivre seule. Un candidat qui se projette à la tête du cabinet posera la question, et une hésitation sur ce point sera lue comme une hésitation sur le reste.

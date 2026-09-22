@@ -58,9 +58,9 @@ La contrainte : si le candidat n'a pas déjà quatre ans de pratique du dommage 
 | 2 ans de pratique du dommage corporel | Après 2 ans chez vous | 36 à 48 mois |
 | Aucune pratique du dommage corporel | Après 4 ans chez vous | 60 mois et plus |
 
-Ce tableau doit entrer dans votre arbitrage de sélection. Un candidat sans pratique de la matière n'est pas disqualifié, mais il décale la reprise de deux à trois ans. Si Hervé Gerbi a un horizon en tête, c'est ce tableau qui dit quel profil est compatible avec cet horizon.
+Ce tableau doit entrer dans votre arbitrage de sélection. Un candidat sans pratique de la matière n'est pas disqualifié, mais il décale la reprise de deux à trois ans, et cela se décide en connaissance de cause plutôt qu'après coup.
 
-**Question à trancher avant la diffusion : à quelle échéance Hervé Gerbi souhaite-t-il se retirer ?** Pas une date publique, une date de travail. Sans elle, vous ne pouvez ni calibrer le profil, ni répondre au candidat qui la posera au premier entretien. Et il la posera.
+Reportez la colonne de droite sur chaque fiche de candidat. Au moment de l'arbitrage final, deux candidats de niveau équivalent dont l'un permet une reprise à trente mois et l'autre à soixante ne sont pas deux candidats équivalents.
 
 ---
 
@@ -107,20 +107,9 @@ Le vivier reste la difficulté. Le salariat représente 2,5 % de la profession. 
 
 **Tranché.** Le protocole sera rédigé ultérieurement par Hervé Gerbi et Milène Baud.
 
-Cet arbitrage laisse un trou à l'étape 4, qu'il faut combler. Le dispositif prévoyait de remettre le protocole écrit au candidat lors du dernier entretien. Sans protocole, cet entretien n'a rien à montrer, et vous vous retrouvez à parler de reprise sans aucun document. C'est précisément la situation qui fait fuir les bons candidats.
+Une conséquence à connaître, sans qu'elle appelle d'action de votre part à ce stade. L'étape 4 se tient sans document remis au candidat. La discussion sur la reprise repose donc entièrement sur la parole d'Hervé Gerbi et sur les questions du guide.
 
-Ce que je propose à la place, et qui tient en une page.
-
-**Une note d'intention, signée d'Hervé Gerbi, remise au candidat à l'étape 4.** Elle n'engage aucun chiffre. Elle engage une démarche. Quatre paragraphes.
-
-1. L'objectif du recrutement est la reprise du cabinet, pas une collaboration.
-2. L'horizon envisagé pour le retrait progressif d'Hervé Gerbi.
-3. Les étapes de la transition : salariat, association, reprise, avec les conditions de passage de chacune.
-4. L'engagement de formaliser le protocole d'association détaillé avant une date précise, avec le candidat retenu.
-
-Le point 4 est le plus important. Un candidat sérieux n'exige pas un prix au premier jour. Il exige de savoir que la question sera traitée, par qui, et quand. Une note d'intention datée répond à cela. Une promesse orale n'y répond pas.
-
-Rédiger cette note prend une heure. Elle est nécessaire avant le premier entretien de l'étape 4, pas avant la diffusion.
+Cela fonctionne avec un candidat qui vient de vous rencontrer et vous fait crédit. Cela fonctionne moins bien avec un candidat en fin de processus qui compare deux options concrètes. Tenez-en compte au moment de la proposition : ce qui n'a pas été écrit avant devra l'être vite après.
 
 ### 2.3 La fourchette de rémunération
 
@@ -259,8 +248,7 @@ Hypothèse de lancement : semaine 1.
 
 | Semaine | Action | Responsable |
 |---|---|---|
-| S0 | Arbitrage des décisions restantes. Fixer l'horizon de retrait d'Hervé Gerbi | Hervé Gerbi, Greg |
-| S0 | Rédiger la note d'intention d'une page, signée | Hervé Gerbi |
+| S0 | Arbitrage des décisions restantes | Hervé Gerbi, Greg |
 | S0 | Validation du concept vidéo par le bâtonnier de Grenoble si maintien | Hervé Gerbi |
 | S1 | Publication de l'annonce sur les canaux gratuits et institutionnels | Greg |
 | S1 | Constitution de la liste de chasse, 60 à 80 noms | Greg |
@@ -308,12 +296,11 @@ Deux seuils d'alerte. Si à la semaine 4 vous avez moins de 5 CV au-dessus du se
 |---|---|---|---|
 | Vivier insuffisant sur le dommage corporel | Élevée | Élevé | Ouvrir aux profils responsabilité civile, assurance, santé, sécurité sociale, droit du travail lésionnel, et basculer la compétence Gérer la complexité vers Apprendre avec agilité |
 | Le candidat retenu n'accepte pas le statut salarié | Moyenne | Élevé | Compenser par la clarté de la perspective de reprise, qui est votre argument le plus fort |
-| La note d'intention n'est pas prête à l'étape 4 | Élevée si rien n'est fait | Élevé | Une page, une heure de travail, à faire en S0 |
-| L'horizon de retrait d'Hervé Gerbi reste indéfini | Élevée | Très élevé | Le fixer en S0. C'est la première question que posera tout candidat sérieux |
+| L'étape 4 se tient sans document remis au candidat | Certaine | Moyen à élevé | Formaliser rapidement après la proposition ce qui n'a pas pu l'être avant |
 | Le candidat retenu ne peut pas obtenir le certificat de spécialisation avant plusieurs années | Moyenne | Élevé | Intégrer le tableau du point 0.1 au choix du profil. Un candidat déjà titulaire ou déjà à 4 ans de pratique lève la contrainte |
-| Le cabinet porte le nom du fondateur, ce qui complique la transmission de la marque | Certaine | Moyen | Décider tôt si l'enseigne Victimes & Préjudices survit seule au retrait d'Hervé Gerbi |
+| Le cabinet porte le nom du fondateur, ce qui complique la transmission de la marque | Certaine | Moyen | Décider tôt si l'enseigne Victimes & Préjudices est destinée à vivre seule |
 | L'équipe part dans les 18 mois qui suivent le retrait | Moyenne | Élevé | Compétence Développer les talents évaluée par Milène Baud à l'étape 3 |
-| La phase salariée s'éternise et vide la promesse de reprise | Moyenne | Élevé | Borner sa durée dans la note d'intention |
+| La phase salariée s'éternise et vide la promesse de reprise | Moyenne | Élevé | Borner sa durée dès que le protocole est rédigé |
 | Hervé Gerbi n'a pas le temps de former un non-spécialiste | Élevée | Élevé | Budgéter explicitement le temps de transmission et l'inscrire au protocole |
 | La vidéo produit une dissonance auprès des clients et prescripteurs | Moyenne | Moyen à élevé | Voir document 06 |
 | Le processus à quatre étapes fait fuir les candidats courtisés | Moyenne | Moyen | Étapes 3 et 4 le même jour, engagement de réponse sous 5 jours ouvrés à chaque étape |

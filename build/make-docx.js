@@ -243,7 +243,7 @@ body.push(table([1900, 3100, 900, 3738],
   [["1 · téléphone", "Gregory Levy, directeur du développement", "30 min", "Pré-qualification et qualification technique consignée"],
    ["2 · valeurs", "Gregory Levy, directeur du développement", "60 min", "Expertise, humanité, justice, réparation"],
    ["3 · compétences métier", "Milène Baud, office manager", "80 min", "Gérer la complexité, Être orienté client, Être résilient, Développer les talents"],
-   ["4 · compétences et reprise", "Hervé Gerbi, avocat fondateur", "90 min", "Expertise fonctionnelle, Courage, Réseaux, Esprit stratégique, note d'intention"]],
+   ["4 · compétences et reprise", "Hervé Gerbi, avocat fondateur", "90 min", "Expertise fonctionnelle, Courage, Réseaux, Esprit stratégique, projet de reprise"]],
   { center: [2], boldCol: [0], zebra: true }));
 body.push(p("", { after: 160 }));
 
@@ -438,15 +438,15 @@ e3.forEach(f => body.push(...fiche(f)));
 // ÉTAPE 4
 body.push(h1("Étape 4 · compétences et projet de reprise"));
 body.push(p("90 minutes · Hervé Gerbi, avocat fondateur", { color: ACCENT, bold: true, size: 19 }));
-body.push(lead("L'étape la plus lourde du dispositif. Elle ouvre sur l'expertise fonctionnelle, seul bloc du guide qui exige de l'intervieweur qu'il maîtrise la matière. La note d'intention signée est remise au candidat en fin d'entretien."));
+body.push(lead("L'étape la plus lourde du dispositif. Elle ouvre sur l'expertise fonctionnelle, seul bloc du guide qui exige de l'intervieweur qu'il maîtrise la matière. Aucun document n'est remis au candidat au cours de cet entretien."));
 body.push(pageBreak());
 e4.forEach(f => body.push(...fiche(f)));
 
 // Projet de reprise
 body.push(h2("Projet de reprise"));
 body.push(p("Séquence non notée · 20 minutes · Hervé Gerbi", { color: ACCENT, bold: true, size: 19 }));
-body.push(kicker("Ce que vous remettez"));
-body.push(p("La note d'intention d'une page, signée. Objectif de reprise, horizon envisagé du retrait, étapes de la transition, engagement de formaliser le protocole d'association détaillé avant une date précise, avec le candidat retenu. Laissez-le lire. Le silence pendant qu'il lit est informatif."));
+body.push(kicker("Cadre de la séquence"));
+body.push(p("Aucun document n'est remis au candidat à ce stade. Le protocole d'association sera rédigé plus tard. Cette séquence est donc une conversation, et c'est vous qui portez la crédibilité du projet. Dites-le au candidat en ouverture, plutôt que de le laisser le déduire : une chose annoncée n'est pas la même qu'une chose découverte."));
 body.push(kicker("Questions"));
 body.push(...numbered([
   "Qu'est-ce qui vous attire dans une reprise plutôt que dans une association ?",

@@ -31,26 +31,24 @@ Dispositif complet de recrutement. Septembre 2026.
 
 ## Ce qu'il faut trancher avant de diffuser quoi que ce soit
 
-Trois décisions sont tranchées, cinq restent ouvertes. Le détail figure au point 2 du document 01.
+Trois décisions sont tranchées, cinq restent ouvertes dont une seule bloque la diffusion. Le détail figure au point 2 du document 01.
 
 **Tranché**
 
 1. ~~**Statut proposé.**~~ Avocat salarié à l'entrée. L'exercice salarié dans un cabinet spécialisé compte dans les quatre ans exigés pour le certificat de spécialisation, le salariat ne retarde donc pas ce compteur.
-2. ~~**Protocole d'association.**~~ Rédigé ultérieurement par Hervé Gerbi et Milène Baud. Une note d'intention d'une page le remplace à l'étape 4.
+2. ~~**Protocole d'association.**~~ Rédigé ultérieurement par Hervé Gerbi et Milène Baud. L'étape 4 se tient donc sans document remis au candidat.
 3. ~~**Intervieweurs.**~~ G. Levy sur les étapes 1 et 2, M. Baud sur l'étape 3, H. Gerbi sur l'étape 4.
 
 **Ouvert, et bloquant**
 
-4. **Horizon de retrait d'Hervé Gerbi.** Une date de travail. Sans elle, impossible de calibrer le profil, parce que le calendrier du certificat de spécialisation dépend de la pratique du candidat à son arrivée. Voir le point 0.1 du document 01.
-5. **Fourchette de rémunération.** À afficher dans l'annonce.
-6. **Date de la note d'intention.** Nécessaire avant le premier entretien d'étape 4.
+4. **Fourchette de rémunération.** À afficher dans l'annonce.
 
 **Ouvert, non bloquant**
 
-7. **Avenir de l'enseigne.** Le cabinet porte le nom de son fondateur. Un candidat qui se projette à sa tête posera la question.
-8. **Périmètre.** Grenoble seul ou Grenoble et Annecy. Place du droit du travail dans le périmètre du successeur.
-9. **Ordre des entretiens.** Le guide suit votre ordre. Je recommande d'intervertir les étapes 2 et 3.
-10. **Vidéo.** Go ou no-go, et périmètre de diffusion.
+5. **Avenir de l'enseigne.** Le cabinet porte le nom de son fondateur. Un candidat qui se projette à sa tête posera la question.
+6. **Périmètre.** Grenoble seul ou Grenoble et Annecy. Place du droit du travail dans le périmètre du successeur.
+7. **Ordre des entretiens.** Le guide suit votre ordre. Je recommande d'intervertir les étapes 2 et 3.
+8. **Vidéo.** Go ou no-go, et périmètre de diffusion.
 
 ## Les sept compétences évaluées
 
@@ -61,7 +59,7 @@ Référentiel Korn Ferry Leadership Architect, sélection de sept sur trente-hui
 | Gérer la complexité | 3 | Le cœur technique du dossier corporel |
 | Être orienté client | 3 | La relation avec la victime et ses proches. Note de 1 éliminatoire |
 | Être résilient | 3 | La durée des dossiers et la charge émotionnelle |
-| Développer les talents | 3 | L'équipe au moment du retrait du fondateur. Note de 1 éliminatoire |
+| Développer les talents | 3 | L'équipe, qui reste ou part au moment de la transmission. Note de 1 éliminatoire |
 | Faire preuve de courage | 4 | La capacité à contredire, y compris son futur associé |
 | Créer des réseaux | 4 | L'apport d'affaires. Note de 1 éliminatoire |
 | Faire preuve d'esprit stratégique | 4 | La direction du cabinet |

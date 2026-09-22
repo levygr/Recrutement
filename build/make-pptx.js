@@ -101,7 +101,7 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
     s.addText(r[2],{x:M+8.2,y:yy,w:3.6,h:0.40,isTextBox:true,margin:0,valign:"middle",fontFace:SANS,fontSize:12,bold:true,color:r[3]===CLAY?CLAY:BLUE});
     yy+=0.46; });
   foot(s,"Décret du 27 novembre 1991 et arrêté du 15 décembre 2023. Détail : document 01, point 0.1.");
-  s.addNotes("Hervé, c'est ce tableau qui doit guider votre arbitrage. Si vous avez un horizon de retrait en tête, il dit quel profil est compatible avec cet horizon. Un candidat sans pratique de la matière décale la reprise de deux à trois ans.");
+  s.addNotes("Hervé, c'est ce tableau qui doit guider votre arbitrage de sélection. Un candidat sans pratique de la matière n'est pas disqualifié, mais il décale la reprise de deux à trois ans. Autant le décider en connaissance de cause plutôt que de le découvrir après.");
 }
 
 // =========================================================== 3. POURQUOI C'EST DIFFICILE
@@ -190,48 +190,35 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
 }
 
 // =========================================================== 7. DECISIONS
-{ const s=lightSlide(); titled(s,"Trois décisions bloquent le lancement","Arbitrages");
-  const dec=[["L'horizon de retrait","À quelle échéance Hervé Gerbi souhaite-t-il se retirer ? Pas une date publique, une date de travail. Sans elle, impossible de calibrer le profil.","Hervé Gerbi"],
-    ["La note d'intention","Une page signée, remise au candidat à l'étape 4. Le protocole détaillé viendra après, avec la personne retenue.","Hervé Gerbi"],
-    ["La fourchette de rémunération","À afficher dans l'annonce. Sur un marché de candidats passifs, son absence est une friction gratuite.","Hervé Gerbi"]];
-  let y=1.9;
-  dec.forEach((d,i)=>{ card(s,{x:M,y,w:CW,h:1.25,fill:"FBF1EC"});
-    chip(s,M+0.3,y+0.36,0.55,String(i+1),CLAY);
-    s.addText(d[0],{x:M+1.05,y:y+0.2,w:6.5,h:0.36,isTextBox:true,margin:0,fontFace:SERIF,fontSize:19,bold:true,color:INK});
-    s.addText(d[1],{x:M+1.05,y:y+0.6,w:CW-3.2,h:0.55,isTextBox:true,margin:0,fontFace:SANS,fontSize:12.5,color:MUTED,lineSpacing:17});
-    s.addText(d[2],{x:M+CW-2.0,y:y+0.22,w:1.75,h:0.3,isTextBox:true,margin:0,align:"right",
-      fontFace:SANS,fontSize:11,bold:true,color:CLAY});
-    y+=1.4; });
-  body(s,"Quatre autres décisions suivent : périmètre Grenoble ou Grenoble et Annecy, place du droit du travail, avenir de l'enseigne après le retrait du fondateur, prise de poste. Le statut salarié et le report du protocole sont tranchés.",
-    {x:M,y:6.25,w:CW,h:0.55,fontSize:12,color:MUTED,lineSpacing:17});
+{ const s=lightSlide(); titled(s,"Ce qui est tranché, ce qui reste","Arbitrages");
+  card(s,{x:M,y:1.85,w:CW,h:1.35,fill:"FBF1EC"});
+  chip(s,M+0.35,1.98,0.55,"!",CLAY);
+  s.addText("Une seule décision bloque la diffusion",{x:M+1.1,y:2.02,w:7.5,h:0.36,isTextBox:true,margin:0,
+    fontFace:SERIF,fontSize:21,bold:true,color:INK});
+  s.addText("La fourchette de rémunération à afficher dans l'annonce. Sur un marché de candidats passifs, son absence est une friction gratuite : elle fait perdre les candidats qui n'osent pas demander, et fait perdre du temps sur ceux qui sont hors budget.",
+    {x:M+1.1,y:2.45,w:CW-1.5,h:0.65,isTextBox:true,margin:0,valign:"top",fontFace:SANS,fontSize:13,color:MUTED,lineSpacing:18});
+  const cw=(CW-0.4)/2;
+  card(s,{x:M,y:3.45,w:cw,h:2.65,fill:TINT});
+  s.addText("Déjà tranché",{x:M+0.3,y:3.65,w:cw-0.6,h:0.32,isTextBox:true,margin:0,
+    fontFace:SANS,fontSize:14,bold:true,color:BLUE});
+  s.addText([{text:"Le statut : avocat salarié à l'entrée.",options:{breakLine:true}},
+    {text:"Le protocole d'association : rédigé plus tard par Hervé et Milène.",options:{breakLine:true}},
+    {text:"Les intervieweurs et la répartition des étapes.",options:{breakLine:true}},
+    {text:"Les deux règles de notation.",options:{}}],
+    {x:M+0.3,y:4.05,w:cw-0.6,h:1.9,isTextBox:true,margin:0,valign:"top",fontFace:SANS,fontSize:12.5,color:INK,lineSpacing:24});
+  card(s,{x:M+cw+0.4,y:3.45,w:cw,h:2.65,fill:TINT});
+  s.addText("Ouvert, non bloquant",{x:M+cw+0.7,y:3.65,w:cw-0.6,h:0.32,isTextBox:true,margin:0,
+    fontFace:SANS,fontSize:14,bold:true,color:MUTED});
+  s.addText([{text:"L'avenir de l'enseigne, qui porte le nom du fondateur.",options:{breakLine:true}},
+    {text:"Le périmètre : Grenoble seul ou Grenoble et Annecy.",options:{breakLine:true}},
+    {text:"La place du droit du travail.",options:{breakLine:true}},
+    {text:"L'ordre des entretiens, la date de prise de poste, la vidéo.",options:{}}],
+    {x:M+cw+0.7,y:4.05,w:cw-0.6,h:1.9,isTextBox:true,margin:0,valign:"top",fontFace:SANS,fontSize:12.5,color:MUTED,lineSpacing:24});
   foot(s,"Détail : document 01, point 2.");
-  s.addNotes("Les trois sont pour Hervé. L'horizon de retrait est le plus structurant : tout le reste en découle, y compris le profil que nous cherchons.");
+  s.addNotes("Une seule décision retient la diffusion. Les quatre autres peuvent se traiter pendant que le sourcing tourne.");
 }
 
 // =========================================================== 8. PROTOCOLE
-{ const s=lightSlide(); titled(s,"La note d'intention, une page","Décision 2");
-  body(s,"Le protocole d'association sera rédigé plus tard, avec la personne retenue. Cet arbitrage laisse un trou à l'étape 4 : sans document, nous parlons de reprise sans rien montrer. C'est exactement la situation qui fait fuir les bons candidats.",
-    {x:M,y:1.8,w:CW,h:0.68,fontSize:14.5,color:MUTED,lineSpacing:21});
-  const q=[["L'objectif","Le recrutement vise la reprise du cabinet, pas une collaboration."],
-    ["L'horizon","L'échéance envisagée pour le retrait progressif d'Hervé Gerbi."],
-    ["Les étapes","Salariat, association, reprise, avec les conditions de passage de chacune."],
-    ["L'engagement","Formaliser le protocole détaillé avant une date précise, avec la personne retenue."]];
-  const cw=(CW-0.3)/2;
-  q.forEach((it,i)=>{ const x=M+(i%2)*(cw+0.3), y=2.62+Math.floor(i/2)*1.2;
-    card(s,{x,y,w:cw,h:1.05});
-    chip(s,x+0.22,y+0.29,0.46,String(i+1));
-    s.addText(it[0],{x:x+0.85,y:y+0.16,w:cw-1.1,h:0.32,isTextBox:true,margin:0,fontFace:SANS,fontSize:14,bold:true,color:BLUE});
-    s.addText(it[1],{x:x+0.85,y:y+0.5,w:cw-1.1,h:0.48,isTextBox:true,margin:0,valign:"top",fontFace:SANS,fontSize:11.5,color:MUTED,lineSpacing:16});
-  });
-  card(s,{x:M,y:5.15,w:CW,h:1.35,fill:INK});
-  s.addText("Le quatrième point est le plus important.",{x:M+0.45,y:5.35,w:CW-0.9,h:0.32,isTextBox:true,margin:0,
-    fontFace:SANS,fontSize:14,bold:true,color:CLAYL});
-  s.addText("Un candidat sérieux n'exige pas un prix au premier jour. Il exige de savoir que la question sera traitée, par qui, et quand. Une note datée répond à cela. Une promesse orale n'y répond pas.",
-    {x:M+0.45,y:5.72,w:CW-0.9,h:0.62,isTextBox:true,margin:0,valign:"top",fontFace:SANS,fontSize:13.5,color:ONDARK,lineSpacing:19});
-  foot(s,"Une heure de rédaction. Nécessaire avant le premier entretien d'étape 4, pas avant la diffusion.");
-  s.addNotes("Hervé, une page suffit. Elle n'engage aucun chiffre, elle engage une démarche et une date.");
-}
-
 // =========================================================== 9. SECTION
 { const s=darkSlide();
   s.addText("02",{x:M,y:2.3,w:2,h:1.1,isTextBox:true,margin:0,fontFace:SERIF,fontSize:64,bold:true,color:CLAYL});
@@ -248,7 +235,7 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
   const st=[["1","Téléphone","Gregory Levy","30 min","Pré-qualification. Trois questions techniques consignées mot à mot, relues par Hervé Gerbi."],
     ["2","Valeurs","Gregory Levy","60 min","Expertise, humanité, justice, réparation. Cinq mises en situation où deux valeurs s'opposent."],
     ["3","Compétences métier","Milène Baud","80 min","Gérer la complexité. Être orienté client. Être résilient. Développer les talents."],
-    ["4","Compétences et reprise","Hervé Gerbi","90 min","Expertise fonctionnelle. Courage. Réseaux. Esprit stratégique. Remise de la note d'intention."]];
+    ["4","Compétences et reprise","Hervé Gerbi","90 min","Expertise fonctionnelle. Courage. Réseaux. Esprit stratégique. Projet de reprise."]];
   const cw=(CW-3*0.25)/4;
   st.forEach((e,i)=>{ const x=M+i*(cw+0.25);
     card(s,{x,y:2.2,w:cw,h:3.5,fill:i===3?INK:TINT});
@@ -333,8 +320,7 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
 
 // =========================================================== 13. HERVE
 { const s=lightSlide(); titled(s,"Hervé, ce que le plan attend de vous","Rôles");
-  const t=[["Avant le lancement","Fixer votre horizon de retrait, au moins comme date de travail. Trancher la fourchette de rémunération.","1 heure"],
-    ["Avant l'étape 4","Écrire la note d'intention, une page signée : objectif, horizon, étapes, engagement de formaliser le protocole.","1 heure"],
+  const t=[["Avant le lancement","Trancher la fourchette de rémunération à afficher dans l'annonce.","30 minutes"],
     ["Semaine 1","Dresser la liste des avocats que vous avez affrontés et que vous jugez bons. Signer les courriers aux bâtonniers.","1 heure + signatures"],
     ["À chaque candidat","Relire les trois réponses techniques consignées à l'étape 1 et rendre un avis.","10 minutes"],
     ["Semaine 4","Une heure de calibration avec Gregory et Milène sur la grille de notation.","1 heure"],
@@ -348,7 +334,7 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
       fontFace:SANS,fontSize:10.5,bold:true,color:CLAY});
     y+=0.85; });
   foot(s,"Vous ne rencontrez le candidat qu'une fois, avant de décider de lui confier le cabinet. Les notes des trois étapes précédentes vous parviennent avant, par écrit.");
-  s.addNotes("Total de votre temps hors entretiens : environ six heures sur dix semaines. L'horizon de retrait est la décision la plus structurante : tout le reste en découle, y compris le profil compatible.");
+  s.addNotes("Total de votre temps hors entretiens : environ quatre heures sur dix semaines. La liste des confrères que vous avez affrontés est de loin la plus utile.");
 }
 
 // =========================================================== 14. MILENE
@@ -456,9 +442,9 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
 { const s=darkSlide();
   s.addText("CE QUE NOUS DÉCIDONS AUJOURD'HUI",{x:M,y:1.3,w:CW,h:0.32,isTextBox:true,margin:0,
     fontFace:SANS,fontSize:12,bold:true,color:CLAYL,charSpacing:3});
-  const d=[["L'horizon de retrait d'Hervé Gerbi","Une date de travail, pas une date publique. Elle détermine le profil que nous cherchons"],
-    ["La fourchette de rémunération","Le montant que nous affichons dans l'annonce"],
-    ["La date de la note d'intention","Une page signée, nécessaire avant le premier entretien d'étape 4"]];
+  const d=[["La fourchette de rémunération","Le montant que nous affichons dans l'annonce. C'est la seule décision qui retient la diffusion"],
+    ["La liste des confrères","Hervé dresse la liste des avocats qu'il a affrontés et qu'il juge bons. Une heure"],
+    ["La date de la séance de calibration","Une heure, tous les trois ensemble, avant le premier entretien d'étape 2"]];
   let y=1.9;
   d.forEach((it,i)=>{
     s.addShape(P.ShapeType.roundRect,{x:M,y,w:CW,h:1.15,rectRadius:0.06,
@@ -467,9 +453,9 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
     s.addText(it[0],{x:M+1.1,y:y+0.22,w:CW-1.5,h:0.36,isTextBox:true,margin:0,fontFace:SERIF,fontSize:20,bold:true,color:WHITE});
     s.addText(it[1],{x:M+1.1,y:y+0.63,w:CW-1.5,h:0.35,isTextBox:true,margin:0,fontFace:SANS,fontSize:13,color:ONDARK});
     y+=1.3; });
-  s.addText("Tout le reste est écrit et prêt. Le dossier complet compte huit documents : plan, annonce, grille de tri des CV, guide d'entretien, plan de diffusion, concept vidéo, sources. Le protocole d'association détaillé sera rédigé plus tard par Hervé et Milène, avec la personne retenue.",
+  s.addText("Tout le reste est écrit et prêt. Le dossier complet compte huit documents : plan, annonce, grille de tri des CV, guide d'entretien, plan de diffusion, concept vidéo, sources. Le protocole d'association détaillé sera rédigé plus tard par Hervé et Milène.",
     {x:M,y:6.0,w:CW,h:0.7,isTextBox:true,margin:0,fontFace:SANS,fontSize:13,color:"9AA7B4",lineSpacing:19});
-  s.addNotes("Sans l'horizon de retrait et la fourchette, rien ne part. La note d'intention peut suivre de quelques semaines, mais pas plus.");
+  s.addNotes("Sans la fourchette, rien ne part. Les deux autres se calent dans la foulée.");
 }
 
 P.writeFile({ fileName: process.argv[2] }).then(f=>console.log("Écrit :", f));
