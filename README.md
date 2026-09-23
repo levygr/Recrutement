@@ -72,7 +72,7 @@ Deux compétences restent en réserve. Apprendre avec agilité remplace Gérer l
 
 ## Le dispositif en une ligne
 
-Tri des CV sur 100 points, seuil à 70. Entretien téléphonique de 30 minutes avec Gregory Levy, qui consigne trois réponses techniques soumises à Hervé Gerbi. Entretien valeurs de 60 minutes avec Gregory Levy. Puis, le même jour, 80 minutes de compétences métier avec Milène Baud et 90 minutes de compétences et de reprise avec Hervé Gerbi. Prise de deux références. Décision.
+Tri des CV sur 100 points, seuil à 70. Entretien téléphonique de 30 minutes avec Gregory Levy, qui consigne trois réponses techniques soumises à Hervé Gerbi. Entretien de parcours et de motivation de 55 minutes avec Gregory Levy, généraliste, sans prérequis sur la matière. Puis, le même jour, 80 minutes de compétences métier avec Milène Baud et 90 minutes de compétences et de reprise avec Hervé Gerbi. Prise de deux références. Décision.
 
 Deux règles encadrent la notation. Une heure de calibration des trois intervieweurs avant le premier candidat. Un second observateur silencieux aux étapes 3 et 4 pour les finalistes, annoncé au candidat, qui note indépendamment et ne pose aucune question.
 

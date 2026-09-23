@@ -11,9 +11,9 @@ node make-docx.js ../Guide-entretiens.docx
 node make-pptx.js ../Plan-de-recrutement-presentation.pptx
 ```
 
-`data.js` porte le contenu des sept blocs de compétences et des cinq mises en
-situation de l'entretien valeurs. C'est le seul fichier à modifier pour changer
-une question, un comportement observable ou une définition.
+`data.js` porte le contenu des sept blocs de compétences. C'est le seul fichier
+à modifier pour changer une question, un comportement observable ou une
+définition. Le contenu de l'étape 2 est écrit directement dans `make-docx.js`.
 
 La source de vérité du contenu reste `04-guide-entretiens.md`. Les scripts en
 sont une mise en forme, pas une version parallèle : toute modification de fond

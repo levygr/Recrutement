@@ -233,7 +233,7 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
 { const s=lightSlide(); titled(s,"Quatre étapes, un intervieweur par étape","Le parcours candidat");
   body(s,"Tri des CV sur 100 points, seuil à 70. Puis :",{x:M,y:1.78,w:CW,h:0.3,fontSize:13,color:MUTED});
   const st=[["1","Téléphone","Gregory Levy","30 min","Pré-qualification. Trois questions techniques consignées mot à mot, relues par Hervé Gerbi."],
-    ["2","Valeurs","Gregory Levy","60 min","Expertise, humanité, justice, réparation. Cinq mises en situation où deux valeurs s'opposent."],
+    ["2","Parcours et motivation","Gregory Levy","55 min","Le parcours, ce qui met la personne en mouvement, et pourquoi ce cabinet. Aucun prérequis sur la matière."],
     ["3","Compétences métier","Milène Baud","80 min","Gérer la complexité. Être orienté client. Être résilient. Développer les talents."],
     ["4","Compétences et reprise","Hervé Gerbi","90 min","Expertise fonctionnelle. Courage. Réseaux. Esprit stratégique. Projet de reprise."]];
   const cw=(CW-3*0.25)/4;
@@ -364,7 +364,7 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
   body(s,"Le dispositif ne compte qu'un intervieweur par étape. Un entretien noté par une seule personne mesure autant l'intervieweur que le candidat, et rien ne permet de faire la part des deux.",
     {x:M,y:1.8,w:CW,h:0.6,fontSize:14,color:MUTED,lineSpacing:20});
   const cw=(CW-0.4)/2;
-  const r=[["Calibration préalable","Une heure, tous les trois ensemble, avant le premier candidat. Chacun note un même cas fictif, seul, puis on compare.",
+  const r=[["Calibration préalable","Une heure, tous les trois ensemble, avant le premier entretien d'étape 3. Chacun note un même cas fictif, seul, puis on compare.",
     "L'objectif n'est pas de tomber d'accord sur la note. Il est de voir où nos échelles divergent. Sans cette heure, un 3 de Milène ne vaut pas un 3 d'Hervé.","Semaine 4"],
    ["Second observateur","Sur les deux ou trois finalistes seulement. Gregory observe l'étape 3, Milène observe l'étape 4. Aucune question, notation indépendante.",
     "Un écart d'un point se range. Un écart de deux points ou plus ne se moyenne pas : il remonte tel quel à la réunion de décision.","Semaines 7 et 8"]];
@@ -390,7 +390,7 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
     ["S2-S4","Trois cycles d'approche directe, 60 à 80 messages","Gregory"],
     ["S4","Heure de calibration sur la grille","Tous les trois"],
     ["S3-S6","Tri des CV et entretiens téléphoniques au fil de l'eau","Gregory"],
-    ["S5-S8","Entretiens valeurs, métier et association","Tous les trois"],
+    ["S5-S8","Entretiens parcours, métier et reprise","Tous les trois"],
     ["S9","Prise de références et décision","Hervé, Gregory"],
     ["S10","Proposition et signature","Hervé"]];
   const bw=(CW-7*0.12)/8;
@@ -444,7 +444,7 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
     fontFace:SANS,fontSize:12,bold:true,color:CLAYL,charSpacing:3});
   const d=[["La fourchette de rémunération","Le montant que nous affichons dans l'annonce. C'est la seule décision qui retient la diffusion"],
     ["La liste des confrères","Hervé dresse la liste des avocats qu'il a affrontés et qu'il juge bons. Une heure"],
-    ["La date de la séance de calibration","Une heure, tous les trois ensemble, avant le premier entretien d'étape 2"]];
+    ["La date de la séance de calibration","Une heure, tous les trois ensemble, avant le premier entretien d'étape 3"]];
   let y=1.9;
   d.forEach((it,i)=>{
     s.addShape(P.ShapeType.roundRect,{x:M,y,w:CW,h:1.15,rectRadius:0.06,

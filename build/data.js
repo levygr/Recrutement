@@ -4,29 +4,6 @@ const PROBES = [
  ["Application","Décrivez un moment où vous avez appliqué ce que vous avez appris à une autre situation."]
 ];
 
-const SITUATIONS = [
- {n:1, t:"Expertise contre humanité",
-  c:"Une cliente est tétraplégique depuis quatre ans à la suite d'un accident de la route. La compagnie d'assurance formule une offre. Votre analyse est que cette offre est supérieure à ce que le tribunal accorderait, et qu'un contentieux ajouterait deux années de procédure. Votre cliente veut aller au procès. Elle vous dit : « je veux que quelqu'un dise que c'est sa faute ».",
-  a:"Que faites-vous ?",
-  o:["Entend-il que la demande n'est pas juridique, et la traite-t-il quand même ?","Donne-t-il les chiffres et les délais clairement, ou noie-t-il le désaccord ?","Tranche-t-il, ou renvoie-t-il la décision au client en se protégeant ?","Cherche-t-il une voie qui satisfait le besoin de reconnaissance autrement que par le procès ?"]},
- {n:2, t:"Justice contre intérêt immédiat du client",
-  c:"Un dossier de responsabilité médicale. La preuve de la faute est fragile. Le médecin de recours estime les chances de succès à une sur trois. Le client est en difficulté financière et l'assureur propose une transaction modeste, disponible immédiatement.",
-  a:"Que lui dites-vous, et dans quel ordre ?",
-  o:["Distingue-t-il ce qui relève de son analyse et ce qui relève de la décision du client ?","Aborde-t-il la situation financière du client de front, ou l'évite-t-il par pudeur ?","Mesure-t-il ce que le renoncement coûte au client au-delà de l'argent ?","Sait-il qu'un dossier perdu peut être plus juste qu'un dossier transigé, et l'assume-t-il sans en faire une posture ?"]},
- {n:3, t:"Réparation contre économie du cabinet",
-  c:"Un dossier à faible enjeu financier, une victime d'agression, préjudices modestes. La détresse est forte et le dossier va consommer beaucoup de temps. Le cabinet est chargé.",
-  a:"Que faites-vous ? Et si vous étiez associé de ce cabinet, quelle règle poseriez-vous ?",
-  o:["Accepte-t-il de formuler le problème en termes économiques, ou le refuse-t-il moralement ?","Propose-t-il une règle, ou traite-t-il le cas isolément ?","Tient-il compte du fait que l'économie du cabinet finance sa capacité à défendre les autres victimes ?","La question de l'aide juridictionnelle et des dispositifs existants lui vient-elle ?"]},
- {n:4, t:"Humanité contre limites",
-  c:"Une famille vous appelle le week-end, régulièrement, depuis trois mois. Le dossier est lourd. Ils sont seuls.",
-  a:"Comment gérez-vous cela ? Qu'est-ce que vous vous autorisez ?",
-  o:["A-t-il une pratique construite, ou improvise-t-il au cas par cas ?","Pose-t-il un cadre, et le pose-t-il tôt ou seulement quand il craque ?","Confond-il la disponibilité et la qualité de l'accompagnement ?","A-t-il réfléchi à sa propre tenue dans la durée ?"]},
- {n:5, t:"Expertise contre honnêteté",
-  c:"En cours de procédure, vous découvrez que vous avez laissé passer un délai. La conséquence est une réduction de l'indemnisation possible pour votre client.",
-  a:"Que faites-vous, et dans quel ordre ?",
-  o:["L'information du client vient-elle en premier, ou après la recherche d'une parade ?","Parle-t-il de son assurance de responsabilité civile professionnelle, et à quel moment ?","En informe-t-il sa hiérarchie ou son associé, spontanément ?","Se défend-il, ou traite-t-il le problème ?"]}
-];
-
 const FICHES = [
  {step:4, order:1, tag:"Bloc d'ouverture · Hervé Gerbi", name:"Expertise fonctionnelle",
   def:"Ce que le poste exige sur le plan technique et juridique. Le seul bloc qui exige de l'intervieweur qu'il maîtrise lui-même la matière.",
@@ -125,4 +102,4 @@ const FICHES = [
   tip:"À six ou dix ans d'exercice, vous cherchez l'amorce, pas la maturité. Un candidat qui connaît le chiffre d'affaires de son cabinet et sait comment il se forme est déjà au-dessus de la moyenne de sa génération."}
 ];
 
-module.exports = { PROBES, SITUATIONS, FICHES };
+module.exports = { PROBES, FICHES };

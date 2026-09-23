@@ -136,7 +136,7 @@ Le cabinet intervient également en droit du travail, sur le harcèlement moral 
 | Étape | Intervieweur | Durée |
 |---|---|---|
 | 1, téléphone | Gregory Levy, directeur du développement | 30 min |
-| 2, valeurs | Gregory Levy, directeur du développement | 60 min |
+| 2, parcours et motivation | Gregory Levy, directeur du développement | 55 min |
 | 3, compétences métier | Milène Baud, office manager | 80 min |
 | 4, compétences et association | Hervé Gerbi, avocat fondateur | 90 min |
 
@@ -180,9 +180,9 @@ Coût total : deux heures par finaliste, réparties sur deux personnes déjà pr
 
 ### 2.7 L'ordre des entretiens
 
-Le guide est construit dans l'ordre que vous avez indiqué : téléphone, valeurs, compétences métier, compétences association.
+Le guide est construit dans l'ordre que vous avez indiqué : téléphone, parcours et motivation, compétences métier, compétences et reprise.
 
-Je maintiens ma réserve. Placer l'entretien valeurs en position 2 mobilise Hervé Gerbi sur des candidats dont vous ignorez encore s'ils tiennent techniquement. Son temps est la ressource la plus rare du cabinet, et c'est aussi la ressource qui devra former le futur associé. L'ordre que je recommande est : téléphone, compétences métier, valeurs, compétences association. Le changement se fait en intervertissant deux blocs du guide, sans rien modifier de leur contenu.
+Ma réserve initiale portait sur la mobilisation d'Hervé Gerbi en position 2. Elle tombe : l'étape 2 est conduite par Gregory Levy, et elle est devenue un entretien de parcours et de motivation qui ne suppose aucune connaissance de la matière. Elle a sa place là où elle est, entre la pré-qualification et l'évaluation des compétences. L'ordre actuel se tient.
 
 ### 2.8 La vidéo réseaux sociaux
 
@@ -199,8 +199,8 @@ Go ou no-go, et sur quel périmètre de diffusion. Voir le document 06.
              |                                                   technique consignée
              |                                        avis technique d'H. Gerbi sous 10 min
              |
-ÉTAPE 2   Entretien valeurs              60 min   G. Levy    Expertise, Humanité, Justice,
-             |                                                   Réparation
+ÉTAPE 2   Parcours et motivation         55 min   G. Levy    Parcours, moteurs, adéquation.
+             |                                                   Les valeurs se lisent dans le récit
              |
 ÉTAPE 3   Entretien compétences métier   80 min   M. Baud    Complexité, Client, Résilience,
              |                                                   Développer les talents
@@ -257,7 +257,7 @@ Hypothèse de lancement : semaine 1.
 | S3 | Tournage vidéo si maintien | Prestataire |
 | S3-S6 | Tri des CV en continu, entretiens téléphoniques au fil de l'eau | Greg |
 | S4 | Deuxième cycle d'approche directe, relances | Greg |
-| S4 | Heure de calibration sur la grille, avant tout entretien d'étape 2, relevé d'une page | Greg, M. Baud, H. Gerbi |
+| S4 | Heure de calibration sur la grille, avant tout entretien d'étape 3, relevé d'une page | Greg, M. Baud, H. Gerbi |
 | S5-S8 | Entretiens 2, 3 et 4 | Cabinet |
 | S7-S8 | Finalistes : second observateur silencieux aux étapes 3 et 4, notation indépendante | Greg, M. Baud |
 | S9 | Prise de références et décision | Hervé Gerbi, Greg |

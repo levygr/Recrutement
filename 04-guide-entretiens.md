@@ -18,7 +18,7 @@ Les sept compétences évaluées sont issues du référentiel Korn Ferry Leaders
 | Étape | Intervieweur | Durée | Évalué |
 |---|---|---|---|
 | 1, téléphone | Gregory Levy, directeur du développement | 30 min | Pré-qualification et qualification technique consignée |
-| 2, valeurs | Gregory Levy, directeur du développement | 60 min | Expertise, humanité, justice, réparation |
+| 2, parcours et motivation | Gregory Levy, directeur du développement | 55 min | Cohérence du parcours, connaissance de soi, moteur, adéquation |
 | 3, compétences métier | Milène Baud, office manager | 80 min | Gérer la complexité, Être orienté client, Être résilient, Développer les talents |
 | 4, compétences et reprise | Hervé Gerbi, avocat fondateur | 90 min | Expertise fonctionnelle, Faire preuve de courage, Créer des réseaux, Faire preuve d'esprit stratégique, projet de reprise |
 
@@ -28,7 +28,7 @@ Le dispositif ne compte qu'un intervieweur par étape. Un entretien noté par un
 
 ### Règle 1, calibration préalable
 
-Une heure, les trois intervieweurs ensemble, en présence, avant le premier entretien d'étape 2.
+Une heure, les trois intervieweurs ensemble, en présence, avant le premier entretien d'étape 3.
 
 Prenez une compétence et ses trois colonnes de comportements. Chacun note un même cas fictif, seul, sur la grille. Comparez. Recommencez sur une seconde compétence.
 
@@ -102,13 +102,13 @@ Pour situer un candidat sur une compétence, servez-vous des trois colonnes de c
 
 # 2. Compétences par étape
 
-| Ce qui est évalué | Étape 1 téléphone | Étape 2 valeurs | Étape 3 métier | Étape 4 association |
+| Ce qui est évalué | Étape 1 téléphone | Étape 2 parcours | Étape 3 métier | Étape 4 reprise |
 |---|:---:|:---:|:---:|:---:|
 | **Intervieweur** | **G. Levy** | **G. Levy** | **M. Baud** | **H. Gerbi** |
-| **Durée** | 30 min | 60 min | 80 min | 90 min |
+| **Durée** | 30 min | 55 min | 80 min | 90 min |
 | Pré-qualification | X | | | |
 | Qualification technique, réponses consignées | X | | | |
-| Adéquation aux valeurs du cabinet | | X | | |
+| Parcours, motivation et adéquation | | X | | |
 | Gérer la complexité | | | X | |
 | Être orienté client | | | X | |
 | Être résilient | | | X | |
@@ -151,7 +151,7 @@ Candidat : ______________________________________
 
 | Étape | Évalué | Intervieweur | Note | Observateur, finalistes | Note | Écart |
 |---|---|---|---|---|---|---|
-| 2 | Adéquation aux valeurs | G. Levy | ___ / 4 | | | |
+| 2 | Parcours et motivation | G. Levy | ___ / 4 | | | |
 | 3 | Gérer la complexité | M. Baud | ___ / 4 | G. Levy | ___ / 4 | ___ |
 | 3 | Être orienté client | M. Baud | ___ / 4 | G. Levy | ___ / 4 | ___ |
 | 3 | Être résilient | M. Baud | ___ / 4 | G. Levy | ___ / 4 | ___ |
@@ -272,110 +272,155 @@ _________________________________________________________________
 
 ---
 
-# ÉTAPE 2, entretien valeurs
+# ÉTAPE 2, entretien de parcours et de motivation
 
-Durée 60 minutes. Conduit par Gregory Levy, directeur du développement.
+Durée 55 minutes. Conduit par Gregory Levy, directeur du développement.
 
-Les quatre valeurs du cabinet sont l'expertise, l'humanité, la justice et la réparation.
+## Pourquoi cet entretien existe
 
-## Pourquoi cet entretien n'est pas construit sur les valeurs elles-mêmes
+Les trois autres étapes demandent au candidat ce qu'il a fait professionnellement. Aucune ne demande qui il est et pourquoi il est là.
 
-Demander à un candidat ce que l'humanité signifie pour lui ne trie personne. Il a lu votre site. Il dira ce qu'il faut dire, et il le pensera sans doute. Vous n'aurez aucun signal.
+Vous ne recrutez pas une compétence, vous engagez une relation de vingt ans avec une personne qui reprendra le cabinet. Cet entretien est le seul du dispositif qui regarde la personne plutôt que le praticien. Il ne demande aucune connaissance du dommage corporel, ni de la part du candidat, ni de la vôtre.
 
-Ce qui produit du signal, c'est le conflit. Une valeur ne se révèle que lorsqu'elle entre en concurrence avec une autre et qu'il faut trancher. L'entretien est donc construit sur cinq situations où deux de vos valeurs s'opposent. Choisissez-en quatre.
+Une règle de conduite qui vaut pour les trois séquences. Quand le candidat répond en général, ramenez-le à un fait. « En général je privilégie » n'est pas une réponse. « La dernière fois, voilà ce que j'ai fait » en est une.
 
-Le candidat ne doit pas trouver la bonne réponse. Il n'y en a pas. Vous observez comment il pense, ce qu'il met en premier, et s'il tranche ou s'il esquive.
+---
 
-## Consigne au candidat
+## Séquence 1, le parcours
 
-« Je vais vous soumettre quatre situations. Elles n'ont pas de bonne réponse. Ce sont des arbitrages que nous avons à faire ici, et je veux comprendre comment vous les faites. Prenez le temps. Vous pouvez me poser des questions sur la situation. »
+20 minutes.
 
-## Situation 1, expertise contre humanité
+Ce n'est pas « parlez-moi de vous ». C'est une remontée chronologique disciplinée, où vous posez les mêmes quatre questions à chaque étape du parcours.
 
-Une cliente est tétraplégique depuis quatre ans à la suite d'un accident de la route. La compagnie d'assurance formule une offre. Votre analyse est que cette offre est supérieure à ce que le tribunal accorderait, et qu'un contentieux ajouterait deux années de procédure. Votre cliente veut aller au procès. Elle vous dit : « je veux que quelqu'un dise que c'est sa faute ».
+**Commencez avant le CAPA.** Pourquoi le droit ? La raison pour laquelle quelqu'un est devenu avocat est plus instructive que sa première collaboration.
 
-Que faites-vous ?
+Puis, à chaque poste :
 
-Ce que vous observez :
+1. Pourquoi êtes-vous allé là ?
+2. Qu'est-ce qui vous a fait rester ?
+3. Qu'est-ce qui vous a fait partir ?
+4. Qu'en avez-vous retiré que vous n'aviez pas avant ?
 
-- Entend-il que la demande n'est pas juridique, et la traite-t-il quand même ?
-- Donne-t-il les chiffres et les délais, clairement, ou noie-t-il le désaccord ?
-- Tranche-t-il, ou renvoie-t-il la décision au client en se protégeant ?
-- Cherche-t-il une voie qui satisfait le besoin de reconnaissance autrement que par le procès ?
+### Ce que vous observez
 
-## Situation 2, justice contre intérêt immédiat du client
+- Les décisions sont-elles choisies ou subies ? Un parcours fait d'occasions saisies ne se lit pas comme un parcours fait de situations endurées.
+- Y a-t-il une ligne, ou une suite d'accidents ? Les deux sont recevables, mais seule la première se projette dans un cabinet à reprendre.
+- Que dit la personne de ceux qu'elle a quittés ? Un candidat dont tous les anciens employeurs étaient mauvais parle de lui, pas d'eux.
+- Reconnaît-elle une erreur de parcours, et laquelle ?
+- Le récit tient-il debout sans vous ? Si vous devez reconstituer la chronologie à sa place, c'est une information.
 
-Un dossier de responsabilité médicale. La preuve de la faute est fragile. Le médecin de recours estime les chances de succès à une sur trois. Le client est en difficulté financière et l'assureur propose une transaction modeste, disponible immédiatement.
-
-Que lui dites-vous, et dans quel ordre ?
-
-Ce que vous observez :
-
-- Distingue-t-il ce qui relève de son analyse et ce qui relève de la décision du client ?
-- Aborde-t-il la situation financière du client de front, ou l'évite-t-il par pudeur ?
-- Mesure-t-il ce que le renoncement coûte au client au-delà de l'argent ?
-- Sait-il qu'un dossier perdu peut être plus juste qu'un dossier transigé, et l'assume-t-il sans en faire une posture ?
-
-## Situation 3, réparation contre économie du cabinet
-
-Un dossier à faible enjeu financier, une victime d'agression, préjudices modestes. La détresse est forte et le dossier va consommer beaucoup de temps. Le cabinet est chargé.
-
-Que faites-vous ? Et si vous étiez associé de ce cabinet, quelle règle poseriez-vous ?
-
-Ce que vous observez :
-
-- Accepte-t-il de formuler le problème en termes économiques, ou le refuse-t-il moralement ?
-- Propose-t-il une règle, ou traite-t-il le cas isolément ?
-- Tient-il compte du fait que l'économie du cabinet finance sa capacité à défendre les autres victimes ?
-- La question de l'aide juridictionnelle et des dispositifs existants lui vient-elle ?
-
-## Situation 4, humanité contre limites
-
-Une famille vous appelle le week-end, régulièrement, depuis trois mois. Le dossier est lourd. Ils sont seuls.
-
-Comment gérez-vous cela ? Qu'est-ce que vous vous autorisez ?
-
-Ce que vous observez :
-
-- A-t-il une pratique construite, ou improvise-t-il au cas par cas ?
-- Pose-t-il un cadre, et le pose-t-il tôt ou seulement quand il craque ?
-- Confond-il la disponibilité et la qualité de l'accompagnement ?
-- A-t-il réfléchi à sa propre tenue dans la durée ?
-
-## Situation 5, expertise contre honnêteté
-
-En cours de procédure, vous découvrez que vous avez laissé passer un délai. La conséquence est une réduction de l'indemnisation possible pour votre client.
-
-Que faites-vous, et dans quel ordre ?
-
-Ce que vous observez :
-
-- L'information du client vient-elle en premier, ou après la recherche d'une parade ?
-- Parle-t-il de son assurance de responsabilité civile professionnelle, et à quel moment ?
-- En informe-t-il sa hiérarchie ou son associé, spontanément ?
-- Se défend-il, ou traite-t-il le problème ?
-
-## Notation
-
-Notes prises au cours de l'entretien :
+### Notes
 
 _________________________________________________________________
 _________________________________________________________________
 _________________________________________________________________
 _________________________________________________________________
 
-| Valeur | Ce qui a été observé | 1 à 4 |
+---
+
+## Séquence 2, ce qui vous fait avancer
+
+20 minutes. Six questions, aucune ne suppose de connaître le métier.
+
+1. De quoi êtes-vous le plus fier dans votre vie professionnelle, et pourquoi celle-là plutôt qu'une autre ?
+2. Qu'est-ce que vous refusez de faire ?
+3. Quelle est la dernière fois où vous avez changé d'avis sur quelque chose d'important ?
+4. Qu'est-ce que vos proches diraient de vous que vos collègues ne diraient pas ?
+5. Qu'est-ce qui vous fatigue ?
+6. Dans dix ans, à quoi ressemble une journée réussie ?
+
+### Ce que vous observez
+
+**Question 1.** La fierté révèle le critère. Quelqu'un qui est fier d'un résultat, d'une relation ou d'une transmission ne place pas la barre au même endroit. Demandez pourquoi cet épisode et pas un autre : c'est la réponse à cette relance qui porte l'information.
+
+**Question 2.** C'est la meilleure question de l'entretien sur les valeurs, et elle n'en a pas l'air. Ce qu'une personne refuse de faire en dit plus que ce qu'elle déclare valoriser. Une réponse vide, ou une réponse qui ne coûte rien, est elle-même une réponse.
+
+**Question 3.** Elle mesure la capacité à se laisser déplacer. Un candidat qui n'a changé d'avis sur rien depuis dix ans ne changera pas d'avis pour vous non plus.
+
+**Question 4.** Elle teste la conscience de soi sans passer par le vocabulaire du développement personnel. Une personne qui n'a rien à dire ici se connaît mal, ou ne veut pas se livrer. Les deux se notent.
+
+**Question 5.** Sous-estimée. Elle dit dans quelles conditions la personne se dégrade. Sur un engagement de vingt ans dans une matière lourde, c'est une information de premier ordre.
+
+**Question 6.** Elle dit si la personne se projette, et vers quoi. Une réponse qui ne parle que de dossiers décrit un praticien. Une réponse qui parle de gens, d'organisation ou de cabinet décrit un dirigeant.
+
+### Notes
+
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+
+---
+
+## Séquence 3, pourquoi ici
+
+15 minutes.
+
+1. Qu'avez-vous compris de ce cabinet avant de venir ? Comment vous êtes-vous renseigné ?
+2. Qu'est-ce qui vous attire, et qu'est-ce qui vous inquiète ?
+3. Qu'est-ce qui vous ferait dire non à ce poste ?
+4. Qu'attendez-vous d'un cabinet, concrètement, au quotidien ?
+5. Quelles sont vos questions ?
+
+### Ce que vous observez
+
+La préparation est le signal le plus fiable de tout le processus. Un candidat qui a lu des décisions du cabinet, ou qui cite un dossier, a déjà décidé qu'il voulait venir. Un candidat qui a lu la page d'accueil du site a répondu à une annonce.
+
+La question 2 ne fonctionne que si vous obtenez les deux moitiés. Un candidat qui n'a aucune inquiétude n'a pas réfléchi, ou ne dit pas ce qu'il pense. Relancez une fois.
+
+La question 3 vous donne ses lignes rouges. Notez-les mot à mot : ce sont elles que vous aurez à tenir si vous le recrutez.
+
+La question 5 est un test à elle seule. Ce qu'un candidat demande, et l'ordre dans lequel il le demande, vous dit ce qui compte pour lui. Notez les questions dans leur ordre d'arrivée.
+
+### Notes
+
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+
+### Questions posées par le candidat, dans l'ordre
+
+_________________________________________________________________
+_________________________________________________________________
+
+---
+
+## Notation de l'étape 2
+
+Quatre axes de lecture, notés de 1 à 4.
+
+| Axe | Ce que vous jugez | 1 à 4 |
 |---|---|---|
-| Expertise | | |
-| Humanité | | |
-| Justice | | |
-| Réparation | | |
+| Cohérence du parcours | Les décisions se tiennent-elles, et la personne sait-elle dire pourquoi | |
+| Connaissance de soi | Sait-elle ce qu'elle vaut, ce qui lui manque et ce qui la met en difficulté | |
+| Moteur et exigence | Qu'est-ce qui la met en mouvement, et où place-t-elle la barre | |
+| Adéquation au cabinet | Ce qu'elle cherche existe-t-il réellement ici | |
 
-Adéquation globale aux valeurs du cabinet : ______ / 4
+Note globale de l'étape 2 : ______ / 4
 
-Une question à se poser avant de noter : est-ce que je confierais à cette personne la cliente de la situation 1 ?
+### Ce que le parcours dit des quatre valeurs du cabinet
+
+À remplir à partir de ce que le candidat a raconté, pas à partir de questions posées. Si une case reste vide, ne l'inventez pas : notez qu'elle est vide et transmettez-la à l'étape suivante.
+
+| Valeur | Ce qui, dans son récit, l'éclaire |
+|---|---|
+| Expertise | |
+| Humanité | |
+| Justice | |
+| Réparation | |
+
+### Une question à se poser avant de noter
+
+Est-ce que je comprends pourquoi cette personne est assise en face de moi ?
 
 Oui   /   Non   /   Pas encore
+
+---
+
+## Points à transmettre aux étapes 3 et 4
+
+_________________________________________________________________
+_________________________________________________________________
 
 ---
 
