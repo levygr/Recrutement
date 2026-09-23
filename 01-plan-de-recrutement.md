@@ -136,7 +136,7 @@ Le cabinet intervient également en droit du travail, sur le harcèlement moral 
 | Étape | Intervieweur | Durée |
 |---|---|---|
 | 1, téléphone | Gregory Levy, directeur du développement | 30 min |
-| 2, parcours et motivation | Gregory Levy, directeur du développement | 55 min |
+| 2, valeurs | Gregory Levy, directeur du développement | 55 min |
 | 3, compétences métier | Milène Baud, office manager | 80 min |
 | 4, compétences et association | Hervé Gerbi, avocat fondateur | 90 min |
 
@@ -180,9 +180,9 @@ Coût total : deux heures par finaliste, réparties sur deux personnes déjà pr
 
 ### 2.7 L'ordre des entretiens
 
-Le guide est construit dans l'ordre que vous avez indiqué : téléphone, parcours et motivation, compétences métier, compétences et reprise.
+Le guide est construit dans l'ordre que vous avez indiqué : téléphone, valeurs, compétences métier, compétences et reprise.
 
-Ma réserve initiale portait sur la mobilisation d'Hervé Gerbi en position 2. Elle tombe : l'étape 2 est conduite par Gregory Levy, et elle est devenue un entretien de parcours et de motivation qui ne suppose aucune connaissance de la matière. Elle a sa place là où elle est, entre la pré-qualification et l'évaluation des compétences. L'ordre actuel se tient.
+Ma réserve initiale portait sur la mobilisation d'Hervé Gerbi en position 2. Elle tombe : l'étape 2 est conduite par Gregory Levy, et elle a été réécrite pour ne supposer aucune connaissance de la matière. Elle a sa place là où elle est, entre la pré-qualification et l'évaluation des compétences. L'ordre actuel se tient.
 
 ### 2.8 La vidéo réseaux sociaux
 
@@ -199,8 +199,8 @@ Go ou no-go, et sur quel périmètre de diffusion. Voir le document 06.
              |                                                   technique consignée
              |                                        avis technique d'H. Gerbi sous 10 min
              |
-ÉTAPE 2   Parcours et motivation         55 min   G. Levy    Parcours, moteurs, adéquation.
-             |                                                   Les valeurs se lisent dans le récit
+ÉTAPE 2   Entretien valeurs              55 min   G. Levy    Expertise, Humanité, Justice,
+             |                                                   Réparation
              |
 ÉTAPE 3   Entretien compétences métier   80 min   M. Baud    Complexité, Client, Résilience,
              |                                                   Développer les talents

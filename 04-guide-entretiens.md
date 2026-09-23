@@ -18,7 +18,7 @@ Les sept compétences évaluées sont issues du référentiel Korn Ferry Leaders
 | Étape | Intervieweur | Durée | Évalué |
 |---|---|---|---|
 | 1, téléphone | Gregory Levy, directeur du développement | 30 min | Pré-qualification et qualification technique consignée |
-| 2, parcours et motivation | Gregory Levy, directeur du développement | 55 min | Cohérence du parcours, connaissance de soi, moteur, adéquation |
+| 2, valeurs | Gregory Levy, directeur du développement | 55 min | Expertise, humanité, justice, réparation |
 | 3, compétences métier | Milène Baud, office manager | 80 min | Gérer la complexité, Être orienté client, Être résilient, Développer les talents |
 | 4, compétences et reprise | Hervé Gerbi, avocat fondateur | 90 min | Expertise fonctionnelle, Faire preuve de courage, Créer des réseaux, Faire preuve d'esprit stratégique, projet de reprise |
 
@@ -102,13 +102,13 @@ Pour situer un candidat sur une compétence, servez-vous des trois colonnes de c
 
 # 2. Compétences par étape
 
-| Ce qui est évalué | Étape 1 téléphone | Étape 2 parcours | Étape 3 métier | Étape 4 reprise |
+| Ce qui est évalué | Étape 1 téléphone | Étape 2 valeurs | Étape 3 métier | Étape 4 reprise |
 |---|:---:|:---:|:---:|:---:|
 | **Intervieweur** | **G. Levy** | **G. Levy** | **M. Baud** | **H. Gerbi** |
 | **Durée** | 30 min | 55 min | 80 min | 90 min |
 | Pré-qualification | X | | | |
 | Qualification technique, réponses consignées | X | | | |
-| Parcours, motivation et adéquation | | X | | |
+| Adéquation aux valeurs du cabinet | | X | | |
 | Gérer la complexité | | | X | |
 | Être orienté client | | | X | |
 | Être résilient | | | X | |
@@ -151,7 +151,7 @@ Candidat : ______________________________________
 
 | Étape | Évalué | Intervieweur | Note | Observateur, finalistes | Note | Écart |
 |---|---|---|---|---|---|---|
-| 2 | Parcours et motivation | G. Levy | ___ / 4 | | | |
+| 2 | Adéquation aux valeurs | G. Levy | ___ / 4 | | | |
 | 3 | Gérer la complexité | M. Baud | ___ / 4 | G. Levy | ___ / 4 | ___ |
 | 3 | Être orienté client | M. Baud | ___ / 4 | G. Levy | ___ / 4 | ___ |
 | 3 | Être résilient | M. Baud | ___ / 4 | G. Levy | ___ / 4 | ___ |
@@ -272,105 +272,48 @@ _________________________________________________________________
 
 ---
 
-# ÉTAPE 2, entretien de parcours et de motivation
+# ÉTAPE 2, entretien valeurs
 
 Durée 55 minutes. Conduit par Gregory Levy, directeur du développement.
 
-## Pourquoi cet entretien existe
+## Le principe
 
-Les trois autres étapes demandent au candidat ce qu'il a fait professionnellement. Aucune ne demande qui il est et pourquoi il est là.
+Quatre valeurs, quatre séquences de douze minutes. L'expertise, l'humanité, la justice, la réparation.
 
-Vous ne recrutez pas une compétence, vous engagez une relation de vingt ans avec une personne qui reprendra le cabinet. Cet entretien est le seul du dispositif qui regarde la personne plutôt que le praticien. Il ne demande aucune connaissance du dommage corporel, ni de la part du candidat, ni de la vôtre.
+Aucune question ne suppose de connaître le droit du dommage corporel. Ni de la part du candidat, ni de la vôtre. Vous cherchez la disposition de la personne, pas sa technique : celle-ci est évaluée aux étapes 3 et 4.
 
-Une règle de conduite qui vaut pour les trois séquences. Quand le candidat répond en général, ramenez-le à un fait. « En général je privilégie » n'est pas une réponse. « La dernière fois, voilà ce que j'ai fait » en est une.
+## Trois règles de conduite
 
----
+**Ne demandez jamais ce qu'une valeur signifie pour le candidat.** Il a lu votre site. Il dira ce qu'il faut dire, et il le pensera sans doute. Vous n'aurez aucun signal. Une valeur ne se révèle que dans ce qu'elle a coûté.
 
-## Séquence 1, le parcours
+**Cherchez le fait, pas l'opinion.** Quand le candidat répond « en général, je », ramenez-le : « la dernière fois, qu'avez-vous fait ? ».
 
-20 minutes.
-
-Ce n'est pas « parlez-moi de vous ». C'est une remontée chronologique disciplinée, où vous posez les mêmes quatre questions à chaque étape du parcours.
-
-**Commencez avant le CAPA.** Pourquoi le droit ? La raison pour laquelle quelqu'un est devenu avocat est plus instructive que sa première collaboration.
-
-Puis, à chaque poste :
-
-1. Pourquoi êtes-vous allé là ?
-2. Qu'est-ce qui vous a fait rester ?
-3. Qu'est-ce qui vous a fait partir ?
-4. Qu'en avez-vous retiré que vous n'aviez pas avant ?
-
-### Ce que vous observez
-
-- Les décisions sont-elles choisies ou subies ? Un parcours fait d'occasions saisies ne se lit pas comme un parcours fait de situations endurées.
-- Y a-t-il une ligne, ou une suite d'accidents ? Les deux sont recevables, mais seule la première se projette dans un cabinet à reprendre.
-- Que dit la personne de ceux qu'elle a quittés ? Un candidat dont tous les anciens employeurs étaient mauvais parle de lui, pas d'eux.
-- Reconnaît-elle une erreur de parcours, et laquelle ?
-- Le récit tient-il debout sans vous ? Si vous devez reconstituer la chronologie à sa place, c'est une information.
-
-### Notes
-
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
+**Par valeur, choisissez deux questions parmi les quatre, puis posez la mise en situation.** Vous n'aurez pas le temps de tout poser, et ce n'est pas le but. Mieux vaut approfondir deux réponses que survoler cinq.
 
 ---
 
-## Séquence 2, ce qui vous fait avancer
+## Valeur 1, l'expertise
 
-20 minutes. Six questions, aucune ne suppose de connaître le métier.
+*Ce qu'elle veut dire ici : le refus de l'à-peu-près. Maîtriser son sujet, et savoir où s'arrête sa compétence.*
 
-1. De quoi êtes-vous le plus fier dans votre vie professionnelle, et pourquoi celle-là plutôt qu'une autre ?
-2. Qu'est-ce que vous refusez de faire ?
-3. Quelle est la dernière fois où vous avez changé d'avis sur quelque chose d'important ?
-4. Qu'est-ce que vos proches diraient de vous que vos collègues ne diraient pas ?
-5. Qu'est-ce qui vous fatigue ?
-6. Dans dix ans, à quoi ressemble une journée réussie ?
+### Questions, choisissez-en deux
 
-### Ce que vous observez
+1. Racontez-moi une fois où vous avez dû dire « je ne sais pas ». À qui, et qu'avez-vous fait ensuite ?
+2. Qu'est-ce que vous avez appris le plus difficilement dans votre métier ?
+3. Comment savez-vous que vous êtes bon dans ce que vous faites ?
+4. Parlez-moi d'un travail que vous avez rendu et dont vous n'étiez pas satisfait. Pourquoi, et qu'en avez-vous fait ?
 
-**Question 1.** La fierté révèle le critère. Quelqu'un qui est fier d'un résultat, d'une relation ou d'une transmission ne place pas la barre au même endroit. Demandez pourquoi cet épisode et pas un autre : c'est la réponse à cette relance qui porte l'information.
+### Mise en situation
 
-**Question 2.** C'est la meilleure question de l'entretien sur les valeurs, et elle n'en a pas l'air. Ce qu'une personne refuse de faire en dit plus que ce qu'elle déclare valoriser. Une réponse vide, ou une réponse qui ne coûte rien, est elle-même une réponse.
-
-**Question 3.** Elle mesure la capacité à se laisser déplacer. Un candidat qui n'a changé d'avis sur rien depuis dix ans ne changera pas d'avis pour vous non plus.
-
-**Question 4.** Elle teste la conscience de soi sans passer par le vocabulaire du développement personnel. Une personne qui n'a rien à dire ici se connaît mal, ou ne veut pas se livrer. Les deux se notent.
-
-**Question 5.** Sous-estimée. Elle dit dans quelles conditions la personne se dégrade. Sur un engagement de vingt ans dans une matière lourde, c'est une information de premier ordre.
-
-**Question 6.** Elle dit si la personne se projette, et vers quoi. Une réponse qui ne parle que de dossiers décrit un praticien. Une réponse qui parle de gens, d'organisation ou de cabinet décrit un dirigeant.
-
-### Notes
-
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
-_________________________________________________________________
-
----
-
-## Séquence 3, pourquoi ici
-
-15 minutes.
-
-1. Qu'avez-vous compris de ce cabinet avant de venir ? Comment vous êtes-vous renseigné ?
-2. Qu'est-ce qui vous attire, et qu'est-ce qui vous inquiète ?
-3. Qu'est-ce qui vous ferait dire non à ce poste ?
-4. Qu'attendez-vous d'un cabinet, concrètement, au quotidien ?
-5. Quelles sont vos questions ?
+« On vous demande un travail pour demain matin. Vous savez que pour le faire correctement, il vous faut trois jours. Que faites-vous ? »
 
 ### Ce que vous observez
 
-La préparation est le signal le plus fiable de tout le processus. Un candidat qui a lu des décisions du cabinet, ou qui cite un dossier, a déjà décidé qu'il voulait venir. Un candidat qui a lu la page d'accueil du site a répondu à une annonce.
-
-La question 2 ne fonctionne que si vous obtenez les deux moitiés. Un candidat qui n'a aucune inquiétude n'a pas réfléchi, ou ne dit pas ce qu'il pense. Relancez une fois.
-
-La question 3 vous donne ses lignes rouges. Notez-les mot à mot : ce sont elles que vous aurez à tenir si vous le recrutez.
-
-La question 5 est un test à elle seule. Ce qu'un candidat demande, et l'ordre dans lequel il le demande, vous dit ce qui compte pour lui. Notez les questions dans leur ordre d'arrivée.
+- L'expertise se revendique-t-elle, ou se démontre-t-elle par des exemples ?
+- Sait-il nommer la limite de sa compétence sans qu'on le lui demande ?
+- Son critère de qualité est-il externe, le client est content, ou interne, je sais que c'est juste ?
+- Sur la mise en situation : négocie-t-il le délai, livre-t-il dégradé en le disant, livre-t-il dégradé en se taisant, ou refuse-t-il ? Distingue-t-il les cas où chaque réponse s'impose ?
+- Confond-il l'expérience et l'expertise ? Dix ans de pratique ne sont pas dix ans d'apprentissage.
 
 ### Notes
 
@@ -378,8 +321,96 @@ _________________________________________________________________
 _________________________________________________________________
 _________________________________________________________________
 
-### Questions posées par le candidat, dans l'ordre
+---
 
+## Valeur 2, l'humanité
+
+*Ce qu'elle veut dire ici : la personne en face n'est pas un dossier.*
+
+### Questions, choisissez-en deux
+
+1. Parlez-moi de quelqu'un que vous avez aidé alors que ce n'était pas votre rôle.
+2. Racontez-moi une fois où vous avez eu à annoncer une mauvaise nouvelle. Comment vous y êtes-vous pris ?
+3. Qu'est-ce qui vous a le plus touché dans votre vie professionnelle ?
+4. Comment faites-vous quand quelqu'un s'effondre devant vous ?
+
+### Mise en situation
+
+« Quelqu'un vous appelle un dimanche soir. Objectivement ce n'est pas urgent, mais la personne va mal. Que faites-vous ? Et si cela se reproduit tous les dimanches pendant trois mois ? »
+
+### Ce que vous observez
+
+- Parle-t-il des gens, ou des dossiers ? Écoutez le vocabulaire, il est plus fiable que les déclarations.
+- L'empathie est-elle une posture ou une pratique construite ? Une pratique a des règles, une posture n'en a pas.
+- Sur la mise en situation : pose-t-il un cadre, et le pose-t-il tôt ou seulement quand il craque ?
+- Confond-il la disponibilité et la qualité de l'accompagnement ?
+- Distingue-t-il compatir et aider ? Ce ne sont pas les mêmes gestes.
+
+### Notes
+
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+
+---
+
+## Valeur 3, la justice
+
+*Ce qu'elle veut dire ici : choisir un camp et s'y tenir, y compris quand cela coûte.*
+
+### Questions, choisissez-en deux
+
+1. Racontez-moi une fois où vous avez pris parti pour quelqu'un contre l'avis majoritaire.
+2. Parlez-moi d'une situation où vous avez trouvé qu'on traitait quelqu'un injustement. Qu'avez-vous fait ?
+3. Y a-t-il quelqu'un que vous avez refusé de défendre, de représenter ou d'aider ? Pourquoi ?
+4. Qu'est-ce qui vous met en colère ?
+
+### Mise en situation
+
+« Vous vous engagez pour quelqu'un. En cours de route, vous découvrez qu'il vous a menti sur un point important, sans que cela change le fond de ce qu'il demande. Que faites-vous ? »
+
+### Ce que vous observez
+
+- La justice est-elle un principe énoncé ou une position déjà payée ? Demandez toujours ce que l'épisode lui a coûté.
+- A-t-il déjà tenu seul contre un groupe, et comment l'a-t-il vécu ?
+- Distingue-t-il ce qui est juste de ce qui est légal, et sait-il dire quand les deux divergent ?
+- Sur la mise en situation : le mensonge le fait-il changer de camp, ou change-t-il seulement la relation ? Les deux réponses se défendent, l'absence de réponse non.
+- La question 4 est la plus révélatrice de la séquence. Ce qui met quelqu'un en colère dit ce qu'il défend réellement, bien mieux que ce qu'il déclare défendre.
+
+### Notes
+
+_________________________________________________________________
+_________________________________________________________________
+_________________________________________________________________
+
+---
+
+## Valeur 4, la réparation
+
+*Ce qu'elle veut dire ici : le travail ne s'arrête pas quand on a gagné. Il s'arrête quand la personne s'est reconstruite autant qu'elle le pouvait.*
+
+### Questions, choisissez-en deux
+
+1. Racontez-moi une fois où vous avez réparé quelque chose que vous aviez abîmé. Une relation, un travail, une situation.
+2. Parlez-moi d'un dossier qui s'est bien terminé mais dont vous n'êtes pas fier. Puis d'un échec dont vous êtes fier.
+3. Qu'est-ce qui fait, pour vous, qu'un travail est vraiment terminé ?
+4. Avez-vous déjà accompagné quelqu'un sur plusieurs années ? Qu'est-ce que cela change ?
+
+### Mise en situation
+
+« Vous obtenez exactement ce que la personne vous demandait. Elle repart mécontente. Que s'est-il passé, selon vous, et qu'auriez-vous fait autrement ? »
+
+### Ce que vous observez
+
+- Sa définition de la réussite s'arrête-t-elle au résultat obtenu ?
+- Pense-t-il en durée ou en dossier ? Un cabinet de victimes accompagne des gens pendant cinq à dix ans.
+- La question 3 est la plus discriminante de l'entretien. Elle sépare celui qui livre de celui qui accompagne.
+- Sur la mise en situation : situe-t-il la cause à l'extérieur, le client était impossible, ou accepte-t-il d'y avoir une part ?
+- La question 2 est un test de lucidité. Un candidat incapable de nommer une réussite dont il n'est pas fier n'a pas de critère propre.
+
+### Notes
+
+_________________________________________________________________
 _________________________________________________________________
 _________________________________________________________________
 
@@ -387,31 +418,20 @@ _________________________________________________________________
 
 ## Notation de l'étape 2
 
-Quatre axes de lecture, notés de 1 à 4.
-
-| Axe | Ce que vous jugez | 1 à 4 |
+| Valeur | Ce qui a été observé | 1 à 4 |
 |---|---|---|
-| Cohérence du parcours | Les décisions se tiennent-elles, et la personne sait-elle dire pourquoi | |
-| Connaissance de soi | Sait-elle ce qu'elle vaut, ce qui lui manque et ce qui la met en difficulté | |
-| Moteur et exigence | Qu'est-ce qui la met en mouvement, et où place-t-elle la barre | |
-| Adéquation au cabinet | Ce qu'elle cherche existe-t-il réellement ici | |
+| Expertise | | |
+| Humanité | | |
+| Justice | | |
+| Réparation | | |
 
-Note globale de l'étape 2 : ______ / 4
+Adéquation globale aux valeurs du cabinet : ______ / 4
 
-### Ce que le parcours dit des quatre valeurs du cabinet
+### Deux questions à se poser avant de noter
 
-À remplir à partir de ce que le candidat a raconté, pas à partir de questions posées. Si une case reste vide, ne l'inventez pas : notez qu'elle est vide et transmettez-la à l'étape suivante.
+Ai-je entendu au moins un épisode qui a coûté quelque chose au candidat ? Si tout ce qu'il a raconté était confortable, je n'ai rien évalué.
 
-| Valeur | Ce qui, dans son récit, l'éclaire |
-|---|---|
-| Expertise | |
-| Humanité | |
-| Justice | |
-| Réparation | |
-
-### Une question à se poser avant de noter
-
-Est-ce que je comprends pourquoi cette personne est assise en face de moi ?
+Est-ce que je confierais à cette personne la famille la plus difficile du cabinet ?
 
 Oui   /   Non   /   Pas encore
 

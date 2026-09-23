@@ -233,7 +233,7 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
 { const s=lightSlide(); titled(s,"Quatre étapes, un intervieweur par étape","Le parcours candidat");
   body(s,"Tri des CV sur 100 points, seuil à 70. Puis :",{x:M,y:1.78,w:CW,h:0.3,fontSize:13,color:MUTED});
   const st=[["1","Téléphone","Gregory Levy","30 min","Pré-qualification. Trois questions techniques consignées mot à mot, relues par Hervé Gerbi."],
-    ["2","Parcours et motivation","Gregory Levy","55 min","Le parcours, ce qui met la personne en mouvement, et pourquoi ce cabinet. Aucun prérequis sur la matière."],
+    ["2","Valeurs","Gregory Levy","55 min","Expertise, humanité, justice, réparation. Quatre séquences de douze minutes, sur des situations générales sans prérequis sur la matière."],
     ["3","Compétences métier","Milène Baud","80 min","Gérer la complexité. Être orienté client. Être résilient. Développer les talents."],
     ["4","Compétences et reprise","Hervé Gerbi","90 min","Expertise fonctionnelle. Courage. Réseaux. Esprit stratégique. Projet de reprise."]];
   const cw=(CW-3*0.25)/4;
@@ -390,7 +390,7 @@ const body=(s,t,o)=>s.addText(t,Object.assign({isTextBox:true,margin:0,fontFace:
     ["S2-S4","Trois cycles d'approche directe, 60 à 80 messages","Gregory"],
     ["S4","Heure de calibration sur la grille","Tous les trois"],
     ["S3-S6","Tri des CV et entretiens téléphoniques au fil de l'eau","Gregory"],
-    ["S5-S8","Entretiens parcours, métier et reprise","Tous les trois"],
+    ["S5-S8","Entretiens valeurs, métier et reprise","Tous les trois"],
     ["S9","Prise de références et décision","Hervé, Gregory"],
     ["S10","Proposition et signature","Hervé"]];
   const bw=(CW-7*0.12)/8;

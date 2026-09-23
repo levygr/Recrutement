@@ -241,7 +241,7 @@ body.push(h2("Qui conduit quoi"));
 body.push(table([1900, 3100, 900, 3738],
   ["Étape", "Intervieweur", "Durée", "Évalué"],
   [["1 · téléphone", "Gregory Levy, directeur du développement", "30 min", "Pré-qualification et qualification technique consignée"],
-   ["2 · parcours et motivation", "Gregory Levy, directeur du développement", "55 min", "Cohérence du parcours, connaissance de soi, moteur, adéquation"],
+   ["2 · valeurs", "Gregory Levy, directeur du développement", "55 min", "Expertise, humanité, justice, réparation"],
    ["3 · compétences métier", "Milène Baud, office manager", "80 min", "Gérer la complexité, Être orienté client, Être résilient, Développer les talents"],
    ["4 · compétences et reprise", "Hervé Gerbi, avocat fondateur", "90 min", "Expertise fonctionnelle, Courage, Réseaux, Esprit stratégique, projet de reprise"]],
   { center: [2], boldCol: [0], zebra: true }));
@@ -298,10 +298,10 @@ body.push(pageBreak());
 // 2. Matrice
 body.push(h1("2. Compétences par étape"));
 body.push(table([3638, 1500, 1500, 1500, 1500],
-  ["Ce qui est évalué", "E1 téléphone\nG. Levy · 30 min", "E2 parcours\nG. Levy · 55 min", "E3 métier\nM. Baud · 80 min", "E4 association\nH. Gerbi · 90 min"],
+  ["Ce qui est évalué", "E1 téléphone\nG. Levy · 30 min", "E2 valeurs\nG. Levy · 55 min", "E3 métier\nM. Baud · 80 min", "E4 association\nH. Gerbi · 90 min"],
   [["Pré-qualification", "×", "", "", ""],
    ["Qualification technique, réponses consignées", "×", "", "", ""],
-   ["Parcours, motivation et adéquation", "", "×", "", ""],
+   ["Adéquation aux valeurs du cabinet", "", "×", "", ""],
    ["Gérer la complexité", "", "", "×", ""],
    ["Être orienté client", "", "", "×", ""],
    ["Être résilient", "", "", "×", ""],
@@ -331,7 +331,7 @@ body.push(h2("Report des notes"));
 body.push(p("Candidat : _________________________________________________", { after: 160 }));
 body.push(table([700, 2900, 1450, 900, 1750, 950, 988],
   ["Ét.", "Évalué", "Intervieweur", "Note", "Observateur (finalistes)", "Note", "Écart"],
-  [["2", "Parcours et motivation", "G. Levy", "___/4", "—", "—", "—"],
+  [["2", "Adéquation aux valeurs", "G. Levy", "___/4", "—", "—", "—"],
    ["3", "Gérer la complexité", "M. Baud", "___/4", "G. Levy", "___/4", "___"],
    ["3", "Être orienté client", "M. Baud", "___/4", "G. Levy", "___/4", "___"],
    ["3", "Être résilient", "M. Baud", "___/4", "G. Levy", "___/4", "___"],
@@ -402,89 +402,116 @@ body.push(...lines(3));
 body.push(pageBreak());
 
 // ÉTAPE 2
-body.push(h1("Étape 2 · parcours et motivation"));
+body.push(h1("Étape 2 · entretien valeurs"));
 body.push(p("55 minutes · Gregory Levy, directeur du développement", { color: ACCENT, bold: true, size: 19 }));
-body.push(lead("Les trois autres étapes demandent au candidat ce qu'il a fait professionnellement. Aucune ne demande qui il est et pourquoi il est là."));
-body.push(callout("Pourquoi cet entretien existe.", "Vous ne recrutez pas une compétence, vous engagez une relation de vingt ans avec une personne qui reprendra le cabinet. C'est le seul entretien du dispositif qui regarde la personne plutôt que le praticien. Il ne suppose aucune connaissance du dommage corporel, ni de la part du candidat, ni de la vôtre."));
+body.push(lead("Quatre valeurs, quatre séquences de douze minutes. Aucune question ne suppose de connaître le droit du dommage corporel, ni de la part du candidat, ni de la vôtre. Vous cherchez la disposition de la personne, pas sa technique : celle-ci est évaluée aux étapes 3 et 4."));
+body.push(callout("Ne demandez jamais ce qu'une valeur signifie pour le candidat.", "Il a lu votre site. Il dira ce qu'il faut dire, et il le pensera sans doute. Vous n'aurez aucun signal. Une valeur ne se révèle que dans ce qu'elle a coûté."));
 body.push(p("", { after: 140 }));
-body.push(callout("Une règle pour les trois séquences.", "Quand le candidat répond en général, ramenez-le à un fait. « En général je privilégie » n'est pas une réponse. « La dernière fois, voilà ce que j'ai fait » en est une."));
-
-body.push(h2("Séquence 1 · le parcours"));
-body.push(p("20 minutes. Ce n'est pas « parlez-moi de vous ». C'est une remontée chronologique disciplinée, où vous posez les mêmes quatre questions à chaque étape du parcours."));
-body.push(h3("Commencez avant le CAPA"));
-body.push(p("Pourquoi le droit ? La raison pour laquelle quelqu'un est devenu avocat est plus instructive que sa première collaboration."));
-body.push(kicker("Puis, à chaque poste"));
-body.push(...numbered([
-  "Pourquoi êtes-vous allé là ?",
-  "Qu'est-ce qui vous a fait rester ?",
-  "Qu'est-ce qui vous a fait partir ?",
-  "Qu'en avez-vous retiré que vous n'aviez pas avant ?"], "assoc"));
-body.push(kicker("Ce que vous observez"));
-body.push(...bullets([
-  "Les décisions sont-elles choisies ou subies ? Un parcours fait d'occasions saisies ne se lit pas comme un parcours fait de situations endurées.",
-  "Y a-t-il une ligne, ou une suite d'accidents ? Les deux sont recevables, mais seule la première se projette dans un cabinet à reprendre.",
-  "Que dit la personne de ceux qu'elle a quittés ? Un candidat dont tous les anciens employeurs étaient mauvais parle de lui, pas d'eux.",
-  "Reconnaît-elle une erreur de parcours, et laquelle ?",
-  "Le récit tient-il debout sans vous ? Si vous devez reconstituer la chronologie à sa place, c'est une information."]));
-body.push(kicker("Notes"));
-body.push(...lines(5));
+body.push(callout("Cherchez le fait, pas l'opinion.", "Quand le candidat répond « en général, je », ramenez-le : « la dernière fois, qu'avez-vous fait ? »."));
+body.push(p("", { after: 140 }));
+body.push(callout("Par valeur, deux questions puis la mise en situation.", "Vous n'aurez pas le temps de tout poser, et ce n'est pas le but. Mieux vaut approfondir deux réponses que survoler cinq."));
 body.push(pageBreak());
 
-body.push(h2("Séquence 2 · ce qui vous fait avancer"));
-body.push(p("20 minutes. Six questions, aucune ne suppose de connaître le métier."));
-body.push(...numbered([
-  "De quoi êtes-vous le plus fier dans votre vie professionnelle, et pourquoi celle-là plutôt qu'une autre ?",
-  "Qu'est-ce que vous refusez de faire ?",
-  "Quelle est la dernière fois où vous avez changé d'avis sur quelque chose d'important ?",
-  "Qu'est-ce que vos proches diraient de vous que vos collègues ne diraient pas ?",
-  "Qu'est-ce qui vous fatigue ?",
-  "Dans dix ans, à quoi ressemble une journée réussie ?"], "refs"));
-body.push(kicker("Ce que vous observez"));
-body.push(...bullets([
-  "Question 1. La fierté révèle le critère. Quelqu'un qui est fier d'un résultat, d'une relation ou d'une transmission ne place pas la barre au même endroit. Demandez pourquoi cet épisode et pas un autre : c'est la relance qui porte l'information.",
-  "Question 2. La meilleure question de l'entretien sur les valeurs, et elle n'en a pas l'air. Ce qu'une personne refuse de faire en dit plus que ce qu'elle déclare valoriser. Une réponse vide, ou qui ne coûte rien, est elle-même une réponse.",
-  "Question 3. Elle mesure la capacité à se laisser déplacer. Un candidat qui n'a changé d'avis sur rien depuis dix ans ne changera pas d'avis pour vous non plus.",
-  "Question 4. Elle teste la conscience de soi sans passer par le vocabulaire du développement personnel. Une personne qui n'a rien à dire ici se connaît mal, ou ne veut pas se livrer. Les deux se notent.",
-  "Question 5. Sous-estimée. Elle dit dans quelles conditions la personne se dégrade. Sur un engagement de vingt ans dans une matière lourde, c'est une information de premier ordre.",
-  "Question 6. Elle dit si la personne se projette, et vers quoi. Une réponse qui ne parle que de dossiers décrit un praticien. Une réponse qui parle de gens, d'organisation ou de cabinet décrit un dirigeant."]));
-body.push(kicker("Notes"));
-body.push(...lines(5));
-body.push(pageBreak());
+const VALEURS = [
+  {
+    "n": "1",
+    "t": "L'expertise",
+    "s": "Le refus de l'à-peu-près. Maîtriser son sujet, et savoir où s'arrête sa compétence.",
+    "q": [
+      "Racontez-moi une fois où vous avez dû dire « je ne sais pas ». À qui, et qu'avez-vous fait ensuite ?",
+      "Qu'est-ce que vous avez appris le plus difficilement dans votre métier ?",
+      "Comment savez-vous que vous êtes bon dans ce que vous faites ?",
+      "Parlez-moi d'un travail que vous avez rendu et dont vous n'étiez pas satisfait. Pourquoi, et qu'en avez-vous fait ?"
+    ],
+    "m": "« On vous demande un travail pour demain matin. Vous savez que pour le faire correctement, il vous faut trois jours. Que faites-vous ? »",
+    "o": [
+      "L'expertise se revendique-t-elle, ou se démontre-t-elle par des exemples ?",
+      "Sait-il nommer la limite de sa compétence sans qu'on le lui demande ?",
+      "Son critère de qualité est-il externe, le client est content, ou interne, je sais que c'est juste ?",
+      "Sur la mise en situation : négocie-t-il le délai, livre-t-il dégradé en le disant, livre-t-il dégradé en se taisant, ou refuse-t-il ? Distingue-t-il les cas où chaque réponse s'impose ?",
+      "Confond-il l'expérience et l'expertise ? Dix ans de pratique ne sont pas dix ans d'apprentissage."
+    ]
+  },
+  {
+    "n": "2",
+    "t": "L'humanité",
+    "s": "La personne en face n'est pas un dossier.",
+    "q": [
+      "Parlez-moi de quelqu'un que vous avez aidé alors que ce n'était pas votre rôle.",
+      "Racontez-moi une fois où vous avez eu à annoncer une mauvaise nouvelle. Comment vous y êtes-vous pris ?",
+      "Qu'est-ce qui vous a le plus touché dans votre vie professionnelle ?",
+      "Comment faites-vous quand quelqu'un s'effondre devant vous ?"
+    ],
+    "m": "« Quelqu'un vous appelle un dimanche soir. Objectivement ce n'est pas urgent, mais la personne va mal. Que faites-vous ? Et si cela se reproduit tous les dimanches pendant trois mois ? »",
+    "o": [
+      "Parle-t-il des gens, ou des dossiers ? Écoutez le vocabulaire, il est plus fiable que les déclarations.",
+      "L'empathie est-elle une posture ou une pratique construite ? Une pratique a des règles, une posture n'en a pas.",
+      "Sur la mise en situation : pose-t-il un cadre, et le pose-t-il tôt ou seulement quand il craque ?",
+      "Confond-il la disponibilité et la qualité de l'accompagnement ?",
+      "Distingue-t-il compatir et aider ? Ce ne sont pas les mêmes gestes."
+    ]
+  },
+  {
+    "n": "3",
+    "t": "La justice",
+    "s": "Choisir un camp et s'y tenir, y compris quand cela coûte.",
+    "q": [
+      "Racontez-moi une fois où vous avez pris parti pour quelqu'un contre l'avis majoritaire.",
+      "Parlez-moi d'une situation où vous avez trouvé qu'on traitait quelqu'un injustement. Qu'avez-vous fait ?",
+      "Y a-t-il quelqu'un que vous avez refusé de défendre, de représenter ou d'aider ? Pourquoi ?",
+      "Qu'est-ce qui vous met en colère ?"
+    ],
+    "m": "« Vous vous engagez pour quelqu'un. En cours de route, vous découvrez qu'il vous a menti sur un point important, sans que cela change le fond de ce qu'il demande. Que faites-vous ? »",
+    "o": [
+      "La justice est-elle un principe énoncé ou une position déjà payée ? Demandez toujours ce que l'épisode lui a coûté.",
+      "A-t-il déjà tenu seul contre un groupe, et comment l'a-t-il vécu ?",
+      "Distingue-t-il ce qui est juste de ce qui est légal, et sait-il dire quand les deux divergent ?",
+      "Sur la mise en situation : le mensonge le fait-il changer de camp, ou change-t-il seulement la relation ? Les deux réponses se défendent, l'absence de réponse non.",
+      "La question 4 est la plus révélatrice de la séquence. Ce qui met quelqu'un en colère dit ce qu'il défend réellement, bien mieux que ce qu'il déclare défendre."
+    ]
+  },
+  {
+    "n": "4",
+    "t": "La réparation",
+    "s": "Le travail ne s'arrête pas quand on a gagné. Il s'arrête quand la personne s'est reconstruite autant qu'elle le pouvait.",
+    "q": [
+      "Racontez-moi une fois où vous avez réparé quelque chose que vous aviez abîmé. Une relation, un travail, une situation.",
+      "Parlez-moi d'un dossier qui s'est bien terminé mais dont vous n'êtes pas fier. Puis d'un échec dont vous êtes fier.",
+      "Qu'est-ce qui fait, pour vous, qu'un travail est vraiment terminé ?",
+      "Avez-vous déjà accompagné quelqu'un sur plusieurs années ? Qu'est-ce que cela change ?"
+    ],
+    "m": "« Vous obtenez exactement ce que la personne vous demandait. Elle repart mécontente. Que s'est-il passé, selon vous, et qu'auriez-vous fait autrement ? »",
+    "o": [
+      "Sa définition de la réussite s'arrête-t-elle au résultat obtenu ?",
+      "Pense-t-il en durée ou en dossier ? Un cabinet de victimes accompagne des gens pendant cinq à dix ans.",
+      "La question 3 est la plus discriminante de l'entretien. Elle sépare celui qui livre de celui qui accompagne.",
+      "Sur la mise en situation : situe-t-il la cause à l'extérieur, le client était impossible, ou accepte-t-il d'y avoir une part ?",
+      "La question 2 est un test de lucidité. Un candidat incapable de nommer une réussite dont il n'est pas fier n'a pas de critère propre."
+    ]
+  }
+];
 
-body.push(h2("Séquence 3 · pourquoi ici"));
-body.push(p("15 minutes."));
-body.push(...numbered([
-  "Qu'avez-vous compris de ce cabinet avant de venir ? Comment vous êtes-vous renseigné ?",
-  "Qu'est-ce qui vous attire, et qu'est-ce qui vous inquiète ?",
-  "Qu'est-ce qui vous ferait dire non à ce poste ?",
-  "Qu'attendez-vous d'un cabinet, concrètement, au quotidien ?",
-  "Quelles sont vos questions ?"], "ouverture"));
-body.push(kicker("Ce que vous observez"));
-body.push(...bullets([
-  "La préparation est le signal le plus fiable de tout le processus. Un candidat qui a lu des décisions du cabinet, ou qui cite un dossier, a déjà décidé qu'il voulait venir. Un candidat qui a lu la page d'accueil a répondu à une annonce.",
-  "La question 2 ne fonctionne que si vous obtenez les deux moitiés. Un candidat sans aucune inquiétude n'a pas réfléchi, ou ne dit pas ce qu'il pense. Relancez une fois.",
-  "La question 3 vous donne ses lignes rouges. Notez-les mot à mot : ce sont elles que vous aurez à tenir si vous le recrutez.",
-  "La question 5 est un test à elle seule. Ce qu'un candidat demande, et l'ordre dans lequel il le demande, dit ce qui compte pour lui."]));
-body.push(kicker("Questions posées par le candidat, dans l'ordre"));
-body.push(...lines(4));
-body.push(pageBreak());
+VALEURS.forEach((v, i) => {
+  body.push(h2("Valeur " + v.n + " · " + v.t.toLowerCase()));
+  body.push(p("Ce qu'elle veut dire ici : " + v.s, { italics: true, color: INK2 }));
+  body.push(kicker("Questions, choisissez-en deux"));
+  body.push(...numbered(v.q, "assoc"));
+  body.push(kicker("Mise en situation"));
+  body.push(p(v.m));
+  body.push(kicker("Ce que vous observez"));
+  body.push(...bullets(v.o));
+  body.push(kicker("Notes"));
+  body.push(...lines(4));
+  body.push(pageBreak());
+});
 
 body.push(h2("Notation de l'étape 2"));
-body.push(table([3000, 5400, 1238], ["Axe", "Ce que vous jugez", "1 à 4"],
-  [["Cohérence du parcours", "Les décisions se tiennent-elles, et la personne sait-elle dire pourquoi", ""],
-   ["Connaissance de soi", "Sait-elle ce qu'elle vaut, ce qui lui manque et ce qui la met en difficulté", ""],
-   ["Moteur et exigence", "Qu'est-ce qui la met en mouvement, et où place-t-elle la barre", ""],
-   ["Adéquation au cabinet", "Ce qu'elle cherche existe-t-il réellement ici", ""]],
+body.push(table([2400, 5900, 1338], ["Valeur", "Ce qui a été observé", "1 à 4"],
+  [["Expertise", "", ""], ["Humanité", "", ""], ["Justice", "", ""], ["Réparation", "", ""]],
   { boldCol: [0], center: [2], zebra: true }));
 body.push(p("", { after: 160 }));
-body.push(p("Note globale de l'étape 2 : ______ / 4", { bold: true, after: 200 }));
-body.push(h3("Ce que le parcours dit des quatre valeurs du cabinet"));
-body.push(p("À remplir à partir de ce que le candidat a raconté, pas à partir de questions posées. Si une case reste vide, ne l'inventez pas : notez qu'elle est vide et transmettez-la à l'étape suivante.", { color: INK2, size: 18 }));
-body.push(table([2400, 7238], ["Valeur", "Ce qui, dans son récit, l'éclaire"],
-  [["Expertise", ""], ["Humanité", ""], ["Justice", ""], ["Réparation", ""]],
-  { boldCol: [0], zebra: true }));
-body.push(p("", { after: 160 }));
-body.push(callout("", "Une question à se poser avant de noter : est-ce que je comprends pourquoi cette personne est assise en face de moi ?          Oui  ·  Non  ·  Pas encore"));
+body.push(p("Adéquation globale aux valeurs du cabinet : ______ / 4", { bold: true, after: 200 }));
+body.push(callout("Deux questions à se poser avant de noter.", "Ai-je entendu au moins un épisode qui a coûté quelque chose au candidat ? Si tout ce qu'il a raconté était confortable, je n'ai rien évalué. Et : est-ce que je confierais à cette personne la famille la plus difficile du cabinet ?          Oui  ·  Non  ·  Pas encore"));
 body.push(p("", { after: 160 }));
 body.push(kicker("Points à transmettre aux étapes 3 et 4"));
 body.push(...lines(3));
